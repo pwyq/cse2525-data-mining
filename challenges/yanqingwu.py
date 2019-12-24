@@ -76,7 +76,32 @@ def dataframe_info(df):
     - such as use TFIDF
     - maybe add a important-word-score in the ratings-df
 5. Dealing with cold-start problem
+    - for existing user, use content-based approach
 '''
+
+# overall mean movie rating
+global_mu = np.mean(ratings_description['rating'])
+
+# rating deviation of user x
+def calc_rating_deviation():
+    unique_users = np.array(users_description['userID'].unique())
+    user_avg_rating = []
+    _bx = pd.DataFrame(columns=['userID', 'normRating'])
+    for user in unique_users:
+        # print("{} / {}".format(user, len(unique_users)))
+        user_entries = ratings_description.loc[ratings_description['userID'] == user]
+        user_avg_rating.append(np.mean(user_entries['rating']))
+
+    user_avg_rating = np.array(user_avg_rating)
+    _bx['userID'] = unique_users
+    _bx['normRating'] = user_avg_rating - global_mu
+
+    _bx.to_pickle("./data/bx.pkl")
+
+
+# calc_rating_deviation()
+bx = pd.read_pickle("./data/bx.pkl")
+print(bx)
 
 
 
@@ -91,6 +116,8 @@ def predict(movies, users, ratings, predictions):
 ##
 #####    
 
+
+'''
 ## //!!\\ TO CHANGE by your prediction function
 predictions = predict(movies_description, users_description, ratings_description, predictions_description)
 
@@ -103,5 +130,6 @@ with open(submission_file, 'w') as submission_writer:
     
     #Writes it dowmn
     submission_writer.write(predictions)
+'''
 
 # End of File
