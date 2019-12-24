@@ -7,10 +7,10 @@ from random import randint
 FRAMEWORK FOR DATAMINING CLASS
 
 #### IDENTIFICATION
-NAME: Yanqing
+NAME: Yanqing Wu
 SURNAME: Wu
 STUDENT ID: 5142571
-KAGGLE ID: Yanqing Wu
+KAGGLE ID: Yanqing Wu (Y.Wu-35@student.tudelft.nl)
 
 
 ### NOTES
@@ -83,25 +83,44 @@ def dataframe_info(df):
 global_mu = np.mean(ratings_description['rating'])
 
 # rating deviation of user x
-def calc_rating_deviation():
+def calc_user_rating_deviation():
     unique_users = np.array(users_description['userID'].unique())
     user_avg_rating = []
-    _bx = pd.DataFrame(columns=['userID', 'normRating'])
     for user in unique_users:
         # print("{} / {}".format(user, len(unique_users)))
         user_entries = ratings_description.loc[ratings_description['userID'] == user]
         user_avg_rating.append(np.mean(user_entries['rating']))
 
     user_avg_rating = np.array(user_avg_rating)
+    _bx = pd.DataFrame(columns=['userID', 'normRating'])
     _bx['userID'] = unique_users
     _bx['normRating'] = user_avg_rating - global_mu
 
     _bx.to_pickle("./data/bx.pkl")
 
 
-# calc_rating_deviation()
+def calc_movie_rating_deviation():
+    unique_movies = np.array(movies_description['movieID'].unique())
+    movie_avg_rating = []
+    _bi = pd.DataFrame(columns=['movieID', 'normRating'])
+    for movie in unique_movies:
+        # print("{} / {}".format(movie, len(unique_movies)))
+        movie_entries = ratings_description.loc[ratings_description['movieID'] == movie]
+        # print(movie_entries)
+        movie_avg_rating.append(np.mean(movie_entries['rating']))
+
+    movie_avg_rating = np.array(movie_avg_rating)
+    _bi['movieID'] = unique_movies
+    _bi['normRating'] = movie_avg_rating - global_mu
+
+    _bi.to_pickle("./data/bi.pkl")
+
+# calc_user_rating_deviation()
+# calc_movie_rating_deviation()
 bx = pd.read_pickle("./data/bx.pkl")
+bi = pd.read_pickle("./data/bi.pkl")
 print(bx)
+print(bi)
 
 
 
