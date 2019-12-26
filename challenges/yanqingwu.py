@@ -79,8 +79,6 @@ def calc_movie_rating_deviation():
 
 def construct_user_movie_matrix():
     print("constructing user-movie matrix...")
-    num_user = users_description.shape[0]
-    num_movie = movies_description.shape[0]
     um_mat = np.zeros(shape=(num_movie+1, num_user+1))
     for _, row in ratings_description.iterrows():
         print(row)
@@ -92,8 +90,6 @@ def construct_user_movie_matrix():
 def preprocess_user_movie_matrix():
     # subtract row mean
     print("preprocessing user-movie matrix...")
-    num_user = users_description.shape[0]
-    num_movie = movies_description.shape[0]
     um_mat = np.zeros(shape=(num_movie+1, num_user+1))
     for _, row in ratings_description.iterrows():
         # print(row)
@@ -104,7 +100,6 @@ def preprocess_user_movie_matrix():
 
 
 def calc_similarity_score():
-    num_movie = movies_description.shape[0]
     temp_mat = np.zeros(shape=(num_movie+1, num_movie+1))
     for idx_i, i in pum_df.iterrows():
         for idx_j, j in pum_df.iterrows():
@@ -131,7 +126,6 @@ def calc_similarity_score():
 
 def get_exception_rating(x, i):
     # return avg rating for this movie
-    print("User-{} has watched 0 movies!".format(x))
     movie_i = um_df.iloc[i-1]
     users_rating = movie_i[movie_i > 0]
     users_avg = np.mean(users_rating)
@@ -150,27 +144,22 @@ def get_rating(x, i, N):
     bxi = global_mu + bx + bi
 
     if um_df.iloc[i-1][x-1] != 0:
-        print(um_df.iloc[i-1][x-1])
-        print(i, x)
-        import sys
-        sys.exit()
+        # if required prediction has alreaby been rated...
         return um_df.iloc[i-1][x-1]
     else:
-        x_movies = um_df.iloc[:, x-1]           # get all movies for user x
-        x_watched_movies = x_movies[x_movies > 0] # filter movies which are watched by user x
+        x_movies = um_df.iloc[:, x-1]               # get all movies for user x
+        x_watched_movies = x_movies[x_movies > 0]   # filter movies which are watched by user x
 
     if len(x_watched_movies) is 0:
-        print("p1111111")
+        print("[WARNING]: USER {} WATCHED 0 MOVIE.".format(x))
         return get_exception_rating(x, i)
     else:
         x_watched_movie_ids = x_watched_movies.index.values
 
-        m = i
-        num_movie = movies_description.shape[0]
-        ver = sim_df.iloc[:,m-1]
-        hor = sim_df.iloc[m-1]
-        ver = ver[0:m]
-        hor = hor[m:num_movie]
+        ver = sim_df.iloc[:,i-1]
+        hor = sim_df.iloc[i-1]
+        ver = ver[0:i]
+        hor = hor[i:num_movie]
         res = np.concatenate((ver.values, hor.values))
         watched_sim = res[x_watched_movie_ids-1]
         idx = np.argpartition(watched_sim, -N)[-N:]
@@ -229,6 +218,8 @@ if __name__ == "__main__":
     ################################
 
     global_mu = np.mean(ratings_description['rating'])
+    num_movie = movies_description.shape[0]
+    num_user = users_description.shape[0]
 
     bx_all = None
     if Path("./data/bx.pkl").is_file():
