@@ -1,0 +1,40 @@
+TODO
+1. RMSE of old and new dataframes (submissions.csv)
+
+
+''' 
+# First observations
+1. anormaly data
+    - such as age=1 user, may need to treat it differently
+2. gender
+    - how to encode gender into number?
+3. recall from lec that latest movies have higher ratings
+    - also recall that item-item CF is more reliable than user-user CF
+4. if each user rated each movie, then we should have 6040 * 3706 = 22384240 ratings
+    - we only have 910190 ratings
+    - very sparse
+
+# Ideas
+1. CF+Latent Model
+    - different users have different standards, need to normalize star ratings
+2. Dealing with missing entries
+3. Dealing with anomaly entries
+4. process movie names
+    - such as use TFIDF
+    - maybe add a important-word-score in the ratings-df
+5. Dealing with cold-start problem
+    - for existing user, use content-based approach
+6. Try different N, find albow one?
+7. write own RSME evaluation
+
+# ???
+    #   2. negative sim score
+    #       - https://stats.stackexchange.com/questions/198810/interpreting-negative-cosine-similarity
+'''
+
+
+runtime
+real	47m55.372s
+user	76m11.624s
+sys	2m45.654s
+

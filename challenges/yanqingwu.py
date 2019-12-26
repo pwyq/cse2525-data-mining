@@ -59,17 +59,18 @@ def read_csv_file(filepath, method_arg):
     df = df.drop(df.columns[0], axis=1)
     return df
 
+
 ################################
 ## DATA PROCESSING FUNCTIONS
 ################################
 
 
 def calc_user_rating_deviation():
-    # rating deviation of user x
+    print("Calculating rating deviation of user x...")
     unique_users = np.array(users_description['userID'].unique())
     user_avg_rating = []
     for user in unique_users:
-        # print("{} / {}".format(user, len(unique_users)))
+        print("{} / {}".format(user, len(unique_users)))
         user_entries = ratings_description.loc[ratings_description['userID'] == user]
         user_avg_rating.append(np.mean(user_entries['rating']))
 
@@ -77,17 +78,16 @@ def calc_user_rating_deviation():
     _bx = pd.DataFrame(columns=['userID', 'normRating'])
     _bx['userID'] = unique_users
     _bx['normRating'] = user_avg_rating - global_mu
-
     _bx.to_pickle("./data/bx.pkl")
 
 
 def calc_movie_rating_deviation():
+    print("Calculating rating deviation of movie i...")
     unique_movies = np.array(movies_description['movieID'].unique())
     movie_avg_rating = []
     for movie in unique_movies:
-        # print("{} / {}".format(movie, len(unique_movies)))
+        print("{} / {}".format(movie, len(unique_movies)))
         movie_entries = ratings_description.loc[ratings_description['movieID'] == movie]
-        print(movie_entries)
         movie_avg_rating.append(np.mean(movie_entries['rating']))
 
     movie_avg_rating = np.array(movie_avg_rating)
@@ -104,7 +104,7 @@ def calc_movie_rating_deviation():
 
 
 def construct_user_movie_matrix():
-    print("constructing user-movie matrix...")
+    print("Constructing user-movie matrix...")
     um_mat = np.zeros(shape=(num_movie+1, num_user+1))
     for _, row in ratings_description.iterrows():
         print(row)
@@ -118,7 +118,6 @@ def preprocess_user_movie_matrix():
     print("preprocessing user-movie matrix...")
     um_mat = np.zeros(shape=(num_movie+1, num_user+1))
     for _, row in ratings_description.iterrows():
-        # print(row)
         um_mat[row['movieID']][row['userID']] = row['rating'] - row_mean['rowMean'][row['movieID']-1]
         print("{}, {} = {}".format(row['movieID'], row['userID'], um_mat[row['movieID']][row['userID']]))
     _df = pd.DataFrame(data=um_mat)
@@ -156,10 +155,10 @@ def get_exception_rating(x, i):
     users_rating = movie_i[movie_i > 0]
     users_avg = np.mean(users_rating)
     if users_avg > 0:
-        print("Using users avg for movie-{}".format(i))
+        print("[EXCEPTION]: Using users' avg for movie-{}".format(i))
         return users_avg
     else:
-        print("cold-start for new movie and new user! user-{}, movie-{}".format(x, i))
+        print("[EXCEPTION]: Cold-start for new movie and new user! user-{}, movie-{}".format(x, i))
         return global_mu
 
 
@@ -201,7 +200,7 @@ def get_rating(x, i, N):
         if denominator > 0:
             term2 = numerator / denominator
         else:
-            print("p2222222")
+            print("[WARNING]: Dividing by 0. Replace with exception ratings...")
             return get_exception_rating(x, i)
         return bxi + term2
 
@@ -277,6 +276,7 @@ if __name__ == "__main__":
         
         # Writes it dowmn
         submission_writer.write(predictions)
+    print("[SUCCESS]: Done")
 
 
 # End of File
