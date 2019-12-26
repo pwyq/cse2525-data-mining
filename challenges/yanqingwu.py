@@ -250,44 +250,51 @@ row_mean = pd.read_pickle("./data/row_mean.pkl")
 # dataframe_info(row_mean)
 # calc_similarity_score()
 
+um_df = pd.read_csv("./data/user_movie_matrix.csv")
+um_df = um_df.drop(0, axis=0)
+um_df = um_df.drop(um_df.columns[0], axis=1)
+sim_df = pd.read_csv("./data/sim_score.csv")
+sim_df = sim_df.drop(0, axis=0)
+sim_df = sim_df.drop(sim_df.columns[0], axis=1)
+
+
+def get_exception_rating(x, i):
+    # return avg rating for this movie
+    print("User-{} has watched 0 movies!".format(x))
+    movie_i = um_df.iloc[i-1]
+    users_rating = movie_i[movie_i > 0]
+    users_avg = np.mean(users_rating)
+    if users_avg > 0:
+        print("Using users avg for movie-{}".format(i))
+        return users_avg
+    else:
+        print("cold-start for new movie and new user! user-{}, movie-{}".format(x, i))
+        return global_mu
+
 
 def get_rating(x, i):
-    um_df = pd.read_csv("./data/user_movie_matrix.csv")
-    um_df = um_df.drop(0, axis=0)
-    um_df = um_df.drop(um_df.columns[0], axis=1)
-    sim_df = pd.read_csv("./data/sim_score.csv")
-    sim_df = sim_df.drop(0, axis=0)
-    sim_df = sim_df.drop(sim_df.columns[0], axis=1)
-    
     # x = user_id, i = movie_id
     bx = bx_all.iloc[x-1]['normRating']
     bi = bi_all.iloc[i-1]['normRating']
     bxi = global_mu + bx + bi
 
-
     if um_df.iloc[i-1][x-1] != 0:
+        print(um_df.iloc[i-1][x-1])
+        print(i, x)
+        import sys
+        sys.exit()
         return um_df.iloc[i-1][x-1]
     else:
         x_movies = um_df.iloc[:, x-1]           # get all movies for user x
         x_watched_movies = x_movies[x_movies > 0] # filter movies which are watched by user x
 
     if len(x_watched_movies) is 0:
-        # return avg rating for this movie
-        print("User-{} has watched 0 movies!".format(x))
-        movie_i = um_df.iloc[i-1]
-        users_rating = movie_i[movie_i > 0]
-        users_avg = np.mean(users_rating)
-        if users_avg > 0:
-            print("Using users avg for movie-{}".format(i))
-            return users_avg
-        else:
-            print("cold-start for new movie and new user! user-{}, movie-{}".format(x, i))
-            # return -1
-            return global_mu
+        print("p1111111")
+        return get_exception_rating(x, i)
     else:
         x_watched_movie_ids = x_watched_movies.index.values
 
-        N = 10
+        N = 5
         m = i
         num_movie = movies_description.shape[0]
         ver = sim_df.iloc[:,m-1]
@@ -306,7 +313,11 @@ def get_rating(x, i):
         bxjs = global_mu + bx + bjs
         numerator = np.sum(largest_N_scores * (base_ratings - bxjs))
         denominator = np.sum(largest_N_scores)
-        term2 = numerator / denominator
+        if denominator > 0:
+            term2 = numerator / denominator
+        else:
+            print("p2222222")
+            return get_exception_rating(x, i)
         return bxi + term2
 
 
@@ -317,8 +328,8 @@ def predict(predictions):
         x = predictions.iloc[index]['userID']
         i = predictions.iloc[index]['movieID']
         y = get_rating(x, i)
-        prediction_result.append([index, y])
-        print(index, y)
+        prediction_result.append([index+1, y])
+        print(index+1, y)
     return prediction_result
 
 
