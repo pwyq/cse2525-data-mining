@@ -22,26 +22,9 @@ Any submission in Python 3.* or Java is accepted.
 To know more about the expectations, please refer to the guidelines.
 """
 
-#####
-##
-## DATA IMPORT
-##
-#####
-
-# Where data is located
-movies_file = './data/movies.csv'
-users_file = './data/users.csv'
-ratings_file = './data/ratings.csv'
-predictions_file = './data/predictions.csv'
-submission_file = './data/submission.csv'
-
-
-# Read the data using pandas
-movies_description = pd.read_csv(movies_file, delimiter=';', names=['movieID', 'year', 'movie'])
-users_description = pd.read_csv(users_file, delimiter=';', names=['userID', 'gender', 'age', 'profession'])
-ratings_description = pd.read_csv(ratings_file, delimiter=';', names=['userID', 'movieID', 'rating'])
-predictions_description = pd.read_csv(predictions_file, delimiter=';', names=['userID', 'movieID'])
-
+################################
+## HELPER FUNCTIONS
+################################
 
 def dataframe_info(df):
     print("================================")
@@ -55,46 +38,8 @@ def dataframe_info(df):
     print(df.info())
 
 
-# dataframe_info(users_description)
-# dataframe_info(movies_description)
-# dataframe_info(ratings_description)
-
-''' 
-# First observations
-1. anormaly data
-    - such as age=1 user, may need to treat it differently
-2. gender
-    - how to encode gender into number?
-3. recall from lec that latest movies have higher ratings
-    - also recall that item-item CF is more reliable than user-user CF
-4. if each user rated each movie, then we should have 6040 * 3706 = 22384240 ratings
-    - we only have 910190 ratings
-    - very sparse
-
-# Ideas
-1. CF+Latent Model
-    - different users have different standards, need to normalize star ratings
-2. Dealing with missing entries
-3. Dealing with anomaly entries
-4. process movie names
-    - such as use TFIDF
-    - maybe add a important-word-score in the ratings-df
-5. Dealing with cold-start problem
-    - for existing user, use content-based approach
-6. Try different N, find albow one?
-7. write own RSME evaluation
-
-# ???
-    #   2. negative sim score
-    #       - https://stats.stackexchange.com/questions/198810/interpreting-negative-cosine-similarity
-'''
-
-# overall mean movie rating
-global_mu = np.mean(ratings_description['rating'])
-#3.58131489029763
-
-# rating deviation of user x
 def calc_user_rating_deviation():
+    # rating deviation of user x
     unique_users = np.array(users_description['userID'].unique())
     user_avg_rating = []
     for user in unique_users:
@@ -159,31 +104,7 @@ def preprocess_user_movie_matrix():
 
 
 def calc_similarity_score():
-    # # 0. construct user-movie matrix, fill blank as 0
-    um_df = None
-    if Path("./data/user_movie_matrix.csv").is_file():
-        um_df = pd.read_csv("./data/user_movie_matrix.csv")
-    else:
-        construct_user_movie_matrix()
-        um_df = pd.read_csv("./data/user_movie_matrix.csv")
-    um_df = um_df.drop(0, axis=0)
-    um_df = um_df.drop(um_df.columns[0], axis=1)
-    # dataframe_info(um_df)
-
-    # # centered user-movie matrix; for calculating sim_score
-    # pum_df = None
-    # if Path("./data/preprocess_user_movie_matrix.csv").is_file():
-    #     pum_df = pd.read_csv("./data/preprocess_user_movie_matrix.csv")
-    # else:
-    #     preprocess_user_movie_matrix()
-    #     pum_df = pd.read_csv("./data/preprocess_user_movie_matrix.csv")
-    # pum_df = pum_df.drop(0, axis=0)
-    # pum_df = pum_df.drop(pum_df.columns[0], axis=1)
-    # # dataframe_info(pum_df)
-
-
     num_movie = movies_description.shape[0]
-    '''
     temp_mat = np.zeros(shape=(num_movie+1, num_movie+1))
     for idx_i, i in pum_df.iterrows():
         for idx_j, j in pum_df.iterrows():
@@ -206,56 +127,6 @@ def calc_similarity_score():
             print(idx_i, idx_j, score)
     tmp_df = pd.DataFrame(data=temp_mat)
     tmp_df.to_csv("./data/sim_score.csv", index=False)
-    # '''
-    sim_df = pd.read_csv("./data/sim_score.csv")
-    sim_df = sim_df.drop(0, axis=0)
-    sim_df = sim_df.drop(sim_df.columns[0], axis=1)
-
-    N = 5
-    sim_mat = {}
-    # m is movie id
-    for m in range(1, num_movie+1):
-        # since we only have a triangular matrix, 
-        # we need to do some manipulation to get all sim scores for movie m
-        ver = sim_df.iloc[:,m-1]
-        hor = sim_df.iloc[m-1]
-        ver = ver[0:m]
-        hor = hor[m:num_movie]
-        res = np.concatenate((ver.values, hor.values))
-        idx = np.argpartition(res, -N)[-N:]
-        movie_ids = idx+1
-        # largest N movies' index are `idx+1`, which are also movieIDs
-        # print(m, movie_ids, res[idx])
-
-        # need to select from **watched** highest movies
-        # watched_by_self = um_df.iloc[:]
-
-        sim_mat[m] = {'movie_ids': movie_ids, 'movie_idxs': res[idx]}
-    with open('./data/sim_mat.pickle', 'wb') as handle:
-        pickle.dump(sim_mat, handle, protocol=pickle.HIGHEST_PROTOCOL)
-
-    # with open('./data/sim_mat.pickle', 'rb') as handle:
-    #     b = pickle.load(handle)
-
-
-
-# calc_user_rating_deviation()
-# calc_movie_rating_deviation()
-bx_all = pd.read_pickle("./data/bx.pkl")
-bi_all = pd.read_pickle("./data/bi.pkl")
-bj_all = bi_all['normRating'].values
-row_mean = pd.read_pickle("./data/row_mean.pkl")
-# dataframe_info(bx)
-# dataframe_info(bi)
-# dataframe_info(row_mean)
-# calc_similarity_score()
-
-um_df = pd.read_csv("./data/user_movie_matrix.csv")
-um_df = um_df.drop(0, axis=0)
-um_df = um_df.drop(um_df.columns[0], axis=1)
-sim_df = pd.read_csv("./data/sim_score.csv")
-sim_df = sim_df.drop(0, axis=0)
-sim_df = sim_df.drop(sim_df.columns[0], axis=1)
 
 
 def get_exception_rating(x, i):
@@ -272,7 +143,7 @@ def get_exception_rating(x, i):
         return global_mu
 
 
-def get_rating(x, i):
+def get_rating(x, i, N):
     # x = user_id, i = movie_id
     bx = bx_all.iloc[x-1]['normRating']
     bi = bi_all.iloc[i-1]['normRating']
@@ -294,7 +165,6 @@ def get_rating(x, i):
     else:
         x_watched_movie_ids = x_watched_movies.index.values
 
-        N = 5
         m = i
         num_movie = movies_description.shape[0]
         ver = sim_df.iloc[:,m-1]
@@ -327,32 +197,100 @@ def predict(predictions):
     for index in range(0, len(predictions)):
         x = predictions.iloc[index]['userID']
         i = predictions.iloc[index]['movieID']
-        y = get_rating(x, i)
+        # TODO: experimenting different N
+        N = 5
+        y = get_rating(x, i, N)
         prediction_result.append([index+1, y])
         print(index+1, y)
     return prediction_result
 
 
-#####
-##
-## SAVE RESULTS
-##
-#####    
+if __name__ == "__main__":
 
+    ################################
+    ## DATA IMPORT
+    ################################
 
-# '''
-## //!!\\ TO CHANGE by your prediction function
-predictions = predict(predictions_description)
+    # Where data is located
+    movies_file = './data/movies.csv'
+    users_file = './data/users.csv'
+    ratings_file = './data/ratings.csv'
+    predictions_file = './data/predictions.csv'
+    submission_file = './data/submission.csv'
 
-#Save predictions, should be in the form 'list of tuples' or 'list of lists'
-with open(submission_file, 'w') as submission_writer:
-    #Formates data
-    predictions = [map(str, row) for row in predictions]
-    predictions = [','.join(row) for row in predictions]
-    predictions = 'Id,Rating\n'+'\n'.join(predictions)
-    
-    #Writes it dowmn
-    submission_writer.write(predictions)
-# '''
+    # Read the data using pandas
+    movies_description = pd.read_csv(movies_file, delimiter=';', names=['movieID', 'year', 'movie'])
+    users_description = pd.read_csv(users_file, delimiter=';', names=['userID', 'gender', 'age', 'profession'])
+    ratings_description = pd.read_csv(ratings_file, delimiter=';', names=['userID', 'movieID', 'rating'])
+    predictions_description = pd.read_csv(predictions_file, delimiter=';', names=['userID', 'movieID'])
+
+    ################################
+    ## DATA PRE-PROCESSING
+    ################################
+
+    global_mu = np.mean(ratings_description['rating'])
+
+    bx_all = None
+    if Path("./data/bx.pkl").is_file():
+        bx_all = pd.read_pickle("./data/bx.pkl")
+    else:
+        calc_user_rating_deviation()
+        bx_all = pd.read_pickle("./data/bx.pkl")
+
+    bi_all = None
+    if Path("./data/bi.pkl").is_file():
+        bi_all = pd.read_pickle("./data/bi.pkl")
+    else:
+        calc_movie_rating_deviation()
+        bi_all = pd.read_pickle("./data/bi.pkl")
+
+    bj_all = bi_all['normRating'].values
+    row_mean = pd.read_pickle("./data/row_mean.pkl")
+
+    # construct user-movie matrix, fill blank as 0
+    um_df = None
+    if Path("./data/user_movie_matrix.csv").is_file():
+        um_df = pd.read_csv("./data/user_movie_matrix.csv")
+    else:
+        construct_user_movie_matrix()
+        um_df = pd.read_csv("./data/user_movie_matrix.csv")
+    um_df = um_df.drop(0, axis=0)
+    um_df = um_df.drop(um_df.columns[0], axis=1)
+
+    # centered user-movie matrix; for calculating sim_score
+    pum_df = None
+    if Path("./data/preprocess_user_movie_matrix.csv").is_file():
+        pum_df = pd.read_csv("./data/preprocess_user_movie_matrix.csv")
+    else:
+        preprocess_user_movie_matrix()
+        pum_df = pd.read_csv("./data/preprocess_user_movie_matrix.csv")
+    pum_df = pum_df.drop(0, axis=0)
+    pum_df = pum_df.drop(pum_df.columns[0], axis=1)
+
+    sim_df = None
+    if Path("./data/sim_score.csv").is_file():
+        sim_df = pd.read_csv("./data/sim_score.csv")
+    else:
+        calc_similarity_score()
+        sim_df = pd.read_csv("./data/sim_score.csv")
+    sim_df = sim_df.drop(0, axis=0)
+    sim_df = sim_df.drop(sim_df.columns[0], axis=1)
+
+    ################################
+    ## PREDICTION
+    ################################
+
+    predictions = predict(predictions_description)
+
+    # Save predictions, should be in the form 'list of tuples' or 'list of lists'
+    with open(submission_file, 'w') as submission_writer:
+        # Formates data
+        predictions = [map(str, row) for row in predictions]
+        predictions = [','.join(row) for row in predictions]
+        predictions = 'Id,Rating\n'+'\n'.join(predictions)
+        
+        # Writes it dowmn
+        submission_writer.write(predictions)
+
 
 # End of File
