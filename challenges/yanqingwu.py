@@ -91,6 +91,7 @@ def dataframe_info(df):
 
 # overall mean movie rating
 global_mu = np.mean(ratings_description['rating'])
+#3.58131489029763
 
 # rating deviation of user x
 def calc_user_rating_deviation():
@@ -159,15 +160,15 @@ def preprocess_user_movie_matrix():
 
 def calc_similarity_score():
     # # 0. construct user-movie matrix, fill blank as 0
-    # um_df = None
-    # if Path("./data/user_movie_matrix.csv").is_file():
-    #     um_df = pd.read_csv("./data/user_movie_matrix.csv")
-    # else:
-    #     construct_user_movie_matrix()
-    #     um_df = pd.read_csv("./data/user_movie_matrix.csv")
-    # um_df = um_df.drop(0, axis=0)
-    # um_df = um_df.drop(um_df.columns[0], axis=1)
-    # # dataframe_info(um_df)
+    um_df = None
+    if Path("./data/user_movie_matrix.csv").is_file():
+        um_df = pd.read_csv("./data/user_movie_matrix.csv")
+    else:
+        construct_user_movie_matrix()
+        um_df = pd.read_csv("./data/user_movie_matrix.csv")
+    um_df = um_df.drop(0, axis=0)
+    um_df = um_df.drop(um_df.columns[0], axis=1)
+    # dataframe_info(um_df)
 
     # # centered user-movie matrix; for calculating sim_score
     # pum_df = None
@@ -211,6 +212,8 @@ def calc_similarity_score():
     sim_df = sim_df.drop(sim_df.columns[0], axis=1)
 
     N = 5
+    sim_mat = {}
+    # m is movie id
     for m in range(1, num_movie+1):
         # since we only have a triangular matrix, 
         # we need to do some manipulation to get all sim scores for movie m
@@ -221,27 +224,103 @@ def calc_similarity_score():
         res = np.concatenate((ver.values, hor.values))
         idx = np.argpartition(res, -N)[-N:]
         movie_ids = idx+1
-        # movie_sim = res[idx]
         # largest N movies' index are `idx+1`, which are also movieIDs
-        print(m, movie_ids, res[idx])
-        # m-1 = movie_ids
+        # print(m, movie_ids, res[idx])
+
+        # need to select from **watched** highest movies
+        # watched_by_self = um_df.iloc[:]
+
+        sim_mat[m] = {'movie_ids': movie_ids, 'movie_idxs': res[idx]}
+    with open('./data/sim_mat.pickle', 'wb') as handle:
+        pickle.dump(sim_mat, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+    # with open('./data/sim_mat.pickle', 'rb') as handle:
+    #     b = pickle.load(handle)
+
 
 
 # calc_user_rating_deviation()
 # calc_movie_rating_deviation()
-bx = pd.read_pickle("./data/bx.pkl")
-bi = pd.read_pickle("./data/bi.pkl")
+bx_all = pd.read_pickle("./data/bx.pkl")
+bi_all = pd.read_pickle("./data/bi.pkl")
+bj_all = bi_all['normRating'].values
 row_mean = pd.read_pickle("./data/row_mean.pkl")
 # dataframe_info(bx)
 # dataframe_info(bi)
 # dataframe_info(row_mean)
-calc_similarity_score()
+# calc_similarity_score()
 
 
-def predict(movies, users, ratings, predictions):
-    number_predictions = len(predictions)
+def get_rating(x, i):
+    um_df = pd.read_csv("./data/user_movie_matrix.csv")
+    um_df = um_df.drop(0, axis=0)
+    um_df = um_df.drop(um_df.columns[0], axis=1)
+    sim_df = pd.read_csv("./data/sim_score.csv")
+    sim_df = sim_df.drop(0, axis=0)
+    sim_df = sim_df.drop(sim_df.columns[0], axis=1)
+    
+    # x = user_id, i = movie_id
+    bx = bx_all.iloc[x-1]['normRating']
+    bi = bi_all.iloc[i-1]['normRating']
+    bxi = global_mu + bx + bi
 
-    return [[idx, randint(1, 5)] for idx in range(1, number_predictions + 1)]
+
+    if um_df.iloc[i-1][x-1] != 0:
+        return um_df.iloc[i-1][x-1]
+    else:
+        x_movies = um_df.iloc[:, x-1]           # get all movies for user x
+        x_watched_movies = x_movies[x_movies > 0] # filter movies which are watched by user x
+
+    if len(x_watched_movies) is 0:
+        # return avg rating for this movie
+        print("User-{} has watched 0 movies!".format(x))
+        movie_i = um_df.iloc[i-1]
+        users_rating = movie_i[movie_i > 0]
+        users_avg = np.mean(users_rating)
+        if users_avg > 0:
+            print("Using users avg for movie-{}".format(i))
+            return users_avg
+        else:
+            print("cold-start for new movie and new user! user-{}, movie-{}".format(x, i))
+            # return -1
+            return global_mu
+    else:
+        x_watched_movie_ids = x_watched_movies.index.values
+
+        N = 10
+        m = i
+        num_movie = movies_description.shape[0]
+        ver = sim_df.iloc[:,m-1]
+        hor = sim_df.iloc[m-1]
+        ver = ver[0:m]
+        hor = hor[m:num_movie]
+        res = np.concatenate((ver.values, hor.values))
+        watched_sim = res[x_watched_movie_ids-1]
+        idx = np.argpartition(watched_sim, -N)[-N:]
+        
+        largest_N_scores = watched_sim[idx]
+        largest_N_movies = x_watched_movie_ids[idx]
+        base_ratings = x_watched_movies.values[idx]
+        
+        bjs = bj_all[largest_N_movies-1]
+        bxjs = global_mu + bx + bjs
+        numerator = np.sum(largest_N_scores * (base_ratings - bxjs))
+        denominator = np.sum(largest_N_scores)
+        term2 = numerator / denominator
+        return bxi + term2
+
+
+def predict(predictions):
+    prediction_result = []
+    # index may need to change to [1,90019]
+    for index in range(0, len(predictions)):
+        x = predictions.iloc[index]['userID']
+        i = predictions.iloc[index]['movieID']
+        y = get_rating(x, i)
+        prediction_result.append([index, y])
+        print(index, y)
+    return prediction_result
+
 
 #####
 ##
@@ -250,9 +329,9 @@ def predict(movies, users, ratings, predictions):
 #####    
 
 
-'''
+# '''
 ## //!!\\ TO CHANGE by your prediction function
-predictions = predict(movies_description, users_description, ratings_description, predictions_description)
+predictions = predict(predictions_description)
 
 #Save predictions, should be in the form 'list of tuples' or 'list of lists'
 with open(submission_file, 'w') as submission_writer:
@@ -263,6 +342,6 @@ with open(submission_file, 'w') as submission_writer:
     
     #Writes it dowmn
     submission_writer.write(predictions)
-'''
+# '''
 
 # End of File
