@@ -158,36 +158,31 @@ def preprocess_user_movie_matrix():
 
 
 def calc_similarity_score():
-    # 0. construct user-movie matrix, fill blank as 0
-    um_df = None
-    if Path("./data/user_movie_matrix.csv").is_file():
-        um_df = pd.read_csv("./data/user_movie_matrix.csv")
-    else:
-        construct_user_movie_matrix()
-        um_df = pd.read_csv("./data/user_movie_matrix.csv")
-    um_df = um_df.drop(0, axis=0)
-    um_df = um_df.drop(['0'], axis=1)
-    # dataframe_info(um_df)
+    # # 0. construct user-movie matrix, fill blank as 0
+    # um_df = None
+    # if Path("./data/user_movie_matrix.csv").is_file():
+    #     um_df = pd.read_csv("./data/user_movie_matrix.csv")
+    # else:
+    #     construct_user_movie_matrix()
+    #     um_df = pd.read_csv("./data/user_movie_matrix.csv")
+    # um_df = um_df.drop(0, axis=0)
+    # um_df = um_df.drop(um_df.columns[0], axis=1)
+    # # dataframe_info(um_df)
 
-    # centered user-movie matrix
-    pum_df = None
-    if Path("./data/preprocess_user_movie_matrix.csv").is_file():
-        pum_df = pd.read_csv("./data/preprocess_user_movie_matrix.csv")
-    else:
-        preprocess_user_movie_matrix()
-        pum_df = pd.read_csv("./data/preprocess_user_movie_matrix.csv")
-    pum_df = pum_df.drop(0, axis=0)
-    pum_df = pum_df.drop(['0'], axis=1)
-    # dataframe_info(pum_df)
+    # # centered user-movie matrix; for calculating sim_score
+    # pum_df = None
+    # if Path("./data/preprocess_user_movie_matrix.csv").is_file():
+    #     pum_df = pd.read_csv("./data/preprocess_user_movie_matrix.csv")
+    # else:
+    #     preprocess_user_movie_matrix()
+    #     pum_df = pd.read_csv("./data/preprocess_user_movie_matrix.csv")
+    # pum_df = pum_df.drop(0, axis=0)
+    # pum_df = pum_df.drop(pum_df.columns[0], axis=1)
+    # # dataframe_info(pum_df)
 
 
-    # 3706 3700 -0.0034691579040313308
-    # print(np.sum(pum_df.loc[3706]))
-    # print(pum_df.loc[3700])
-
-    # 1. subtract mean rating mi from each movie i
-    # '''
     num_movie = movies_description.shape[0]
+    '''
     temp_mat = np.zeros(shape=(num_movie+1, num_movie+1))
     for idx_i, i in pum_df.iterrows():
         for idx_j, j in pum_df.iterrows():
@@ -211,9 +206,25 @@ def calc_similarity_score():
     tmp_df = pd.DataFrame(data=temp_mat)
     tmp_df.to_csv("./data/sim_score.csv", index=False)
     # '''
+    sim_df = pd.read_csv("./data/sim_score.csv")
+    sim_df = sim_df.drop(0, axis=0)
+    sim_df = sim_df.drop(sim_df.columns[0], axis=1)
 
-    # 2. compute cosine sim between rows
-    return NotImplementedError
+    N = 5
+    for m in range(1, num_movie+1):
+        # since we only have a triangular matrix, 
+        # we need to do some manipulation to get all sim scores for movie m
+        ver = sim_df.iloc[:,m-1]
+        hor = sim_df.iloc[m-1]
+        ver = ver[0:m]
+        hor = hor[m:num_movie]
+        res = np.concatenate((ver.values, hor.values))
+        idx = np.argpartition(res, -N)[-N:]
+        movie_ids = idx+1
+        # movie_sim = res[idx]
+        # largest N movies' index are `idx+1`, which are also movieIDs
+        print(m, movie_ids, res[idx])
+        # m-1 = movie_ids
 
 
 # calc_user_rating_deviation()
