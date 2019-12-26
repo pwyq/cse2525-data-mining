@@ -38,6 +38,32 @@ def dataframe_info(df):
     print(df.info())
 
 
+def read_pickle_file(filepath, method_arg):
+    res = None
+    if Path(filepath).is_file():
+        res = pd.read_pickle(filepath)
+    else:
+        method_arg()
+        res = pd.read_pickle(filepath)
+    return res
+
+
+def read_csv_file(filepath, method_arg):
+    df = None
+    if Path(filepath).is_file():
+        df = pd.read_csv(filepath)
+    else:
+        method_arg()
+        df = pd.read_csv(filepath)
+    df = df.drop(0, axis=0)
+    df = df.drop(df.columns[0], axis=1)
+    return df
+
+################################
+## DATA PROCESSING FUNCTIONS
+################################
+
+
 def calc_user_rating_deviation():
     # rating deviation of user x
     unique_users = np.array(users_description['userID'].unique())
@@ -221,51 +247,20 @@ if __name__ == "__main__":
     num_movie = movies_description.shape[0]
     num_user = users_description.shape[0]
 
-    bx_all = None
-    if Path("./data/bx.pkl").is_file():
-        bx_all = pd.read_pickle("./data/bx.pkl")
-    else:
-        calc_user_rating_deviation()
-        bx_all = pd.read_pickle("./data/bx.pkl")
-
-    bi_all = None
-    if Path("./data/bi.pkl").is_file():
-        bi_all = pd.read_pickle("./data/bi.pkl")
-    else:
-        calc_movie_rating_deviation()
-        bi_all = pd.read_pickle("./data/bi.pkl")
+    bx_all = read_pickle_file("./data/bx.pkl", calc_user_rating_deviation)
+    bi_all = read_pickle_file("./data/bi.pkl", calc_movie_rating_deviation)
 
     bj_all = bi_all['normRating'].values
     row_mean = pd.read_pickle("./data/row_mean.pkl")
 
     # construct user-movie matrix, fill blank as 0
-    um_df = None
-    if Path("./data/user_movie_matrix.csv").is_file():
-        um_df = pd.read_csv("./data/user_movie_matrix.csv")
-    else:
-        construct_user_movie_matrix()
-        um_df = pd.read_csv("./data/user_movie_matrix.csv")
-    um_df = um_df.drop(0, axis=0)
-    um_df = um_df.drop(um_df.columns[0], axis=1)
+    um_df = read_csv_file("./data/user_movie_matrix.csv", construct_user_movie_matrix)
 
     # centered user-movie matrix; for calculating sim_score
-    pum_df = None
-    if Path("./data/preprocess_user_movie_matrix.csv").is_file():
-        pum_df = pd.read_csv("./data/preprocess_user_movie_matrix.csv")
-    else:
-        preprocess_user_movie_matrix()
-        pum_df = pd.read_csv("./data/preprocess_user_movie_matrix.csv")
-    pum_df = pum_df.drop(0, axis=0)
-    pum_df = pum_df.drop(pum_df.columns[0], axis=1)
+    pum_df = read_csv_file("./data/preprocess_user_movie_matrix.csv", preprocess_user_movie_matrix)
 
-    sim_df = None
-    if Path("./data/sim_score.csv").is_file():
-        sim_df = pd.read_csv("./data/sim_score.csv")
-    else:
-        calc_similarity_score()
-        sim_df = pd.read_csv("./data/sim_score.csv")
-    sim_df = sim_df.drop(0, axis=0)
-    sim_df = sim_df.drop(sim_df.columns[0], axis=1)
+    # calculate similarity score using cosine distance
+    sim_df = read_csv_file("./data/sim_score.csv", calc_similarity_score)
 
     ################################
     ## PREDICTION
