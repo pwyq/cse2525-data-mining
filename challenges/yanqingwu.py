@@ -11,7 +11,7 @@ import sys
 FRAMEWORK FOR DATAMINING CLASS
 
 #### IDENTIFICATION
-NAME: Yanqing Wu
+NAME: Yanqing
 SURNAME: Wu
 STUDENT ID: 5142571
 KAGGLE ID: Yanqing Wu (Y.Wu-35@student.tudelft.nl)
@@ -23,9 +23,9 @@ Any submission in Python 3.* or Java is accepted.
 To know more about the expectations, please refer to the guidelines.
 """
 
-################################
+################################################################
 ## HELPER FUNCTIONS
-################################
+################################################################
 
 def dataframe_info(df):
     print("================================")
@@ -79,9 +79,9 @@ def update_ratings_file(most_accurate_submission_file):
     r_comb.to_csv('./data/ratings_comb.csv', index=False)
 
 
-################################
+################################################################
 ## DATA PROCESSING FUNCTIONS
-################################
+################################################################
 
 
 def calc_user_rating_deviation():
@@ -240,7 +240,6 @@ def predict(predictions):
     for index in range(0, len(predictions)):
         x = predictions.iloc[index]['userID']
         i = predictions.iloc[index]['movieID']
-        # TODO: experimenting different N
         N = 10
         y = get_rating(x, i, N)
         if y > 5:
@@ -254,9 +253,9 @@ def predict(predictions):
     return prediction_result
 
 
-################################
+################################################################
 ## EXTRA FUNCTIONS
-################################
+################################################################
 
 
 def calc_year_deviation():
@@ -327,7 +326,7 @@ def calc_age_deviation():
         pickle.dump(age_vs_rating, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 
-def calc_profession_vs_rating():
+def calc_job_deviation():
     tmp_bx_all = read_pickle_file("./data/bx.pkl", calc_user_rating_deviation)
     tmp_bx_all['normRating'] += global_mu
 
@@ -351,6 +350,11 @@ def calc_profession_vs_rating():
 
     with open('./data/profession_vs_rating.pickle', 'wb') as handle:
         pickle.dump(profession_vs_rating, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+
+################################################################
+## STARTING POINT
+################################################################
 
 
 if __name__ == "__main__":
@@ -402,9 +406,8 @@ if __name__ == "__main__":
         year_dvi = read_pickle_dict('./data/year_vs_rating.pickle', calc_year_deviation())
     if USE_USER_INFO:
         age_dvi = read_pickle_dict('./data/age_vs_rating.pickle', calc_age_deviation())
-        job_dvi = read_pickle_dict('./data/profession_vs_rating.pickle', calc_profession_vs_rating())
+        job_dvi = read_pickle_dict('./data/profession_vs_rating.pickle', calc_job_deviation())
         male_mean, female_mean = get_gender_vs_rating()
-        # TODO: use deviation on final result?
 
     # construct user-movie matrix, fill blank as 0
     um_df = read_csv_file("./data/user_movie_matrix.csv", construct_user_movie_matrix)
