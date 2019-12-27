@@ -127,7 +127,9 @@ def construct_user_movie_matrix():
     um_mat = np.zeros(shape=(num_movie+1, num_user+1))
     for _, row in ratings_description.iterrows():
         print(row)
-        um_mat[row['movieID']][row['userID']] = row['rating']
+        x = int(row['movieID'])
+        y = int(row['userID'])
+        um_mat[x][y] = row['rating']
     _df = pd.DataFrame(data=um_mat)
     _df.to_csv("./data/user_movie_matrix.csv", index=False)
 
@@ -137,8 +139,10 @@ def preprocess_user_movie_matrix():
     print("preprocessing user-movie matrix...")
     um_mat = np.zeros(shape=(num_movie+1, num_user+1))
     for _, row in ratings_description.iterrows():
-        um_mat[row['movieID']][row['userID']] = row['rating'] - row_mean['rowMean'][row['movieID']-1]
-        print("{}, {} = {}".format(row['movieID'], row['userID'], um_mat[row['movieID']][row['userID']]))
+        x = int(row['movieID'])
+        y = int(row['userID'])
+        um_mat[x][y] = row['rating'] - row_mean['rowMean'][x-1]
+        print("{}, {} = {}".format(x, y, um_mat[x][y]))
     _df = pd.DataFrame(data=um_mat)
     _df.to_csv("./data/preprocess_user_movie_matrix.csv", index=False)
 
