@@ -212,10 +212,16 @@ def predict(predictions):
         x = predictions.iloc[index]['userID']
         i = predictions.iloc[index]['movieID']
         # TODO: experimenting different N
-        N = 5
+        N = 10
         y = get_rating(x, i, N)
-        prediction_result.append([index+1, y])
-        print(index+1, y)
+        if y > 5:
+            pred = 5.0
+        elif y < 1:
+            pred = 1.0
+        else:
+            pred = y
+        prediction_result.append([index+1, pred])
+        print(index+1, pred)
     return prediction_result
 
 

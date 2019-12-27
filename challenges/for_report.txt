@@ -1,5 +1,46 @@
 TODO
 1. RMSE of old and new dataframes (submissions.csv)
+    - need split existing dataset into test set and training set
+    - only have around 910k entries
+    - afraid of overfitting
+2. 
+
+
+N=5, 0.88071
+N=10, 0.85458
+
+// TEST different N
+the larger N, the smaller std, and higher the score
+>>> n5.describe()
+                 Id        Rating
+count  90019.000000  90019.000000
+mean   45010.000000      3.614949
+std    25986.391278      0.831121
+min        1.000000     -0.082934
+25%    22505.500000      3.111181
+50%    45010.000000      3.712158
+75%    67514.500000      4.219291
+max    90019.000000      5.935729
+>>> n7.describe()
+                 Id        Rating
+count  90019.000000  90019.000000
+mean   45010.000000      3.614587
+std    25986.391278      0.802211
+min        1.000000     -0.176396
+25%    22505.500000      3.133383
+50%    45010.000000      3.709895
+75%    67514.500000      4.195756
+max    90019.000000      5.863453
+>>> n10.describe()
+                 Id        Rating
+count  90019.000000  90019.000000
+mean   45010.000000      3.612602
+std    25986.391278      0.778147
+min        1.000000     -0.175341
+25%    22505.500000      3.147937
+50%    45010.000000      3.706087
+75%    67514.500000      4.172045
+max    90019.000000      5.893984
 
 
 ''' 
@@ -37,4 +78,12 @@ runtime
 real	47m55.372s
 user	76m11.624s
 sys	2m45.654s
+
+
+# After first version
+1. tried different N
+2. make score > 5 be 5
+   make score < 0 be 0
+   investigate score between 0 and 1
+   after observing the ratings.csv, keep min=1, max=5
 
