@@ -60,6 +60,22 @@ def read_csv_file(filepath, method_arg):
     return df
 
 
+def update_ratings_file():
+    most_accurate_submission_file = './data/submission_cap5and1.csv'
+
+    r_old = ratings_description
+    p = predictions_description
+    s = pd.read_csv(most_accurate_submission_file)
+    r_new = pd.concat([p, s], axis=1)
+    del r_new['Id']
+    r_new = r_new.rename(columns={"Rating": "rating"})
+    r_new.to_csv('./data/ratings_new.csv', index=False)
+
+    r_comb = pd.concat([r_old, r_new], axis=0)
+    r_comb = r_comb.reset_index()
+    r_comb.to_csv('./data/ratings_comb.csv', index=False)
+
+
 ################################
 ## DATA PROCESSING FUNCTIONS
 ################################
@@ -234,7 +250,7 @@ if __name__ == "__main__":
     # Where data is located
     movies_file = './data/movies.csv'
     users_file = './data/users.csv'
-    ratings_file = './data/ratings.csv'
+    ratings_file = './data/ratings_comb.csv'    # NOTICE! modified!
     predictions_file = './data/predictions.csv'
     submission_file = './data/submission.csv'
 

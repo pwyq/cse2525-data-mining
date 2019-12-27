@@ -3,7 +3,12 @@ TODO
     - need split existing dataset into test set and training set
     - only have around 910k entries
     - afraid of overfitting
-2. 
+2. year vs. rating
+    - # no-year = 194
+    - min year = 1919
+    - max year = 2000 
+3. add the min-error submisson.csv as training set?
+    - add submission.csv to ratings.csv
 
 
 N=5, 0.88071
@@ -86,4 +91,5 @@ sys	2m45.654s
    make score < 0 be 0
    investigate score between 0 and 1
    after observing the ratings.csv, keep min=1, max=5
+3. 
 
