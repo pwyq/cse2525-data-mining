@@ -8,7 +8,9 @@ TODO
     - min year = 1919
     - max year = 2000 
 3. add the min-error submisson.csv as training set?
-    - add submission.csv to ratings.csv
+    - add submission.csv+predictions.csv on ratings.csv to generate ratings_comb.csv
+    - retrain whole thing
+    - compare new submission.csv with old one
 
 
 N=5, 0.88071
