@@ -61,10 +61,8 @@ def read_csv_file(filepath, method_arg):
     return df
 
 
-def update_ratings_file():
+def update_ratings_file(most_accurate_submission_file):
     # I noticed that some precision up to 10^(-9) changed during rewriting
-    most_accurate_submission_file = './data/submission_cap5and1.csv'
-
     r_old = ratings_description
     p = predictions_description
     s = pd.read_csv(most_accurate_submission_file)
@@ -274,9 +272,10 @@ if __name__ == "__main__":
     predictions_description = pd.read_csv(predictions_file, delimiter=';', names=['userID', 'movieID'])
 
     if USE_COMB:
+        # update_ratings_file('./data/submission_cap5and1.csv')
         ratings_file = './data/ratings_comb.csv'
         ratings_description = pd.read_csv(ratings_file)
-        dataframe_info(ratings_description)
+        # dataframe_info(ratings_description)
         # sys.exit()
     else:
         ratings_file = './data/ratings.csv'
