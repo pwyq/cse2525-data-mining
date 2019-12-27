@@ -86,4 +86,7 @@ sys	2m45.654s
    make score < 0 be 0
    investigate score between 0 and 1
    after observing the ratings.csv, keep min=1, max=5
+3. tried using round()
+    - i thought the rating is only integer, so i round each num
+    - but the acc dropped from 0.85 to 0.9
 
