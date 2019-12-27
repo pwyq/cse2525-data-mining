@@ -5,6 +5,7 @@ from random import randint
 from pathlib import Path
 import pickle
 import math
+import sys
 # -*- coding: utf-8 -*-
 """
 FRAMEWORK FOR DATAMINING CLASS
@@ -60,6 +61,24 @@ def read_csv_file(filepath, method_arg):
     return df
 
 
+def update_ratings_file():
+    # I noticed that some precision up to 10^(-9) changed during rewriting
+    most_accurate_submission_file = './data/submission_cap5and1.csv'
+
+    r_old = ratings_description
+    p = predictions_description
+    s = pd.read_csv(most_accurate_submission_file)
+    r_new = pd.concat([p, s], axis=1)
+    del r_new['Id']
+    r_new = r_new.rename(columns={"Rating": "rating"})
+    r_new.to_csv('./data/ratings_new.csv', index=False)
+
+    r_comb = pd.concat([r_old, r_new], axis=0)
+    r_comb = r_comb.reset_index()
+    del r_comb['index']
+    r_comb.to_csv('./data/ratings_comb.csv', index=False)
+
+
 ################################
 ## DATA PROCESSING FUNCTIONS
 ################################
@@ -104,11 +123,14 @@ def calc_movie_rating_deviation():
 
 
 def construct_user_movie_matrix():
+    # TODO: combine this with preprocess_user_movie_matrix; 1 pass
     print("Constructing user-movie matrix...")
     um_mat = np.zeros(shape=(num_movie+1, num_user+1))
     for _, row in ratings_description.iterrows():
         print(row)
-        um_mat[row['movieID']][row['userID']] = row['rating']
+        x = int(row['movieID'])
+        y = int(row['userID'])
+        um_mat[x][y] = row['rating']
     _df = pd.DataFrame(data=um_mat)
     _df.to_csv("./data/user_movie_matrix.csv", index=False)
 
@@ -118,8 +140,10 @@ def preprocess_user_movie_matrix():
     print("preprocessing user-movie matrix...")
     um_mat = np.zeros(shape=(num_movie+1, num_user+1))
     for _, row in ratings_description.iterrows():
-        um_mat[row['movieID']][row['userID']] = row['rating'] - row_mean['rowMean'][row['movieID']-1]
-        print("{}, {} = {}".format(row['movieID'], row['userID'], um_mat[row['movieID']][row['userID']]))
+        x = int(row['movieID'])
+        y = int(row['userID'])
+        um_mat[x][y] = row['rating'] - row_mean['rowMean'][x-1]
+        print("{}, {} = {}".format(x, y, um_mat[x][y]))
     _df = pd.DataFrame(data=um_mat)
     _df.to_csv("./data/preprocess_user_movie_matrix.csv", index=False)
 
@@ -168,12 +192,17 @@ def get_rating(x, i, N):
     bi = bi_all.iloc[i-1]['normRating']
     bxi = global_mu + bx + bi
 
+    '''
     if um_df.iloc[i-1][x-1] != 0:
         # if required prediction has alreaby been rated...
         return um_df.iloc[i-1][x-1]
     else:
         x_movies = um_df.iloc[:, x-1]               # get all movies for user x
         x_watched_movies = x_movies[x_movies > 0]   # filter movies which are watched by user x
+    '''
+
+    x_movies = um_df.iloc[:, x-1]               # get all movies for user x
+    x_watched_movies = x_movies[x_movies > 0]   # filter movies which are watched by user x
 
     if len(x_watched_movies) is 0:
         print("[WARNING]: USER {} WATCHED 0 MOVIE.".format(x))
@@ -227,6 +256,8 @@ def predict(predictions):
 
 if __name__ == "__main__":
 
+    USE_COMB = False
+
     ################################
     ## DATA IMPORT
     ################################
@@ -234,15 +265,23 @@ if __name__ == "__main__":
     # Where data is located
     movies_file = './data/movies.csv'
     users_file = './data/users.csv'
-    ratings_file = './data/ratings.csv'
     predictions_file = './data/predictions.csv'
     submission_file = './data/submission.csv'
 
     # Read the data using pandas
     movies_description = pd.read_csv(movies_file, delimiter=';', names=['movieID', 'year', 'movie'])
     users_description = pd.read_csv(users_file, delimiter=';', names=['userID', 'gender', 'age', 'profession'])
-    ratings_description = pd.read_csv(ratings_file, delimiter=';', names=['userID', 'movieID', 'rating'])
     predictions_description = pd.read_csv(predictions_file, delimiter=';', names=['userID', 'movieID'])
+
+    if USE_COMB:
+        ratings_file = './data/ratings_comb.csv'
+        ratings_description = pd.read_csv(ratings_file)
+        dataframe_info(ratings_description)
+        # sys.exit()
+    else:
+        ratings_file = './data/ratings.csv'
+        ratings_description = pd.read_csv(ratings_file, delimiter=';', names=['userID', 'movieID', 'rating'])
+
 
     ################################
     ## DATA PRE-PROCESSING
