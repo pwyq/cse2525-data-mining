@@ -184,12 +184,17 @@ def get_rating(x, i, N):
     bi = bi_all.iloc[i-1]['normRating']
     bxi = global_mu + bx + bi
 
+    '''
     if um_df.iloc[i-1][x-1] != 0:
         # if required prediction has alreaby been rated...
         return um_df.iloc[i-1][x-1]
     else:
         x_movies = um_df.iloc[:, x-1]               # get all movies for user x
         x_watched_movies = x_movies[x_movies > 0]   # filter movies which are watched by user x
+    '''
+
+    x_movies = um_df.iloc[:, x-1]               # get all movies for user x
+    x_watched_movies = x_movies[x_movies > 0]   # filter movies which are watched by user x
 
     if len(x_watched_movies) is 0:
         print("[WARNING]: USER {} WATCHED 0 MOVIE.".format(x))
