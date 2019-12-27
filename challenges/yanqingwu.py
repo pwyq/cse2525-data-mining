@@ -259,7 +259,7 @@ def predict(predictions):
 ################################
 
 
-def calc_avg_year_vs_rating():
+def calc_year_vs_rating():
     years = movies_description['year']
     valid_years = years[years > 0]
     valid_rowmu = row_mean['rowMean'][years > 0]
@@ -293,7 +293,7 @@ def get_gender_vs_rating():
 def calc_age_vs_rating():
     # 222 users whose age=1 (and 163 of which have profession=10) <- default data ? these users data may be untrustworthy
     # no users age in the region of (1, 18)
-    tmp_bx_all = bx_all
+    tmp_bx_all = read_pickle_file("./data/bx.pkl", calc_user_rating_deviation)
     tmp_bx_all['normRating'] += global_mu
 
     valid_idx = users_description['age'] > 1
@@ -313,7 +313,7 @@ def calc_age_vs_rating():
 
 
 def calc_profession_vs_rating():
-    tmp_bx_all = bx_all
+    tmp_bx_all = read_pickle_file("./data/bx.pkl", calc_user_rating_deviation)
     tmp_bx_all['normRating'] += global_mu
 
     valid_idx = users_description['age'] > 1
@@ -364,9 +364,6 @@ if __name__ == "__main__":
         ratings_file = './data/ratings.csv'
         ratings_description = pd.read_csv(ratings_file, delimiter=';', names=['userID', 'movieID', 'rating'])
 
-    # if USE_YEAR:
-
-
     ################################
     ## DATA PRE-PROCESSING
     ################################
@@ -380,6 +377,13 @@ if __name__ == "__main__":
 
     bj_all = bi_all['normRating'].values
     row_mean = pd.read_pickle("./data/row_mean.pkl")
+
+    if USE_YEAR:
+        year_rating = read_pickle_dict('./data/year_vs_rating.pickle', calc_year_vs_rating())
+    if USE_USER_INFO:
+        age_rating = read_pickle_dict('./data/age_vs_rating.pickle', calc_age_vs_rating())
+        job_rating = read_pickle_dict('./data/profession_vs_rating.pickle', calc_profession_vs_rating())
+        male_mean, female_mean = get_gender_vs_rating()
 
     # construct user-movie matrix, fill blank as 0
     um_df = read_csv_file("./data/user_movie_matrix.csv", construct_user_movie_matrix)
