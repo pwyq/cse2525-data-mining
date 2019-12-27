@@ -49,6 +49,17 @@ def read_pickle_file(filepath, method_arg):
     return res
 
 
+def read_pickle_dict(filepath, method_arg):
+    if Path(filepath).is_file():
+        with open(filepath, 'rb') as handle:
+            res = pickle.load(handle)
+    else:
+        method_arg()
+        with open(filepath, 'rb') as handle:
+            res = pickle.load(handle)
+    return res
+
+
 def read_csv_file(filepath, method_arg):
     df = None
     if Path(filepath).is_file():
@@ -252,9 +263,90 @@ def predict(predictions):
     return prediction_result
 
 
+################################
+## EXTRA FUNCTIONS
+################################
+
+
+def calc_avg_year_vs_rating():
+    years = movies_description['year']
+    valid_years = years[years > 0]
+    valid_rowmu = row_mean['rowMean'][years > 0]
+    df = pd.concat([valid_years, valid_rowmu], axis = 1)
+
+    year_vs_rating = {}
+    for i in range(1919, df['year'].max()+1):
+        t = df.loc[ df['year'] == i ]
+        mu = np.mean(t['rowMean'])
+        if math.isnan(mu):
+            continue
+        year_vs_rating[i] = mu
+
+    with open('./data/year_vs_rating.pickle', 'wb') as handle:
+        pickle.dump(year_vs_rating, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+
+def get_gender_vs_rating():
+    # all user has a gender
+
+    tmp_bx_all = bx_all['normRating'] + global_mu
+
+    male_idx = users_description['gender'] == 'M'
+    male_mu = np.mean(tmp_bx_all[male_idx])     # 3.6922798339205434
+
+    female_idx = users_description['gender'] == 'F'
+    female_mu = np.mean(tmp_bx_all[female_idx]) # 3.7312073213606918
+    return [male_mu, female_mu]
+
+
+def calc_age_vs_rating():
+    # 222 users whose age=1 (and 163 of which have profession=10) <- default data ? these users data may be untrustworthy
+    # no users age in the region of (1, 18)
+    tmp_bx_all = bx_all
+    tmp_bx_all['normRating'] += global_mu
+
+    valid_idx = users_description['age'] > 1
+    valid_users = tmp_bx_all[valid_idx]
+    valid_ages = users_description[valid_idx]['age']
+    df = pd.concat([valid_users, valid_ages], axis=1)
+
+    age_vs_rating = {}
+    for i in range(18, df['age'].max()+1):
+        t = df.loc[ df['age'] == i ]
+        mu = np.mean(t['normRating'])
+        if math.isnan(mu):
+            continue
+        age_vs_rating[i] = mu
+    with open('./data/age_vs_rating.pickle', 'wb') as handle:
+        pickle.dump(age_vs_rating, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+
+def calc_profession_vs_rating():
+    tmp_bx_all = bx_all
+    tmp_bx_all['normRating'] += global_mu
+
+    valid_idx = users_description['age'] > 1
+    valid_users = tmp_bx_all[valid_idx]
+    valid_professoins = users_description[valid_idx]['profession']
+    df = pd.concat([valid_users, valid_professoins], axis=1)
+
+    profession_vs_rating = {}
+    for i in range(df['profession'].min(), df['profession'].max()+1):
+        t = df.loc[ df['profession'] == i ]
+        mu = np.mean(t['normRating'])
+        if math.isnan(mu):
+            continue
+        profession_vs_rating[i] = mu
+
+    with open('./data/profession_vs_rating.pickle', 'wb') as handle:
+        pickle.dump(profession_vs_rating, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+
 if __name__ == "__main__":
 
     USE_COMB = False
+    USE_YEAR = True
+    USE_USER_INFO = True
 
     ################################
     ## DATA IMPORT
@@ -280,6 +372,8 @@ if __name__ == "__main__":
     else:
         ratings_file = './data/ratings.csv'
         ratings_description = pd.read_csv(ratings_file, delimiter=';', names=['userID', 'movieID', 'rating'])
+
+    # if USE_YEAR:
 
 
     ################################
