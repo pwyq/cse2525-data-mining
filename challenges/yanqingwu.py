@@ -5,6 +5,7 @@ from random import randint
 from pathlib import Path
 import pickle
 import math
+import sys
 # -*- coding: utf-8 -*-
 """
 FRAMEWORK FOR DATAMINING CLASS
@@ -61,6 +62,7 @@ def read_csv_file(filepath, method_arg):
 
 
 def update_ratings_file():
+    # I noticed that some precision up to 10^(-9) changed during rewriting
     most_accurate_submission_file = './data/submission_cap5and1.csv'
 
     r_old = ratings_description
@@ -73,6 +75,7 @@ def update_ratings_file():
 
     r_comb = pd.concat([r_old, r_new], axis=0)
     r_comb = r_comb.reset_index()
+    del r_comb['index']
     r_comb.to_csv('./data/ratings_comb.csv', index=False)
 
 
@@ -248,6 +251,8 @@ def predict(predictions):
 
 if __name__ == "__main__":
 
+    USE_COMB = True
+
     ################################
     ## DATA IMPORT
     ################################
@@ -255,15 +260,23 @@ if __name__ == "__main__":
     # Where data is located
     movies_file = './data/movies.csv'
     users_file = './data/users.csv'
-    ratings_file = './data/ratings_comb.csv'    # NOTICE! modified!
     predictions_file = './data/predictions.csv'
     submission_file = './data/submission.csv'
 
     # Read the data using pandas
     movies_description = pd.read_csv(movies_file, delimiter=';', names=['movieID', 'year', 'movie'])
     users_description = pd.read_csv(users_file, delimiter=';', names=['userID', 'gender', 'age', 'profession'])
-    ratings_description = pd.read_csv(ratings_file, delimiter=';', names=['userID', 'movieID', 'rating'])
     predictions_description = pd.read_csv(predictions_file, delimiter=';', names=['userID', 'movieID'])
+
+    if USE_COMB:
+        ratings_file = './data/ratings_comb.csv'
+        ratings_description = pd.read_csv(ratings_file)
+        dataframe_info(ratings_description)
+        # sys.exit()
+    else:
+        ratings_file = './data/ratings.csv'
+        ratings_description = pd.read_csv(ratings_file, delimiter=';', names=['userID', 'movieID', 'rating'])
+
 
     ################################
     ## DATA PRE-PROCESSING
