@@ -40,33 +40,24 @@ def dataframe_info(df):
 
 
 def read_pickle_file(filepath, method_arg):
-    res = None
-    if Path(filepath).is_file():
-        res = pd.read_pickle(filepath)
-    else:
+    if Path(filepath).is_file() is False:
         method_arg()
-        res = pd.read_pickle(filepath)
+    res = pd.read_pickle(filepath)
     return res
 
 
 def read_pickle_dict(filepath, method_arg):
-    if Path(filepath).is_file():
-        with open(filepath, 'rb') as handle:
-            res = pickle.load(handle)
-    else:
+    if Path(filepath).is_file() is False:
         method_arg()
-        with open(filepath, 'rb') as handle:
-            res = pickle.load(handle)
+    with open(filepath, 'rb') as handle:
+        res = pickle.load(handle)
     return res
 
 
 def read_csv_file(filepath, method_arg):
-    df = None
-    if Path(filepath).is_file():
-        df = pd.read_csv(filepath)
-    else:
+    if Path(filepath).is_file() is False:
         method_arg()
-        df = pd.read_csv(filepath)
+    df = pd.read_csv(filepath)
     df = df.drop(0, axis=0)
     df = df.drop(df.columns[0], axis=1)
     return df
