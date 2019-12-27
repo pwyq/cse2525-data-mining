@@ -11,6 +11,31 @@ TODO
     - add submission.csv+predictions.csv on ratings.csv to generate ratings_comb.csv
     - retrain whole thing
     - compare new submission.csv with old one
+    - comb: on; direct=off
+        - we see that std gets slightly larger (~0.02)
+        - score slightly drops (0.004)
+- comb: on; direct=off (direct on == comb off; YOU IDIOT)
+>>> s_old.describe()
+                 Id        Rating
+count  90019.000000  90019.000000
+mean   45010.000000      3.612113
+std    25986.391278      0.773601
+min        1.000000      1.000000
+25%    22505.500000      3.147937
+50%    45010.000000      3.706087
+75%    67514.500000      4.172045
+max    90019.000000      5.000000
+>>> s_new.describe()
+                 Id        Rating
+count  90019.000000  90019.000000
+mean   45010.000000      3.610404
+std    25986.391278      0.799348
+min        1.000000      1.000000
+25%    22505.500000      3.137494
+50%    45010.000000      3.718440
+75%    67514.500000      4.194488
+max    90019.000000      5.000000
+
 
 
 N=5, 0.88071

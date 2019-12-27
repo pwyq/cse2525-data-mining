@@ -123,6 +123,7 @@ def calc_movie_rating_deviation():
 
 
 def construct_user_movie_matrix():
+    # TODO: combine this with preprocess_user_movie_matrix; 1 pass
     print("Constructing user-movie matrix...")
     um_mat = np.zeros(shape=(num_movie+1, num_user+1))
     for _, row in ratings_description.iterrows():
@@ -255,7 +256,7 @@ def predict(predictions):
 
 if __name__ == "__main__":
 
-    USE_COMB = True
+    USE_COMB = False
 
     ################################
     ## DATA IMPORT
