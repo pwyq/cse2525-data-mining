@@ -259,7 +259,7 @@ def predict(predictions):
 ################################
 
 
-def calc_year_vs_rating():
+def calc_year_deviation():
     years = movies_description['year']
     valid_years = years[years > 0]
     valid_rowmu = row_mean['rowMean'][years > 0]
@@ -273,6 +273,11 @@ def calc_year_vs_rating():
             continue
         year_vs_rating[i] = mu
 
+    year_mu = sum(year_vs_rating.values()) / len(year_vs_rating.values())
+
+    for k in year_vs_rating:
+        year_vs_rating[k] -= year_mu
+
     with open('./data/year_vs_rating.pickle', 'wb') as handle:
         pickle.dump(year_vs_rating, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
@@ -282,15 +287,19 @@ def get_gender_vs_rating():
 
     tmp_bx_all = bx_all['normRating'] + global_mu
 
+    gender_mu = np.mean(tmp_bx_all)
+
     male_idx = users_description['gender'] == 'M'
     male_mu = np.mean(tmp_bx_all[male_idx])     # 3.6922798339205434
+    male_mu = male_mu - gender_mu
 
     female_idx = users_description['gender'] == 'F'
     female_mu = np.mean(tmp_bx_all[female_idx]) # 3.7312073213606918
+    female_mu = female_mu - gender_mu
     return [male_mu, female_mu]
 
 
-def calc_age_vs_rating():
+def calc_age_deviation():
     # 222 users whose age=1 (and 163 of which have profession=10) <- default data ? these users data may be untrustworthy
     # no users age in the region of (1, 18)
     tmp_bx_all = read_pickle_file("./data/bx.pkl", calc_user_rating_deviation)
@@ -308,6 +317,12 @@ def calc_age_vs_rating():
         if math.isnan(mu):
             continue
         age_vs_rating[i] = mu
+
+    age_mu = sum(age_vs_rating.values()) / len(age_vs_rating.values())
+
+    for k in age_vs_rating:
+        age_vs_rating[k] -= age_mu
+
     with open('./data/age_vs_rating.pickle', 'wb') as handle:
         pickle.dump(age_vs_rating, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
@@ -328,6 +343,11 @@ def calc_profession_vs_rating():
         if math.isnan(mu):
             continue
         profession_vs_rating[i] = mu
+
+    job_mu = sum(profession_vs_rating.values()) / len(profession_vs_rating.values())
+
+    for k in profession_vs_rating:
+        profession_vs_rating[k] -= job_mu
 
     with open('./data/profession_vs_rating.pickle', 'wb') as handle:
         pickle.dump(profession_vs_rating, handle, protocol=pickle.HIGHEST_PROTOCOL)
@@ -379,11 +399,12 @@ if __name__ == "__main__":
     row_mean = pd.read_pickle("./data/row_mean.pkl")
 
     if USE_YEAR:
-        year_rating = read_pickle_dict('./data/year_vs_rating.pickle', calc_year_vs_rating())
+        year_dvi = read_pickle_dict('./data/year_vs_rating.pickle', calc_year_deviation())
     if USE_USER_INFO:
-        age_rating = read_pickle_dict('./data/age_vs_rating.pickle', calc_age_vs_rating())
-        job_rating = read_pickle_dict('./data/profession_vs_rating.pickle', calc_profession_vs_rating())
+        age_dvi = read_pickle_dict('./data/age_vs_rating.pickle', calc_age_deviation())
+        job_dvi = read_pickle_dict('./data/profession_vs_rating.pickle', calc_profession_vs_rating())
         male_mean, female_mean = get_gender_vs_rating()
+        # TODO: use deviation on final result?
 
     # construct user-movie matrix, fill blank as 0
     um_df = read_csv_file("./data/user_movie_matrix.csv", construct_user_movie_matrix)
