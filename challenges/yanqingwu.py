@@ -221,8 +221,8 @@ def get_rating(x, i, N):
         #     largest_num = round(DYNAMIC_N * len(watched_sim))
         # else:
         #     largest_num = N
-        # largest_num = min(round(DYNAMIC_N * len(watched_sim)), N)
-        largest_num = max(round(DYNAMIC_N * len(watched_sim)), N)
+        largest_num = min(round(DYNAMIC_N * len(watched_sim)), N)
+        # largest_num = max(round(DYNAMIC_N * len(watched_sim)), N)
         idx = np.argpartition(watched_sim, -largest_num)[-largest_num:]
         
         largest_N_scores = watched_sim[idx]
@@ -385,8 +385,8 @@ if __name__ == "__main__":
     USE_COMB = False
     USE_YEAR = True
     USE_USER_INFO = True
-    LARGEST_N = 5
-    DYNAMIC_N = 0.1     # range between 0 and 1
+    LARGEST_N = 20
+    DYNAMIC_N = 0.2     # range between 0 and 1
     # EPSILON = 0.01    # not useful
 
     ################################
