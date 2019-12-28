@@ -202,7 +202,6 @@ def get_custom_dvi(x, i):
 
 
 def get_exception_rating(x, i):
-    # TODO: first try info deviation on exception preds; then try on all preds
     # return avg rating for this movie
     movie_i = um_df.iloc[i-1]
     users_rating = movie_i[movie_i > 0]
@@ -210,11 +209,11 @@ def get_exception_rating(x, i):
     dvi = get_custom_dvi(x, i)
     if users_avg > 0:
         print("[EXCEPTION]: Using users' avg for movie-{}".format(i))
-        print("origin = {}, new = {}".format(users_avg, users_avg+dvi))
+        # print("origin = {}, new = {}".format(users_avg, users_avg+dvi))
         return users_avg + dvi
     else:
         print("[EXCEPTION]: Cold-start for new movie and new user! user-{}, movie-{}".format(x, i))
-        print("origin = {}, new = {}".format(global_mu, global_mu+dvi))
+        # print("origin = {}, new = {}".format(global_mu, global_mu+dvi))
         return global_mu + dvi
 
 
@@ -248,12 +247,8 @@ def get_rating(x, i, N):
         hor = hor[i:num_movie]
         res = np.concatenate((ver.values, hor.values))
         watched_sim = res[x_watched_movie_ids-1]
-        # if DYNAMIC_N > 0:
-        #     largest_num = round(DYNAMIC_N * len(watched_sim))
-        # else:
-        #     largest_num = N
+
         largest_num = min(round(DYNAMIC_N * len(watched_sim)), N)
-        # largest_num = max(round(DYNAMIC_N * len(watched_sim)), N)
         idx = np.argpartition(watched_sim, -largest_num)[-largest_num:]
         
         largest_N_scores = watched_sim[idx]

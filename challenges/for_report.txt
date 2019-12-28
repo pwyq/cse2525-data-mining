@@ -121,4 +121,12 @@ sys	2m45.654s
 3. tried using round()
     - i thought the rating is only integer, so i round each num
     - but the acc dropped from 0.85 to 0.9
+4. tried selectively rounding()
+    - no good
+5. tried different formula for N
+    - N=15 is opt. but might be a result of overfitting
+    - using N=min(20, 0.2L)
+6. tried dvi
+    - for exception: increased 0.05%
+    - for all: bad, very bad, drop 5%
 
