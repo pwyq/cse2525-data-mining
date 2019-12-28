@@ -174,6 +174,7 @@ def calc_similarity_score():
 
 
 def get_exception_rating(x, i):
+    # TODO: first try info deviation on exception preds; then try on all preds
     # return avg rating for this movie
     movie_i = um_df.iloc[i-1]
     users_rating = movie_i[movie_i > 0]
@@ -216,7 +217,13 @@ def get_rating(x, i, N):
         hor = hor[i:num_movie]
         res = np.concatenate((ver.values, hor.values))
         watched_sim = res[x_watched_movie_ids-1]
-        idx = np.argpartition(watched_sim, -N)[-N:]
+        # if DYNAMIC_N > 0:
+        #     largest_num = round(DYNAMIC_N * len(watched_sim))
+        # else:
+        #     largest_num = N
+        # largest_num = min(round(DYNAMIC_N * len(watched_sim)), N)
+        largest_num = max(round(DYNAMIC_N * len(watched_sim)), N)
+        idx = np.argpartition(watched_sim, -largest_num)[-largest_num:]
         
         largest_N_scores = watched_sim[idx]
         largest_N_movies = x_watched_movie_ids[idx]
@@ -234,28 +241,44 @@ def get_rating(x, i, N):
         return bxi + term2
 
 
-def predict(predictions):
+def predict(predictions, N):
     prediction_result = []
     # index may need to change to [1,90019]
     for index in range(0, len(predictions)):
         x = predictions.iloc[index]['userID']
         i = predictions.iloc[index]['movieID']
-        N = 10
         y = get_rating(x, i, N)
         if y > 5:
             pred = 5.0
         elif y < 1:
             pred = 1.0
         else:
+            # pred = selectively_rounding(y)
             pred = y
         prediction_result.append([index+1, pred])
-        print(index+1, pred)
+        # print(index+1, pred)
     return prediction_result
 
 
 ################################################################
 ## EXTRA FUNCTIONS
 ################################################################
+
+
+def selectively_rounding(pred_score):
+    # basically no improvement (best diffs 0.00001 with opt.)
+    if 2-EPSILON <= pred_score <= 2+EPSILON:
+        return 2
+    elif 3-EPSILON <= pred_score <= 3+EPSILON:
+        return 3
+    elif 4-EPSILON <= pred_score <= 4+EPSILON:
+        return 4
+    elif 1 <= pred_score <= 1+EPSILON:
+        return 1
+    elif 5-EPSILON <= pred_score <= 5:
+        return 5
+    else:
+        return pred_score
 
 
 def calc_year_deviation():
@@ -362,6 +385,9 @@ if __name__ == "__main__":
     USE_COMB = False
     USE_YEAR = True
     USE_USER_INFO = True
+    LARGEST_N = 5
+    DYNAMIC_N = 0.1     # range between 0 and 1
+    # EPSILON = 0.01    # not useful
 
     ################################
     ## DATA IMPORT
@@ -422,7 +448,7 @@ if __name__ == "__main__":
     ## PREDICTION
     ################################
 
-    predictions = predict(predictions_description)
+    predictions = predict(predictions_description, LARGEST_N)
 
     # Save predictions, should be in the form 'list of tuples' or 'list of lists'
     with open(submission_file, 'w') as submission_writer:
@@ -434,6 +460,7 @@ if __name__ == "__main__":
         # Writes it dowmn
         submission_writer.write(predictions)
     print("[SUCCESS]: Done")
+    print(USE_COMB, USE_YEAR, USE_USER_INFO, LARGEST_N, DYNAMIC_N)
 
 
 # End of File
