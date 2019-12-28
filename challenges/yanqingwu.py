@@ -173,18 +173,49 @@ def calc_similarity_score():
     tmp_df.to_csv("./data/sim_score.csv", index=False)
 
 
+def get_custom_dvi(x, i):
+    user_entry = users_description.iloc[x-1]
+    movie_entry = movies_description.iloc[i-1]
+    u_age = user_entry['age']
+    u_age_dvi = 0
+    if u_age in age_dvi:
+        u_age_dvi = age_dvi[u_age]
+
+    u_job = user_entry['profession']
+    u_job_dvi = 0
+    if u_job in job_dvi:
+        u_job_dvi = job_dvi[u_job]
+
+    u_ged = user_entry['gender']
+    u_ged_dvi = 0
+    if u_ged == 'M':
+        u_ged_dvi = male_mean
+    elif u_ged == 'F':
+        u_ged_dvi = female_mean
+
+    m_year = movie_entry['year']
+    m_year_dvi = 0
+    if m_year in year_dvi:
+        m_year_dvi = year_dvi[m_year]
+
+    return u_age_dvi + u_job_dvi + u_ged_dvi + m_year_dvi
+
+
 def get_exception_rating(x, i):
     # TODO: first try info deviation on exception preds; then try on all preds
     # return avg rating for this movie
     movie_i = um_df.iloc[i-1]
     users_rating = movie_i[movie_i > 0]
     users_avg = np.mean(users_rating)
+    dvi = get_custom_dvi(x, i)
     if users_avg > 0:
         print("[EXCEPTION]: Using users' avg for movie-{}".format(i))
-        return users_avg
+        print("origin = {}, new = {}".format(users_avg, users_avg+dvi))
+        return users_avg + dvi
     else:
         print("[EXCEPTION]: Cold-start for new movie and new user! user-{}, movie-{}".format(x, i))
-        return global_mu
+        print("origin = {}, new = {}".format(global_mu, global_mu+dvi))
+        return global_mu + dvi
 
 
 def get_rating(x, i, N):
