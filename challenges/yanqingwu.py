@@ -206,13 +206,15 @@ def get_exception_rating(x, i):
     movie_i = um_df.iloc[i-1]
     users_rating = movie_i[movie_i > 0]
     users_avg = np.mean(users_rating)
-    dvi = get_custom_dvi(x, i)
+
+    dvi = get_custom_dvi(x, i) if USE_DVI else 0
+
     if users_avg > 0:
-        print("[EXCEPTION]: Using users' avg for movie-{}".format(i))
+        # print("[EXCEPTION]: Using users' avg for movie-{}".format(i))
         # print("origin = {}, new = {}".format(users_avg, users_avg+dvi))
         return users_avg + dvi
     else:
-        print("[EXCEPTION]: Cold-start for new movie and new user! user-{}, movie-{}".format(x, i))
+        # print("[EXCEPTION]: Cold-start for new movie and new user! user-{}, movie-{}".format(x, i))
         # print("origin = {}, new = {}".format(global_mu, global_mu+dvi))
         return global_mu + dvi
 
@@ -223,17 +225,12 @@ def get_rating(x, i, N):
     bi = bi_all.iloc[i-1]['normRating']
     bxi = global_mu + bx + bi
 
-    '''
     if um_df.iloc[i-1][x-1] != 0:
         # if required prediction has alreaby been rated...
         return um_df.iloc[i-1][x-1]
     else:
         x_movies = um_df.iloc[:, x-1]               # get all movies for user x
         x_watched_movies = x_movies[x_movies > 0]   # filter movies which are watched by user x
-    '''
-
-    x_movies = um_df.iloc[:, x-1]               # get all movies for user x
-    x_watched_movies = x_movies[x_movies > 0]   # filter movies which are watched by user x
 
     if len(x_watched_movies) is 0:
         print("[WARNING]: USER {} WATCHED 0 MOVIE.".format(x))
@@ -334,7 +331,6 @@ def get_gender_vs_rating():
     # all user has a gender
 
     tmp_bx_all = bx_all['normRating'] + global_mu
-
     gender_mu = np.mean(tmp_bx_all)
 
     male_idx = users_description['gender'] == 'M'
@@ -409,8 +405,7 @@ def calc_job_deviation():
 if __name__ == "__main__":
 
     USE_COMB = False
-    USE_YEAR = True
-    USE_USER_INFO = True
+    USE_DVI = True
     LARGEST_N = 20
     DYNAMIC_N = 0.2     # range between 0 and 1
     # EPSILON = 0.01    # not useful
@@ -454,9 +449,8 @@ if __name__ == "__main__":
     bj_all = bi_all['normRating'].values
     row_mean = pd.read_pickle("./data/row_mean.pkl")
 
-    if USE_YEAR:
+    if USE_DVI:
         year_dvi = read_pickle_dict('./data/year_vs_rating.pickle', calc_year_deviation())
-    if USE_USER_INFO:
         age_dvi = read_pickle_dict('./data/age_vs_rating.pickle', calc_age_deviation())
         job_dvi = read_pickle_dict('./data/profession_vs_rating.pickle', calc_job_deviation())
         male_mean, female_mean = get_gender_vs_rating()
@@ -483,10 +477,10 @@ if __name__ == "__main__":
         predictions = [','.join(row) for row in predictions]
         predictions = 'Id,Rating\n'+'\n'.join(predictions)
         
-        # Writes it dowmn
         submission_writer.write(predictions)
+
     print("[SUCCESS]: Done")
-    print(USE_COMB, USE_YEAR, USE_USER_INFO, LARGEST_N, DYNAMIC_N)
+    print(USE_COMB, USE_DVI, LARGEST_N, DYNAMIC_N)
 
 
 # End of File
