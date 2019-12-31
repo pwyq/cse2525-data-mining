@@ -1,10 +1,18 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ************************************************************************** %%
+%% *                                Settings                                * %%
+%% ************************************************************************** %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass{ece}
 \loadglsentries{gls}
 \usepackage{tabto}
 \usepackage{tabularx}
-\usepackage[flushleft]{threeparttable}
 \glsaddall
 \addbibresource{reference}
+\usepackage[flushleft]{threeparttable}
+\usepackage[autostyle=false, style=english]{csquotes}
+\MakeOuterQuote{"}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Make sure the following block contains the correct information               %
@@ -64,14 +72,14 @@
 
 \section{Introduction}
 
-The report, entitled "Netflix Challenge: Movie Rating Prediction", is prepared as my Challenge report for the course CSE2525-Data Mining at the Technische Universiteit Delft.
+The report, entitled ``Netflix Challenge: Movie Rating Prediction'', is prepared as my Challenge report for the course CSE2525-Data Mining at the Technische Universiteit Delft.
 The purpose of this report is to develop a recommendation system for predicting movie ratings.
 The goal of the recommendation system is to achieve Root Mean Square Error (RMSE) as small as possible on an unseen dataset.
 
-\subsection{Datasets}
+\subsection{Netflix Datasets}
 
 \begin{table}[ht!]
-    \caption[The Provided Data Sets]{The Provided Data Sets}	
+    \caption[The Basic Information of Provided Data Sets]{The Basic Information of Provided Data Sets}	
     \label{tab:table-1}	
     \centering
     \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lllllS[table-format=5.2]}	
@@ -123,16 +131,29 @@ The goal of the recommendation system is to achieve Root Mean Square Error (RMSE
 
 Three datasets are provided for training, as described in \Cref{tab:table-1}.
 There is a total of 910,190 ratings, which were given by 6,040 users and 3,706 movies.
-The rest `predictions.csv' file is used for final testing, which contains only `userID` and `movieID'.
+The rest `predictions.csv' file is used for final testing, which contains only `userID` and `movieID' for each entry.
 
 
 \section{Methodology}
 
-yoyoyo
+Data interpretation was first conducted at the beginning of the Challenge, as demonstrated in \Cref{tab:table-1}.
+After examining the data and reviewing the course materials, the first version of the recommendation algorithm was decided as Collaborative Filtering (CF).
+More specifically, Item-Item CF was selected as the first attempt to the Challenge.
+Item-Item CF is more reliable than User-User CF in practice \cite{mmds}, because items are much less dynamic than users.
 
-\subsection{Algorithm I}
+\subsection{Item-Item Collaborative Filtering}
 
-heyheyhey
+\begin{equation}
+	\begin{aligned}\label{eq:1}
+& r_{xi} = b_{xi} + \frac{\sum\limits_{j\in N(i;x)} S_{ij} \cdot (r_{xj} - b_{xj}) }{\sum\limits_{j\in N(i;x)} S_{ij}}  \\
+& b_{xi} = \mu + b_x + b_i
+	\end{aligned}
+\end{equation}
+
+Equation \eqref{eq:1} shows the core idea of the algorithm.
+Term $r_{xi}$ represents the rating of user $x$ on movie $i$.
+Term $s_{ij}$ is the similarity of movie $i$ and movie $j$, which is measured by cosine similarity.
+Term $b_{xi}$ is the baseline estimator for $r_{xi}$, where $\mu$ is the average ratings of all movies, $b_x$ is the rating deviation of user $x$ and $b_i$ is the rating deviation of movie $i$.
 
 \section{Results}
 
