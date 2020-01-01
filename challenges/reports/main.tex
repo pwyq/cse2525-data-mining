@@ -79,8 +79,8 @@ The goal of the recommendation system is to achieve Root Mean Square Error (RMSE
 \subsection{Netflix Datasets}
 
 \begin{table}[ht!]
-    \caption[The Basic Information of Provided Data Sets]{The Basic Information of Provided Data Sets}	
-    \label{tab:table-1}	
+    \caption[The Basic Information of Provided Data Sets]{The Basic Information of Provided Data Sets}
+    \label{tab:table-1}
     \centering
     \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lllllS[table-format=5.2]}	
     	% l=left-justified column, c=centered column, r=right-justified column
@@ -132,6 +132,7 @@ The goal of the recommendation system is to achieve Root Mean Square Error (RMSE
 Three datasets are provided for training, as described in \Cref{tab:table-1}.
 There is a total of 910,190 ratings, which were given by 6,040 users and 3,706 movies.
 The rest `predictions.csv' file is used for final testing, which contains only `userID` and `movieID' for each entry.
+There is a total of 90,019 entries in `predictions.csv' to be predicted and the result is put on Kaggle to determine RMSE score.
 
 
 \section{Methodology}
@@ -142,6 +143,14 @@ More specifically, Item-Item CF was selected as the first attempt to the Challen
 Item-Item CF is more reliable than User-User CF in practice \cite{mmds}, because items are much less dynamic than users.
 
 \subsection{Item-Item Collaborative Filtering}
+\label{item-item-cf}
+
+Collaborative filtering is an approach of ``making automatic predictions (filtering) about the interest of a user by collecting preferences information from many users (collaborating)'' \cite{wiki_cf}.
+There are usually two approaches for collaborative filtering (CF), namely Item-Item CF and User-User CF.
+User-User CF is generally more difficult to scale than Item-Item CF due to the dynamic nature of users, whereas items usually remains constant.
+Hence, Item-item CF was selected.
+
+\subsubsection{Core Equation}
 
 \begin{equation}
 	\begin{aligned}\label{eq:1}
@@ -150,18 +159,90 @@ Item-Item CF is more reliable than User-User CF in practice \cite{mmds}, because
 	\end{aligned}
 \end{equation}
 
-Equation \eqref{eq:1} shows the core idea of the algorithm.
+Equation \eqref{eq:1} shows the core idea of the algorithm \cite{mmds_org}.
 Term $r_{xi}$ represents the rating of user $x$ on movie $i$.
-Term $s_{ij}$ is the similarity of movie $i$ and movie $j$, which is measured by cosine similarity.
+Term $s_{ij}$ is the similarity of movie $i$ and movie $j$, which is measured by centered cosine similarity.
 Term $b_{xi}$ is the baseline estimator for $r_{xi}$, where $\mu$ is the average ratings of all movies, $b_x$ is the rating deviation of user $x$ and $b_i$ is the rating deviation of movie $i$.
+
+\subsubsection{Nearest Neighbors}
+\label{knn}
+For each prediction, the top similar movies to movie $i$ need to be determined, so that a more reasonable prediction can be made.
+The top similar movies to movie $i$ is known as the \textit{nearest neighbors} of item $i$.
+A parameter $N$ is used to denote the amount of nearest neighbors in the following context.
+Additionally, Jaccard similarity is abandoned in determining similarity since it only considers common movies rather than ratings.
+Moreover, Cosine similarity has a more informed interpretation than Jaccard similarity; however, it fails to generalize among users since different users have different standards.
+Pearson correlation (a.k.a centered cosine similarity) preserves the advantage of cosine similarity and removes the bias views of users via subtracting row mean for each movie.
+
+An upper triangular matrix of similarity score is built to fulfill all aforementioned points.
 
 \section{Results}
 
-Some more text.
+\begin{table}[ht!]
+    \caption[N and Cap. vs. RMSE]{N and Cap. vs. RMSE}
+    \label{tab:table-2}
+    \centering
+\begin{tabular}{|l|l|l|}
+\hline
+N  & Cap. & RMSE    \\ \hline
+5  & off  & 0.88071 \\ \hline
+7  & off  & 0.86398 \\ \hline
+10 & off  & 0.85458 \\ \hline
+10 & on   & 0.85397 \\ \hline
+12 & on   & 0.85144 \\ \hline
+15 & on   & 0.84996 \\ \hline
+\end{tabular}
+\end{table}
+
+\Cref{tab:table-2} shows the result of the recommendation system (described in \ref{item-item-cf}) on Kaggle test set.
+As mentioned in \ref{knn}, $N$ is the amount of nearest neighbors.
+
+After noticing some negative ratings and nearly 6.0 ratings, option \textit{Cap.} is introduced.
+The \textit{Cap.} option sets ratings that below 1.0 to 1.0 and ratings that above 5.0 to 5.0.
+
+The maximum static $N$ is 15, because the minimum amount of user $i$ rated movies is 15.
+
+\begin{table}[h]
+    \caption[Rounding vs. RMSE]{Rounding vs. RMSE (\textit{Cap.} = on)}
+    \label{tab:table-3}
+    \centering
+\begin{tabular}{|l|l|l|}
+\hline
+N  & $\epsilon$ & RMSE    \\ \hline
+10 & 0.1     & 0.85458 \\ \hline
+10 & 0.05    & 0.85409 \\ \hline
+10 & 0.02    & 0.85398 \\ \hline
+10 & 0.01    & 0.85398 \\ \hline
+10 & 0       & 0.85397 \\ \hline
+\end{tabular}
+\end{table}
+
+\Cref{tab:table-3} shows an attempt to use rounding to improve RMSE. 
+Hyper-parameter $\epsilon$ represents the range of rounding. For instance, $\epsilon=0.05$ rounds any ratings in the range of $[3.95, 4.05]$ to a 4.0.
+Since the final rating is integer, the author had a mis-belief that rounding those almost certain ratings to their nearest integers would enhance the final result.
+Nevertheless, the result did not improve.
+
+\begin{table}[h]
+    \caption[Dynamic N vs. RMSE]{Dynamic N vs. RMSE (\textit{Cap.} = on)}
+    \label{tab:table-4}
+    \centering
+\begin{tabular}{|l|l|}
+\hline
+N            & RMSE    \\ \hline
+$L_x$                    & 0.87736 \\ \hline
+min(round(0.1$L_x$), 15) & 0.85761 \\ \hline
+min(round(0.2$L_x$), 20) & 0.85280 \\ \hline
+min(round(0.3$L_x$), 30) & 0.85307 \\ \hline
+max(round(0.1$L_x$), 5)  & 0.85754 \\ \hline
+max(round(0.2$L_x$), 5)  & 0.86148 \\ \hline
+\end{tabular}
+\end{table}
+
+\Cref{tab:table-4} shows an attempt to use dynamic N to improve RMSE.
+Parameter $L_x$ is the amount of user $x$ watched movies.
 
 \section{Discussion}
 
-asdfasdfasdf
+Cold-start problem and dealing with missing entries will be discussed in XXX section.
 
 \section{Conclusions and Future Work}
 
@@ -181,15 +262,15 @@ From the analysis in the report body, it was concluded that...
 %% ************************************************************************** %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% appendices use section and subsection numbering
-\appendix
-
-\section{Title of First Appendix}
-\label{app:firstappx}
-Use the No Spacing style.
-
-\section{Another Appendix}
-\label{app:anotherappx}
-Again, use the no spacing style for appendices.
+%% appendices use section and subsection numbering
+%\appendix
+%
+%\section{Title of First Appendix}
+%\label{app:firstappx}
+%Use the No Spacing style.
+%
+%\section{Another Appendix}
+%\label{app:anotherappx}
+%Again, use the no spacing style for appendices.
 
 \end{document}
