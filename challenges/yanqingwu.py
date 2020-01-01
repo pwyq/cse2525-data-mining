@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# File              : yanqingwu.py
+# Author            : Yanqing Wu <meet.yanqing.wu@gmail.com>
+# Date              : 01.01.2020
+# Last Modified Date: 01.01.2020
+# Last Modified By  : Yanqing Wu <meet.yanqing.wu@gmail.com>
 import numpy as np
 import pandas as pd
 from random import randint
@@ -14,7 +21,7 @@ FRAMEWORK FOR DATAMINING CLASS
 NAME: Yanqing
 SURNAME: Wu
 STUDENT ID: 5142571
-KAGGLE ID: Yanqing Wu (Y.Wu-35@student.tudelft.nl)
+KAGGLE ID: yanqingwutudelft (Y.Wu-35@student.tudelft.nl)
 
 
 ### NOTES
@@ -143,7 +150,7 @@ def preprocess_user_movie_matrix():
         x = int(row['movieID'])
         y = int(row['userID'])
         um_mat[x][y] = row['rating'] - row_mean['rowMean'][x-1]
-        print("{}, {} = {}".format(x, y, um_mat[x][y]))
+        # print("{}, {} = {}".format(x, y, um_mat[x][y]))
     _df = pd.DataFrame(data=um_mat)
     _df.to_csv("./data/preprocess_user_movie_matrix.csv", index=False)
 
@@ -168,7 +175,7 @@ def calc_similarity_score():
                 score = 0
             temp_mat[idx_i][idx_j] = score
 
-            print(idx_i, idx_j, score)
+            # print(idx_i, idx_j, score)
     tmp_df = pd.DataFrame(data=temp_mat)
     tmp_df.to_csv("./data/sim_score.csv", index=False)
 
@@ -233,7 +240,7 @@ def get_rating(x, i, N):
         x_watched_movies = x_movies[x_movies > 0]   # filter movies which are watched by user x
 
     if len(x_watched_movies) is 0:
-        print("[WARNING]: USER {} WATCHED 0 MOVIE.".format(x))
+        # print("[WARNING]: USER {} WATCHED 0 MOVIE.".format(x))
         return get_exception_rating(x, i)
     else:
         x_watched_movie_ids = x_watched_movies.index.values
@@ -244,6 +251,7 @@ def get_rating(x, i, N):
         hor = hor[i:num_movie]
         res = np.concatenate((ver.values, hor.values))
         watched_sim = res[x_watched_movie_ids-1]
+        print(len(watched_sim))
 
         largest_num = min(round(DYNAMIC_N * len(watched_sim)), N)
         idx = np.argpartition(watched_sim, -largest_num)[-largest_num:]
@@ -259,7 +267,7 @@ def get_rating(x, i, N):
         if denominator > 0:
             term2 = numerator / denominator
         else:
-            print("[WARNING]: Dividing by 0. Replace with exception ratings...")
+            # print("[WARNING]: Dividing by 0. Replace with exception ratings...")
             return get_exception_rating(x, i)
         return bxi + term2
 

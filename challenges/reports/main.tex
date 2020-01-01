@@ -48,14 +48,6 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% ************************************************************************** %%
-%% *                            List of Figures                             * %%
-%% ************************************************************************** %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\listoffigures
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% ************************************************************************** %%
 %% *                             List of Tables                             * %%
 %% ************************************************************************** %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -177,13 +169,23 @@ An upper triangular matrix of similarity score is built to fulfill all aforement
 
 \section{Results}
 
-\begin{table}[ht!]
-    \caption[N and Cap. vs. RMSE]{N and Cap. vs. RMSE}
+This section shows the Root Mean Square Error (RMSE) of the Item-Item Collaborative Filtering system on Kaggle test set.
+In addition to $N$, some extra options and parameters are introduced to improve RMSE:
+\textit{Cap.},
+$\epsilon$,
+$L_x$ and Local Deviation.
+
+These are explained in the following sections, along with their test results.
+
+\subsection{Local \textit{Cap.}}
+
+\begin{table}[!htpb]
+    \caption[N and \textit{Cap.} vs. RMSE]{N and \textit{Cap.} vs. RMSE}
     \label{tab:table-2}
     \centering
 \begin{tabular}{|l|l|l|}
 \hline
-N  & Cap. & RMSE    \\ \hline
+$N$  & \textit{Cap.} & RMSE    \\ \hline
 5  & off  & 0.88071 \\ \hline
 7  & off  & 0.86398 \\ \hline
 10 & off  & 0.85458 \\ \hline
@@ -199,15 +201,17 @@ As mentioned in \ref{knn}, $N$ is the amount of nearest neighbors.
 After noticing some negative ratings and nearly 6.0 ratings, option \textit{Cap.} is introduced.
 The \textit{Cap.} option sets ratings that below 1.0 to 1.0 and ratings that above 5.0 to 5.0.
 
-The maximum static $N$ is 15, because the minimum amount of user $i$ rated movies is 15.
+The maximum static $N$ is set to 15, because the minimum amount of user $x$ rated movies is 15.
+
+\subsection{Selectively Rounding}
 
 \begin{table}[h]
-    \caption[Rounding vs. RMSE]{Rounding vs. RMSE (\textit{Cap.} = on)}
+    \caption[Selectively Rounding vs. RMSE]{Selectively Rounding vs. RMSE (\textit{Cap.} = on)}
     \label{tab:table-3}
     \centering
 \begin{tabular}{|l|l|l|}
 \hline
-N  & $\epsilon$ & RMSE    \\ \hline
+$N$  & $\epsilon$ & RMSE    \\ \hline
 10 & 0.1     & 0.85458 \\ \hline
 10 & 0.05    & 0.85409 \\ \hline
 10 & 0.02    & 0.85398 \\ \hline
@@ -218,8 +222,8 @@ N  & $\epsilon$ & RMSE    \\ \hline
 
 \Cref{tab:table-3} shows an attempt to use rounding to improve RMSE. 
 Hyper-parameter $\epsilon$ represents the range of rounding. For instance, $\epsilon=0.05$ rounds any ratings in the range of $[3.95, 4.05]$ to a 4.0.
-Since the final rating is integer, the author had a mis-belief that rounding those almost certain ratings to their nearest integers would enhance the final result.
-Nevertheless, the result did not improve.
+
+\subsection{Dynamic $N$}
 
 \begin{table}[h]
     \caption[Dynamic N vs. RMSE]{Dynamic N vs. RMSE (\textit{Cap.} = on)}
@@ -227,7 +231,7 @@ Nevertheless, the result did not improve.
     \centering
 \begin{tabular}{|l|l|}
 \hline
-N            & RMSE    \\ \hline
+$N$            & RMSE    \\ \hline
 $L_x$                    & 0.87736 \\ \hline
 min(round(0.1$L_x$), 15) & 0.85761 \\ \hline
 min(round(0.2$L_x$), 20) & 0.85280 \\ \hline
@@ -237,15 +241,73 @@ max(round(0.2$L_x$), 5)  & 0.86148 \\ \hline
 \end{tabular}
 \end{table}
 
-\Cref{tab:table-4} shows an attempt to use dynamic N to improve RMSE.
-Parameter $L_x$ is the amount of user $x$ watched movies.
+\Cref{tab:table-4} shows an attempt to use dynamic $N$ to improve RMSE.
+Parameter $L_x$ is the amount of user $x$ rated movies.
+Given the fact that $L_x$ ranges from 15 to 2,097, a dynamic way of choosing $N$ is introduced to avoid overfitting or underfitting.
+
+\subsection{Local Deviation}
+
+\begin{table}[h]
+    \caption[Local Deviation vs. RMSE]{Local Deviation vs. RMSE (\textit{Cap.} = on)}
+    \label{tab:table-5}
+    \centering
+\begin{tabular}{|l|l|l|}
+\hline
+$N$                        & Dvi.            & RMSE    \\ \hline
+min(round(0.2$L_x$), 20) & -               & 0.85280 \\ \hline
+min(round(0.2$L_x$), 20) & exception users & 0.85275 \\ \hline
+min(round(0.2$L_x$), 20) & all users       & 0.90199 \\ \hline
+\end{tabular}
+\end{table}
+
+\Cref{tab:table-5} shows an attempt to use local deviation to improve RMSE.
+Local deviation is introduced to address cold-start problem (i.e., when there is insufficient information to make an decision).
+Local deviation takes user's gender, age, profession and movie's year-of-release into consideration.
 
 \section{Discussion}
 
-Cold-start problem and dealing with missing entries will be discussed in XXX section.
+\subsection{Discussion on The Results}
+
+A general trend of $N$ vs. RMSE can be observed in \Cref{tab:table-2}, RMSE drops when $N$ increases.
+This result is desired, since the more relative information is taken during training, the more accurate prediction will be.
+Moreover, RMSE drops dramatically when $N$ is small; RMSE still drops when $N$ is above a certain threshold (10 here), but not as obvious as a small $N$.
+This result makes sense, because there is a diminishing return between the amount of information and the final prediction.
+Furthermore, option \textit{Cap.} improved the result due to the elimination of out-of-range ratings.
+
+As demonstrated in \Cref{tab:table-3}, Seletively Rounding $\epsilon$ does not help minimizing RMSE.
+Since the final rating is an integer, the author had a belief that rounding those almost certain ratings to their nearest integers would enhance the final result.
+Nevertheless, the result did not improve.
+The author concludes that there might not be as many worth-rounding ratings as expected in the datasets.
+
+As shown in \Cref{tab:table-4}, Dynamic $N$ did not improve RMSE.
+Although dynamic $N$ did not achieve a lower RMSE, the author believes that using a dynamic $N$ is more reliable than a static $N$ in terms of avoid overfitting or underfitting.
+
+The last attempt of minimizing RMSE is using local deviation to address cold-start problem.
+Before using local deviation, new users or new movies or a combination of both were given the global average rating.
+After using local deviation, the RMSE improved from 0.85280 to 0.85275 while kept other parameters constant (see \Cref{tab:table-5}).
+
+\subsection{Extra Points}
+
+Two interesting facts were discovered when calculating local deviations.
+
+\textbf{1}. Old movies have higher average ratings.
+
+In contrast to what we learned in lecture that "newer movie have higher ratings".
+This may be a result of different datasets.
+
+\textbf{2}. Some users are too lazy to change default profiles.
+
+Around 200 users (out of 3,706 users) were having $age=1$ and $profession=0$.
+These users are considered as abnormal data entries during training, which are later ignored in the calculation of local deviations.
+
+\subsection{One More Thing}
+
+Since there is only a limited 
 
 \section{Conclusions and Future Work}
 
+In this report, the objective was met.
+An Item-Item Collaborative Filtering recommendation system was successfully developed, achieving a minimum RMSE of 0.84991 on the Kaggle leader board.
 From the analysis in the report body, it was concluded that...
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
