@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# File              : yanqingwu.py
-# Author            : Yanqing Wu <meet.yanqing.wu@gmail.com>
-# Date              : 01.01.2020
-# Last Modified Date: 01.01.2020
-# Last Modified By  : Yanqing Wu <meet.yanqing.wu@gmail.com>
 import numpy as np
 import pandas as pd
 from random import randint
@@ -13,7 +8,6 @@ from pathlib import Path
 import pickle
 import math
 import sys
-# -*- coding: utf-8 -*-
 """
 FRAMEWORK FOR DATAMINING CLASS
 
@@ -130,7 +124,6 @@ def calc_movie_rating_deviation():
 
 
 def construct_user_movie_matrix():
-    # TODO: combine this with preprocess_user_movie_matrix; 1 pass
     print("Constructing user-movie matrix...")
     um_mat = np.zeros(shape=(num_movie+1, num_user+1))
     for _, row in ratings_description.iterrows():
@@ -175,7 +168,7 @@ def calc_similarity_score():
                 score = 0
             temp_mat[idx_i][idx_j] = score
 
-            # print(idx_i, idx_j, score)
+            print(idx_i, idx_j, score)
     tmp_df = pd.DataFrame(data=temp_mat)
     tmp_df.to_csv("./data/sim_score.csv", index=False)
 
@@ -274,7 +267,6 @@ def get_rating(x, i, N):
 
 def predict(predictions, N):
     prediction_result = []
-    # index may need to change to [1,90019]
     for index in range(0, len(predictions)):
         x = predictions.iloc[index]['userID']
         i = predictions.iloc[index]['movieID']
@@ -287,7 +279,7 @@ def predict(predictions, N):
             # pred = selectively_rounding(y)
             pred = y
         prediction_result.append([index+1, pred])
-        # print(index+1, pred)
+        print(index+1, pred)
     return prediction_result
 
 
