@@ -9,7 +9,7 @@
 \usepackage{tabularx}
 \usepackage{floatrow}
 \newfloatcommand{capbtabbox}{table}[][\FBwidth]
-\usepackage{blindtext}
+%\usepackage{blindtext}
 \glsaddall
 \addbibresource{reference}
 \usepackage[flushleft]{threeparttable}
@@ -32,7 +32,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\blindtext
+%\blindtext
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% ************************************************************************** %%
 %% *                               Title Page                               * %%
@@ -186,7 +186,7 @@ In addition to $N$, some extra options and parameters are introduced to improve 
 $\epsilon$,
 $L_x$ and Local Deviation.
 
-These are explained in the following sections, along with their test results.
+These are explained in the following sections, along with their test results. Discussion on the results is on \ref{result-discuss}.
 
 \subsection{Local \textit{Cap.}}
 
@@ -279,6 +279,7 @@ Local deviation takes user's gender, age, profession and movie's year-of-release
 \section{Discussion}
 
 \subsection{Discussion on The Results}
+\label{result-discuss}
 
 A general trend of $N$ vs. RMSE can be observed in \Cref{tab:table-2}, RMSE drops when $N$ increases.
 This result is desired, since the more relative information is taken during training, the more accurate prediction will be.
@@ -323,7 +324,7 @@ Some interesting facts were discovered while calculating local deviations.
 	56  & 3.833  & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}       \\ \hline
 	\end{tabular}
 }{%
-	\caption[Age, Gender vs. Rating]{Age, Gender vs. Rating}%
+	\caption[Age, Gender vs. Rating]{Age, Gender vs. Ratings}%
 	\label{tab:table-6}
 }
 \end{floatrow}
