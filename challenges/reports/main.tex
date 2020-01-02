@@ -7,6 +7,9 @@
 \loadglsentries{gls}
 \usepackage{tabto}
 \usepackage{tabularx}
+\usepackage{floatrow}
+\newfloatcommand{capbtabbox}{table}[][\FBwidth]
+\usepackage{blindtext}
 \glsaddall
 \addbibresource{reference}
 \usepackage[flushleft]{threeparttable}
@@ -29,7 +32,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-
+\blindtext
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% ************************************************************************** %%
 %% *                               Title Page                               * %%
@@ -88,7 +91,7 @@ The goal of the recommendation system is to achieve Root Mean Square Error (RMSE
         \hline	
         \textbf{Dataset} 
         	& \multicolumn{1}{c}{\textbf{Fields}} & \multicolumn{1}{c}{\textbf{Mean}} 
-            & \multicolumn{1}{c}{\textbf{Std}} & \multicolumn{1}{c}{\textbf{Min \& Max}} \\	
+            & \multicolumn{1}{c}{\textbf{Std.}} & \multicolumn{1}{c}{\textbf{Min \& Max}} \\	
         \hline	
         % ~ gives space	
         users
@@ -193,7 +196,7 @@ These are explained in the following sections, along with their test results.
     \centering
 \begin{tabular}{|l|l|l|}
 \hline
-$N$  & \textit{Cap.} & RMSE    \\ \hline
+\textbf{$N$}  & \textbf{\textit{Cap.}} & \textbf{RMSE}    \\ \hline
 5  & off  & 0.88071 \\ \hline
 7  & off  & 0.86398 \\ \hline
 10 & off  & 0.85458 \\ \hline
@@ -219,7 +222,7 @@ The maximum static $N$ is set to 15, because the minimum amount of user $x$ rate
     \centering
 \begin{tabular}{|l|l|l|}
 \hline
-$N$  & $\epsilon$ & RMSE    \\ \hline
+\textbf{$N$}  & \textbf{$\epsilon$} & \textbf{RMSE}    \\ \hline
 10 & 0.1     & 0.85458 \\ \hline
 10 & 0.05    & 0.85409 \\ \hline
 10 & 0.02    & 0.85398 \\ \hline
@@ -239,7 +242,7 @@ Hyper-parameter $\epsilon$ represents the range of rounding. For instance, $\eps
     \centering
 \begin{tabular}{|l|l|}
 \hline
-$N$            & RMSE    \\ \hline
+\textbf{$N$}             & \textbf{RMSE}    \\ \hline
 $L_x$                    & 0.87736 \\ \hline
 min(round(0.1$L_x$), 15) & 0.85761 \\ \hline
 min(round(0.2$L_x$), 20) & 0.85280 \\ \hline
@@ -261,7 +264,7 @@ Given the fact that $L_x$ ranges from 15 to 2,097, a dynamic way of choosing $N$
     \centering
 \begin{tabular}{|l|l|l|}
 \hline
-$N$                        & Dvi.            & RMSE    \\ \hline
+\textbf{$N$}             & \textbf{Dvi.}   & \textbf{RMSE}    \\ \hline
 min(round(0.2$L_x$), 20) & -               & 0.85280 \\ \hline
 min(round(0.2$L_x$), 20) & exception users & 0.85275 \\ \hline
 min(round(0.2$L_x$), 20) & all users       & 0.90199 \\ \hline
@@ -299,15 +302,36 @@ After using local deviation, the RMSE improved from 0.85280 to 0.85275 while kep
 
 Some interesting facts were discovered while calculating local deviations.
 
-\begin{figure}[ht!] % h! means "here!" (instead of on top of the page)
-    \centering \includegraphics[width=0.7\textwidth]{year_vs_rating}
+\begin{figure}[ht!]
+\begin{floatrow}
+\ffigbox{%
+	\includegraphics[width=0.5\textwidth]{year_vs_rating}
+}{%    
     \caption[Year-of-release vs. Ratings]{Year-of-release vs. Ratings}
     \label{fig:year_vs_rating}
+}
+
+\capbtabbox{%
+	\begin{tabular}{|l|l|l|l|}
+	\hline
+	\textbf{age} & \textbf{rating} & \multicolumn{1}{l|}{\textbf{gender}} & \multicolumn{1}{l|}{\textbf{rating}} \\ \hline
+	18  & 3.621  & \multicolumn{1}{l|}{Female} & \multicolumn{1}{l|}{3.731}  \\ \hline
+	25  & 3.668  & \multicolumn{1}{l|}{Male}   & \multicolumn{1}{l|}{3.692}  \\ \hline
+	35  & 3.745  &                             &                             \\ \cline{1-2}
+	45  & 3.771  &                             &                             \\ \cline{1-2}
+	50  & 3.798  &                             &                             \\ \cline{1-2}
+	56  & 3.833  & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}       \\ \hline
+	\end{tabular}
+}{%
+	\caption[Age, Gender vs. Rating]{Age, Gender vs. Rating}%
+	\label{tab:table-6}
+}
+\end{floatrow}
 \end{figure}
 
-\textbf{1}. Old movies have higher average ratings. Female or elder users give higher average ratings.
+\textbf{1}. Old movies have higher average ratings (see \Cref{fig:year_vs_rating}). Female or elder users give higher average ratings (see \Cref{tab:table-6}).
 
-Some possible interpretations to these phenomenons are that (1) people are more strict with new movies than old movies (see \Cref{fig:year_vs_rating});
+Some possible interpretations to these phenomenons are that (1) people are more strict with new movies than old movies;
 (2) people are usually nostalgia; (3) female users are more emotional than male users; (4) elder users are more generous on giving high ratings than young users.
 
 \textbf{2}. Some users are too lazy to change default profiles.
