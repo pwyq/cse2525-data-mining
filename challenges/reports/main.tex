@@ -48,6 +48,14 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% ************************************************************************** %%
+%% *                            List of Figures                             * %%
+%% ************************************************************************** %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\listoffigures
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ************************************************************************** %%
 %% *                             List of Tables                             * %%
 %% ************************************************************************** %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -79,7 +87,7 @@ The goal of the recommendation system is to achieve Root Mean Square Error (RMSE
         % 4.4 means 4 digits before and after the decimal point	
         \hline	
         \textbf{Dataset} 
-        	& \multicolumn{1}{c}{\textbf{Features}} & \multicolumn{1}{c}{\textbf{Mean}} 
+        	& \multicolumn{1}{c}{\textbf{Fields}} & \multicolumn{1}{c}{\textbf{Mean}} 
             & \multicolumn{1}{c}{\textbf{Std}} & \multicolumn{1}{c}{\textbf{Min \& Max}} \\	
         \hline	
         % ~ gives space	
@@ -163,7 +171,7 @@ The top similar movies to movie $i$ is known as the \textit{nearest neighbors} o
 A parameter $N$ is used to denote the amount of nearest neighbors in the following context.
 Additionally, Jaccard similarity is abandoned in determining similarity since it only considers common movies rather than ratings.
 Moreover, Cosine similarity has a more informed interpretation than Jaccard similarity; however, it fails to generalize among users since different users have different standards.
-Pearson correlation (a.k.a centered cosine similarity) preserves the advantage of cosine similarity and removes the bias views of users via subtracting row mean for each movie.
+Pearson correlation (a.k.a centered cosine similarity) preserves the advantage of cosine similarity and removes the biased views of users via subtracting row mean for each movie.
 
 An upper triangular matrix of similarity score is built to fulfill all aforementioned points.
 
@@ -180,7 +188,7 @@ These are explained in the following sections, along with their test results.
 \subsection{Local \textit{Cap.}}
 
 \begin{table}[!htpb]
-    \caption[N and \textit{Cap.} vs. RMSE]{N and \textit{Cap.} vs. RMSE}
+    \caption[$N$ and \textit{Cap.} vs. RMSE]{$N$ and \textit{Cap.} vs. RMSE}
     \label{tab:table-2}
     \centering
 \begin{tabular}{|l|l|l|}
@@ -226,7 +234,7 @@ Hyper-parameter $\epsilon$ represents the range of rounding. For instance, $\eps
 \subsection{Dynamic $N$}
 
 \begin{table}[h]
-    \caption[Dynamic N vs. RMSE]{Dynamic N vs. RMSE (\textit{Cap.} = on)}
+    \caption[Dynamic $N$ vs. RMSE]{Dynamic $N$ vs. RMSE (\textit{Cap.} = on)}
     \label{tab:table-4}
     \centering
 \begin{tabular}{|l|l|}
@@ -264,6 +272,7 @@ min(round(0.2$L_x$), 20) & all users       & 0.90199 \\ \hline
 Local deviation is introduced to address cold-start problem (i.e., when there is insufficient information to make an decision).
 Local deviation takes user's gender, age, profession and movie's year-of-release into consideration.
 
+\newpage
 \section{Discussion}
 
 \subsection{Discussion on The Results}
@@ -282,33 +291,71 @@ The author concludes that there might not be as many worth-rounding ratings as e
 As shown in \Cref{tab:table-4}, Dynamic $N$ did not improve RMSE.
 Although dynamic $N$ did not achieve a lower RMSE, the author believes that using a dynamic $N$ is more reliable than a static $N$ in terms of avoid overfitting or underfitting.
 
-The last attempt of minimizing RMSE is using local deviation to address cold-start problem.
+The last attempt of minimizing RMSE was using local deviation to address cold-start problem.
 Before using local deviation, new users or new movies or a combination of both were given the global average rating.
 After using local deviation, the RMSE improved from 0.85280 to 0.85275 while kept other parameters constant (see \Cref{tab:table-5}).
 
-\subsection{Extra Points}
+\subsection{Observation on Local Deviation}
 
-Two interesting facts were discovered when calculating local deviations.
+Some interesting facts were discovered while calculating local deviations.
 
-\textbf{1}. Old movies have higher average ratings.
+\begin{figure}[ht!] % h! means "here!" (instead of on top of the page)
+    \centering \includegraphics[width=0.7\textwidth]{year_vs_rating}
+    \caption[Year-of-release vs. Ratings]{Year-of-release vs. Ratings}
+    \label{fig:year_vs_rating}
+\end{figure}
 
-In contrast to what we learned in lecture that "newer movie have higher ratings".
-This may be a result of different datasets.
+\textbf{1}. Old movies have higher average ratings. Female or elder users give higher average ratings.
+
+Some possible interpretations to these phenomenons are that (1) people are more strict with new movies than old movies (see \Cref{fig:year_vs_rating});
+(2) people are usually nostalgia; (3) female users are more emotional than male users; (4) elder users are more generous on giving high ratings than young users.
 
 \textbf{2}. Some users are too lazy to change default profiles.
 
-Around 200 users (out of 3,706 users) were having $age=1$ and $profession=0$.
-These users are considered as abnormal data entries during training, which are later ignored in the calculation of local deviations.
+Around 200 users (out of 3,706 users) have $age=1$ and $profession=0$.
+These users are considered as abnormal data entries, which are ignored in the calculation of local deviations.
 
-\subsection{One More Thing}
+\subsection{Bigger Training Set}
 
-Since there is only a limited 
+Since there is only a limited amount of training data, an attempt of increasing training dataset was conducted.
+More specifically, a new rating dataset was produced by adding the least RMSE submission to existing rating dataset.
+As a result, the size of the rating dataset was increased 9.9\% to a total of 1,000,209 (`ratings.csv' 910,190 + `submission.csv' 90,019) entries.
+However, a re-training and re-submission on the new rating dataset did not further minimize RMSE. The result was near 0.858, which was 0.004 higher than then optimal submission.
 
-\section{Conclusions and Future Work}
+Although the result failed to meet expectation, the author still believes that an iterative training (i.e. update training set with the least RMSE submission) may enhance the result eventually.
+Due to a lack of computational resources, the author cannot afford such experiment.
+
+\newpage
+\section{Conclusions and Future Works}
+
+\subsection{Conclusions}
 
 In this report, the objective was met.
-An Item-Item Collaborative Filtering recommendation system was successfully developed, achieving a minimum RMSE of 0.84991 on the Kaggle leader board.
-From the analysis in the report body, it was concluded that...
+An Item-Item Collaborative Filtering recommendation system was successfully developed, achieving a minimum RMSE of 0.84991 on the Kaggle public score board.
+The important conclusions that can be drawn from the report are included below.
+
+\textbf{1}. Larger $N$ improves RMSE, but there is a diminishing return.
+
+\textbf{2}. It is critical to address cold-start problem.
+
+\textbf{3}. Rounding is a bad idea.
+
+\subsection{Future Works}
+
+Some potential steps for future improvement of the work started by this report have been identified.
+
+\textbf{1}. Develop local RMSE test.
+
+Developing own local RMSE test will save a huge amount of time resource. The ratio of splitting limited training set into a new training set and own test set needs to be carefully chosen. 
+
+\textbf{2}. Take movie names into consideration.
+
+In the future, one may use techniques (such as TFIDF) to find correlation of movie names and ratings.
+This may help enhancing the RMSE result.
+
+\textbf{3}. Incorporate latent factor models.
+
+Combining latent factors can further reduce RMSE, help achieving more accurate result.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% ************************************************************************** %%
