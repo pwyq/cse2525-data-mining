@@ -450,9 +450,9 @@ if __name__ == "__main__":
     row_mean = pd.read_pickle("./data/row_mean.pkl")
 
     if USE_DVI:
-        year_dvi = read_pickle_dict('./data/year_vs_rating.pickle', calc_year_deviation())
-        age_dvi = read_pickle_dict('./data/age_vs_rating.pickle', calc_age_deviation())
-        job_dvi = read_pickle_dict('./data/profession_vs_rating.pickle', calc_job_deviation())
+        year_dvi = read_pickle_dict('./data/year_vs_rating.pickle', calc_year_deviation)
+        age_dvi = read_pickle_dict('./data/age_vs_rating.pickle', calc_age_deviation)
+        job_dvi = read_pickle_dict('./data/profession_vs_rating.pickle', calc_job_deviation)
         male_mean, female_mean = get_gender_vs_rating()
 
     # construct user-movie matrix, fill blank as 0
@@ -461,7 +461,7 @@ if __name__ == "__main__":
     # centered user-movie matrix; for calculating sim_score
     pum_df = read_csv_file("./data/preprocess_user_movie_matrix.csv", preprocess_user_movie_matrix)
 
-    # calculate similarity score using cosine distance
+    # calculate similarity score using centered cosine distance
     sim_df = read_csv_file("./data/sim_score.csv", calc_similarity_score)
 
     ################################

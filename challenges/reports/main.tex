@@ -132,10 +132,10 @@ The goal of the recommendation system is to achieve Root Mean Square Error (RMSE
    \end{tablenotes}
 \end{table}
 
-Three datasets are provided for training, as described in \Cref{tab:table-1}.
+Three datasets are provided for model training, as described in \Cref{tab:table-1}.
 There is a total of 910,190 ratings, which were given by 6,040 users and 3,706 movies.
 The rest `predictions.csv' file is used for final testing, which contains only `userID` and `movieID' for each entry.
-There is a total of 90,019 entries in `predictions.csv' to be predicted and the result is put on Kaggle to determine RMSE score.
+There is a total of 90,019 entries in `predictions.csv' to be predicted and the result is put on Kaggle to determine a final RMSE score.
 
 
 \section{Methodology}
@@ -150,7 +150,7 @@ Item-Item CF is more reliable than User-User CF in practice \cite{mmds}, because
 
 Collaborative filtering is an approach of ``making automatic predictions (filtering) about the interest of a user by collecting preferences information from many users (collaborating)'' \cite{wiki_cf}.
 There are usually two approaches for collaborative filtering (CF), namely Item-Item CF and User-User CF.
-User-User CF is generally more difficult to scale than Item-Item CF due to the dynamic nature of users, whereas items usually remains constant.
+Due to the dynamic nature of users, User-User CF is generally more difficult to scale than Item-Item CF, whereas items usually remains constant.
 Hence, Item-item CF was selected.
 
 \subsubsection{Core Equation}
@@ -340,12 +340,13 @@ Some possible interpretations to these phenomenons are that (1) people are more 
 Around 200 users (out of 3,706 users) have $age=1$ and $profession=0$.
 These users are considered as abnormal data entries, which are ignored in the calculation of local deviations.
 
-\subsection{Bigger Training Set}
+\subsection{Larger Training Set}
 
+It is of importance to note that a larger set of data leads to more accurate predictions.
 Since there is only a limited amount of training data, an attempt of increasing training dataset was conducted.
 More specifically, a new rating dataset was produced by adding the least RMSE submission to existing rating dataset.
 As a result, the size of the rating dataset was increased 9.9\% to a total of 1,000,209 (`ratings.csv' 910,190 + `submission.csv' 90,019) entries.
-However, a re-training and re-submission on the new rating dataset did not further minimize RMSE. The result was near 0.858, which was 0.004 higher than then optimal submission.
+However, a re-training and re-submission on the new rating dataset did not further minimize RMSE. The RMSE was near 0.858, which was 0.004 higher than the optimal submission at the time.
 
 Although the result failed to meet expectation, the author still believes that an iterative training (i.e. update training set with the least RMSE submission) may enhance the result eventually.
 Due to a lack of computational resources, the author cannot afford such experiment.
@@ -375,12 +376,12 @@ Developing own local RMSE test will save a huge amount of time resource. The rat
 
 \textbf{2}. Take movie names into consideration.
 
-In the future, one may use techniques (such as TFIDF) to find correlation of movie names and ratings.
+In the future, one may use techniques (such as TF.IDF) to find correlation of movie names and ratings.
 This may help enhancing the RMSE result.
 
 \textbf{3}. Incorporate latent factor models.
 
-Combining latent factors can further reduce RMSE, help achieving more accurate result.
+Based on the course materials, combining latent factors should further reduce RMSE, thus help achieving more accurate result.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% ************************************************************************** %%
