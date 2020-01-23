@@ -1,0 +1,4203 @@
+Cincinnati, OH|Omaha, NE|1
+Cincinnati, OH|Los Angeles, CA|56
+Cincinnati, OH|Milwaukee, WI|26
+Cincinnati, OH|Charlotte, NC|123
+Cincinnati, OH|Raleigh/Durham, NC|50
+Cincinnati, OH|Nashville, TN|50
+Cincinnati, OH|Chicago, IL|353
+Cincinnati, OH|Fort Myers, FL|34
+Cincinnati, OH|Orlando, FL|87
+Cincinnati, OH|San Francisco, CA|25
+Cincinnati, OH|Tampa, FL|32
+Cincinnati, OH|New York, NY|3
+Cincinnati, OH|Miami, FL|62
+Cincinnati, OH|Memphis, TN|80
+Cincinnati, OH|Madison, WI|24
+Cincinnati, OH|Minneapolis, MN|200
+Cincinnati, OH|Philadelphia, PA|88
+Cincinnati, OH|Las Vegas, NV|18
+Cincinnati, OH|Fayetteville, AR|25
+Cincinnati, OH|Boston, MA|98
+Cincinnati, OH|Pittsburgh, PA|53
+Cincinnati, OH|Hartford, CT|72
+Cincinnati, OH|Salt Lake City, UT|57
+Cincinnati, OH|St. Louis, MO|75
+Cincinnati, OH|Atlanta, GA|180
+Cincinnati, OH|Seattle, WA|1
+Cincinnati, OH|Washington, DC|96
+Cincinnati, OH|Greer, SC|25
+Cincinnati, OH|Kansas City, MO|47
+Cincinnati, OH|Jacksonville, FL|25
+Cincinnati, OH|Richmond, VA|46
+Cincinnati, OH|Fort Lauderdale, FL|33
+Cincinnati, OH|New York, NY|40
+Cincinnati, OH|Dallas/Fort Worth, TX|225
+Cincinnati, OH|Washington, DC|74
+Cincinnati, OH|Baltimore, MD|75
+Cincinnati, OH|Denver, CO|25
+Cincinnati, OH|Detroit, MI|149
+Cincinnati, OH|Harrisburg, PA|25
+Cincinnati, OH|Houston, TX|102
+Cincinnati, OH|Newark, NJ|221
+Cincinnati, OH|New Orleans, LA|25
+Anchorage, AK|Kotzebue, AK|60
+Anchorage, AK|Seattle, WA|399
+Anchorage, AK|Kona, HI|4
+Anchorage, AK|Juneau, AK|88
+Anchorage, AK|Kodiak, AK|56
+Anchorage, AK|Portland, OR|62
+Anchorage, AK|Adak Island, AK|9
+Anchorage, AK|Nome, AK|31
+Anchorage, AK|Phoenix, AZ|37
+Anchorage, AK|Salt Lake City, UT|2
+Anchorage, AK|Cordova, AK|30
+Anchorage, AK|Bethel, AK|83
+Anchorage, AK|Denver, CO|31
+Anchorage, AK|Kahului, HI|13
+Anchorage, AK|Minneapolis, MN|47
+Anchorage, AK|Fairbanks, AK|210
+Anchorage, AK|Chicago, IL|8
+Anchorage, AK|Deadhorse, AK|27
+Anchorage, AK|Honolulu, HI|31
+St. Louis, MO|Raleigh/Durham, NC|31
+St. Louis, MO|Albuquerque, NM|5
+St. Louis, MO|Cincinnati, OH|50
+St. Louis, MO|Oklahoma City, OK|55
+St. Louis, MO|San Diego, CA|1
+St. Louis, MO|Omaha, NE|81
+St. Louis, MO|Los Angeles, CA|113
+St. Louis, MO|Milwaukee, WI|49
+St. Louis, MO|Charlotte, NC|108
+St. Louis, MO|Houston, TX|107
+St. Louis, MO|Nashville, TN|58
+St. Louis, MO|Chicago, IL|255
+St. Louis, MO|Fort Myers, FL|58
+St. Louis, MO|Orlando, FL|125
+St. Louis, MO|San Francisco, CA|19
+St. Louis, MO|Tampa, FL|62
+St. Louis, MO|Louisville, KY|53
+St. Louis, MO|Las Vegas, NV|93
+St. Louis, MO|Miami, FL|83
+St. Louis, MO|Memphis, TN|52
+St. Louis, MO|Minneapolis, MN|196
+St. Louis, MO|Philadelphia, PA|55
+St. Louis, MO|Phoenix, AZ|174
+St. Louis, MO|New York, NY|150
+St. Louis, MO|Boston, MA|56
+St. Louis, MO|Salt Lake City, UT|79
+St. Louis, MO|Chicago, IL|257
+St. Louis, MO|Little Rock, AR|34
+St. Louis, MO|Tulsa, OK|54
+St. Louis, MO|Cleveland, OH|15
+St. Louis, MO|Atlanta, GA|318
+St. Louis, MO|Washington, DC|151
+St. Louis, MO|Kansas City, MO|134
+St. Louis, MO|Seattle, WA|62
+St. Louis, MO|San Antonio, TX|54
+St. Louis, MO|Dallas, TX|231
+St. Louis, MO|Fort Lauderdale, FL|31
+St. Louis, MO|New York, NY|25
+St. Louis, MO|Columbus, OH|50
+St. Louis, MO|Dallas/Fort Worth, TX|235
+St. Louis, MO|Baltimore, MD|114
+St. Louis, MO|Denver, CO|195
+St. Louis, MO|Detroit, MI|163
+St. Louis, MO|Birmingham, AL|31
+St. Louis, MO|Houston, TX|104
+St. Louis, MO|Newark, NJ|212
+St. Louis, MO|New Orleans, LA|54
+San Diego, CA|Albuquerque, NM|58
+San Diego, CA|Kahului, HI|31
+San Diego, CA|Oakland, CA|318
+San Diego, CA|San Jose, CA|267
+San Diego, CA|Los Angeles, CA|839
+San Diego, CA|Reno, NV|57
+San Diego, CA|El Paso, TX|31
+San Diego, CA|Charlotte, NC|57
+San Diego, CA|Houston, TX|58
+San Diego, CA|Nashville, TN|31
+San Diego, CA|Minneapolis, MN|84
+San Diego, CA|Portland, OR|92
+San Diego, CA|Chicago, IL|162
+San Diego, CA|Orlando, FL|21
+San Diego, CA|San Francisco, CA|633
+San Diego, CA|Honolulu, HI|62
+San Diego, CA|Mammoth Lakes, CA|31
+San Diego, CA|Philadelphia, PA|66
+San Diego, CA|Phoenix, AZ|531
+San Diego, CA|Las Vegas, NV|329
+San Diego, CA|Boston, MA|37
+San Diego, CA|Salt Lake City, UT|139
+San Diego, CA|Chicago, IL|85
+San Diego, CA|Kansas City, MO|31
+San Diego, CA|Cleveland, OH|2
+San Diego, CA|St. Louis, MO|1
+San Diego, CA|Atlanta, GA|146
+San Diego, CA|Austin, TX|59
+San Diego, CA|Washington, DC|31
+San Diego, CA|Colorado Springs, CO|17
+San Diego, CA|Seattle, WA|201
+San Diego, CA|San Antonio, TX|57
+San Diego, CA|New York, NY|114
+San Diego, CA|Sacramento, CA|281
+San Diego, CA|Tucson, AZ|85
+San Diego, CA|Dallas/Fort Worth, TX|265
+San Diego, CA|Newark, NJ|90
+San Diego, CA|Baltimore, MD|58
+San Diego, CA|Denver, CO|372
+San Diego, CA|Detroit, MI|50
+San Diego, CA|Houston, TX|151
+San Diego, CA|Washington, DC|93
+Kotzebue, AK|Nome, AK|60
+Kotzebue, AK|Anchorage, AK|31
+Pocatello, ID|Salt Lake City, UT|85
+Pasco/Kennewick/Richland, WA|Denver, CO|80
+Pasco/Kennewick/Richland, WA|Salt Lake City, UT|109
+Pasco/Kennewick/Richland, WA|Minneapolis, MN|31
+Pasco/Kennewick/Richland, WA|San Francisco, CA|31
+Fort Wayne, IN|Detroit, MI|112
+Fort Wayne, IN|Dallas/Fort Worth, TX|62
+Fort Wayne, IN|Chicago, IL|174
+Fort Wayne, IN|Minneapolis, MN|2
+Fort Wayne, IN|Atlanta, GA|87
+Jackson, WY|San Francisco, CA|27
+Jackson, WY|Los Angeles, CA|31
+Jackson, WY|Dallas/Fort Worth, TX|23
+Jackson, WY|Newark, NJ|2
+Jackson, WY|Atlanta, GA|9
+Jackson, WY|Denver, CO|60
+Jackson, WY|Salt Lake City, UT|92
+Jackson, WY|Chicago, IL|23
+Jackson, WY|Minneapolis, MN|6
+Dothan, AL|Atlanta, GA|116
+El Paso, TX|Houston, TX|84
+El Paso, TX|Albuquerque, NM|8
+El Paso, TX|San Diego, CA|31
+El Paso, TX|Phoenix, AZ|297
+El Paso, TX|Dallas, TX|200
+El Paso, TX|Las Vegas, NV|89
+El Paso, TX|Los Angeles, CA|113
+El Paso, TX|Dallas/Fort Worth, TX|240
+El Paso, TX|Atlanta, GA|56
+El Paso, TX|Denver, CO|109
+El Paso, TX|Austin, TX|84
+El Paso, TX|Houston, TX|169
+El Paso, TX|Chicago, IL|90
+El Paso, TX|San Antonio, TX|77
+Roanoke, VA|Detroit, MI|2
+Roanoke, VA|Chicago, IL|63
+Roanoke, VA|Washington, DC|60
+Roanoke, VA|Atlanta, GA|118
+Rochester, NY|Orlando, FL|30
+Rochester, NY|New York, NY|1
+Rochester, NY|Tampa, FL|31
+Rochester, NY|New York, NY|171
+Rochester, NY|Washington, DC|47
+Rochester, NY|Baltimore, MD|66
+Rochester, NY|Cleveland, OH|4
+Rochester, NY|Atlanta, GA|150
+Rochester, NY|Charlotte, NC|31
+Rochester, NY|Detroit, MI|102
+Rochester, NY|Chicago, IL|205
+Rochester, NY|Newark, NJ|41
+Charlotte, NC|Cincinnati, OH|124
+Charlotte, NC|San Diego, CA|56
+Charlotte, NC|Allentown/Bethlehem/Easton, PA|31
+Charlotte, NC|Omaha, NE|57
+Charlotte, NC|Charlotte Amalie, VI|38
+Charlotte, NC|Buffalo, NY|116
+Charlotte, NC|Portland, ME|31
+Charlotte, NC|Rochester, NY|31
+Charlotte, NC|Austin, TX|82
+Charlotte, NC|Raleigh/Durham, NC|254
+Charlotte, NC|Nashville, TN|176
+Charlotte, NC|Norfolk, VA|154
+Charlotte, NC|Chicago, IL|518
+Charlotte, NC|Fort Myers, FL|169
+Charlotte, NC|Sarasota/Bradenton, FL|55
+Charlotte, NC|Orlando, FL|296
+Charlotte, NC|Indianapolis, IN|82
+Charlotte, NC|San Francisco, CA|124
+Charlotte, NC|Tampa, FL|264
+Charlotte, NC|Greensboro/High Point, NC|74
+Charlotte, NC|Charleston, SC|159
+Charlotte, NC|Las Vegas, NV|145
+Charlotte, NC|Miami, FL|360
+Charlotte, NC|Christiansted, VI|4
+Charlotte, NC|Scranton/Wilkes-Barre, PA|27
+Charlotte, NC|Albany, NY|57
+Charlotte, NC|Memphis, TN|208
+Charlotte, NC|Minneapolis, MN|158
+Charlotte, NC|Hartford, CT|142
+Charlotte, NC|Philadelphia, PA|282
+Charlotte, NC|Los Angeles, CA|150
+Charlotte, NC|West Palm Beach/Palm Beach, FL|179
+Charlotte, NC|Phoenix, AZ|243
+Charlotte, NC|New York, NY|435
+Charlotte, NC|Boston, MA|324
+Charlotte, NC|Pittsburgh, PA|252
+Charlotte, NC|Syracuse, NY|70
+Charlotte, NC|Salt Lake City, UT|59
+Charlotte, NC|Savannah, GA|113
+Charlotte, NC|Cleveland, OH|144
+Charlotte, NC|St. Louis, MO|108
+Charlotte, NC|Atlanta, GA|629
+Charlotte, NC|Seattle, WA|42
+Charlotte, NC|San Juan, PR|72
+Charlotte, NC|Washington, DC|240
+Charlotte, NC|Manchester, NH|3
+Charlotte, NC|Pensacola, FL|57
+Charlotte, NC|Providence, RI|144
+Charlotte, NC|Kansas City, MO|106
+Charlotte, NC|Jacksonville, FL|196
+Charlotte, NC|San Antonio, TX|82
+Charlotte, NC|Richmond, VA|169
+Charlotte, NC|Fort Lauderdale, FL|267
+Charlotte, NC|Myrtle Beach, SC|122
+Charlotte, NC|New York, NY|240
+Charlotte, NC|Columbus, OH|27
+Charlotte, NC|Wilmington, NC|123
+Charlotte, NC|Dallas/Fort Worth, TX|408
+Charlotte, NC|Newark, NJ|381
+Charlotte, NC|Baltimore, MD|327
+Charlotte, NC|Denver, CO|149
+Charlotte, NC|Detroit, MI|254
+Charlotte, NC|Harrisburg, PA|90
+Charlotte, NC|Birmingham, AL|72
+Charlotte, NC|Houston, TX|397
+Charlotte, NC|Washington, DC|315
+Charlotte, NC|New Orleans, LA|170
+Killeen, TX|Dallas/Fort Worth, TX|271
+Killeen, TX|Houston, TX|100
+Killeen, TX|Atlanta, GA|59
+Kahului, HI|Phoenix, AZ|43
+Kahului, HI|Seattle, WA|93
+Kahului, HI|Kona, HI|94
+Kahului, HI|San Diego, CA|31
+Kahului, HI|Oakland, CA|62
+Kahului, HI|San Jose, CA|62
+Kahului, HI|San Francisco, CA|72
+Kahului, HI|Sacramento, CA|31
+Kahului, HI|Bellingham, WA|18
+Kahului, HI|Los Angeles, CA|193
+Kahului, HI|Hilo, HI|62
+Kahului, HI|Dallas/Fort Worth, TX|31
+Kahului, HI|Honolulu, HI|996
+Kahului, HI|Denver, CO|24
+Kahului, HI|Anchorage, AK|13
+Kahului, HI|Portland, OR|62
+Kahului, HI|Lihue, HI|94
+Nashville, TN|Raleigh/Durham, NC|110
+Nashville, TN|Cincinnati, OH|50
+Nashville, TN|Oklahoma City, OK|1
+Nashville, TN|San Diego, CA|31
+Nashville, TN|Los Angeles, CA|121
+Nashville, TN|Charlotte, NC|176
+Nashville, TN|Houston, TX|112
+Nashville, TN|Norfolk, VA|31
+Nashville, TN|Chicago, IL|375
+Nashville, TN|Panama City, FL|58
+Nashville, TN|Orlando, FL|123
+Nashville, TN|Tampa, FL|116
+Nashville, TN|Charleston, SC|31
+Nashville, TN|Las Vegas, NV|67
+Nashville, TN|Miami, FL|83
+Nashville, TN|Fort Myers, FL|26
+Nashville, TN|Memphis, TN|51
+Nashville, TN|Minneapolis, MN|124
+Nashville, TN|Philadelphia, PA|59
+Nashville, TN|Phoenix, AZ|59
+Nashville, TN|New York, NY|226
+Nashville, TN|Boston, MA|31
+Nashville, TN|Salt Lake City, UT|31
+Nashville, TN|Chicago, IL|195
+Nashville, TN|Cleveland, OH|134
+Nashville, TN|St. Louis, MO|58
+Nashville, TN|Atlanta, GA|270
+Nashville, TN|Austin, TX|53
+Nashville, TN|Washington, DC|139
+Nashville, TN|Greer, SC|31
+Nashville, TN|Kansas City, MO|84
+Nashville, TN|Jacksonville, FL|84
+Nashville, TN|San Antonio, TX|58
+Nashville, TN|Fort Lauderdale, FL|61
+Nashville, TN|New York, NY|62
+Nashville, TN|Columbus, OH|58
+Nashville, TN|Dallas/Fort Worth, TX|234
+Nashville, TN|Newark, NJ|112
+Nashville, TN|Baltimore, MD|166
+Nashville, TN|Denver, CO|206
+Nashville, TN|Detroit, MI|223
+Nashville, TN|Houston, TX|171
+Nashville, TN|Washington, DC|65
+Nashville, TN|New Orleans, LA|112
+Islip, NY|Tampa, FL|39
+Islip, NY|Fort Lauderdale, FL|62
+Islip, NY|Orlando, FL|98
+Islip, NY|West Palm Beach/Palm Beach, FL|62
+Islip, NY|Baltimore, MD|146
+Grand Rapids, MI|Fort Myers, FL|17
+Grand Rapids, MI|Orlando, FL|31
+Grand Rapids, MI|New York, NY|22
+Grand Rapids, MI|Tampa, FL|12
+Grand Rapids, MI|Baltimore, MD|62
+Grand Rapids, MI|Newark, NJ|76
+Grand Rapids, MI|Dallas/Fort Worth, TX|93
+Grand Rapids, MI|Cleveland, OH|52
+Grand Rapids, MI|Atlanta, GA|92
+Grand Rapids, MI|Denver, CO|31
+Grand Rapids, MI|Detroit, MI|119
+Grand Rapids, MI|Houston, TX|31
+Grand Rapids, MI|Chicago, IL|124
+Grand Rapids, MI|Minneapolis, MN|125
+Chicago, IL|Cincinnati, OH|300
+Chicago, IL|Anchorage, AK|9
+Chicago, IL|Duluth, MN|100
+Chicago, IL|San Diego, CA|188
+Chicago, IL|Fort Wayne, IN|174
+Chicago, IL|Charlotte Amalie, VI|8
+Chicago, IL|Reno, NV|31
+Chicago, IL|El Paso, TX|89
+Chicago, IL|Roanoke, VA|63
+Chicago, IL|Rochester, NY|183
+Chicago, IL|Charlotte, NC|541
+Chicago, IL|Kahului, HI|1
+Chicago, IL|Nashville, TN|381
+Chicago, IL|Grand Rapids, MI|97
+Chicago, IL|Palm Springs, CA|35
+Chicago, IL|Moline, IL|97
+Chicago, IL|San Francisco, CA|589
+Chicago, IL|Sioux City, IA|58
+Chicago, IL|Dayton, OH|160
+Chicago, IL|Wichita, KS|207
+Chicago, IL|Honolulu, HI|40
+Chicago, IL|Memphis, TN|190
+Chicago, IL|Madison, WI|205
+Chicago, IL|Minneapolis, MN|624
+Chicago, IL|Philadelphia, PA|524
+Chicago, IL|Phoenix, AZ|400
+Chicago, IL|Peoria, IL|105
+Chicago, IL|Boston, MA|459
+Chicago, IL|Hartford, CT|227
+Chicago, IL|San Juan, PR|45
+Chicago, IL|Washington, DC|467
+Chicago, IL|Bloomington/Normal, IL|27
+Chicago, IL|Knoxville, TN|179
+Chicago, IL|Colorado Springs, CO|115
+Chicago, IL|Seattle, WA|257
+Chicago, IL|Eau Claire, WI|62
+Chicago, IL|Birmingham, AL|82
+Chicago, IL|Sioux Falls, SD|196
+Chicago, IL|Washington, DC|180
+Chicago, IL|New Orleans, LA|129
+Chicago, IL|Oklahoma City, OK|158
+Chicago, IL|San Jose, CA|38
+Chicago, IL|Rapid City, SD|2
+Chicago, IL|Mosinee, WI|120
+Chicago, IL|Portland, ME|2
+Chicago, IL|Asheville, NC|57
+Chicago, IL|Portland, OR|124
+Chicago, IL|Scranton/Wilkes-Barre, PA|53
+Chicago, IL|South Bend, IN|123
+Chicago, IL|Pensacola, FL|6
+Chicago, IL|Las Vegas, NV|226
+Chicago, IL|Miami, FL|296
+Chicago, IL|Hayden, CO|23
+Chicago, IL|Fort Myers, FL|192
+Chicago, IL|Lincoln, NE|91
+Chicago, IL|Akron, OH|74
+Chicago, IL|Allentown/Bethlehem/Easton, PA|84
+Chicago, IL|Pittsburgh, PA|292
+Chicago, IL|Little Rock, AR|222
+Chicago, IL|Burlington, VT|31
+Chicago, IL|Austin, TX|161
+Chicago, IL|Cedar Rapids/Iowa City, IA|143
+Chicago, IL|Savannah, GA|64
+Chicago, IL|Jacksonville, FL|104
+Chicago, IL|San Antonio, TX|175
+Chicago, IL|Richmond, VA|208
+Chicago, IL|Fort Lauderdale, FL|216
+Chicago, IL|Sarasota/Bradenton, FL|31
+Chicago, IL|Chattanooga, TN|31
+Chicago, IL|Houston, TX|482
+Chicago, IL|Columbia, SC|88
+Chicago, IL|Evansville, IN|116
+Chicago, IL|Denver, CO|393
+Chicago, IL|Harrisburg, PA|120
+Chicago, IL|Louisville, KY|74
+Chicago, IL|Newark, NJ|501
+Chicago, IL|Albuquerque, NM|50
+Chicago, IL|Albany, NY|67
+Chicago, IL|Springfield, IL|89
+Chicago, IL|Omaha, NE|286
+Chicago, IL|Providence, RI|33
+Chicago, IL|Charlottesville, VA|62
+Chicago, IL|Rochester, MN|31
+Chicago, IL|Buffalo, NY|213
+Chicago, IL|Orlando, FL|258
+Chicago, IL|Jackson, WY|23
+Chicago, IL|Aspen, CO|107
+Chicago, IL|Charleston, SC|85
+Chicago, IL|Eagle, CO|31
+Chicago, IL|Jackson/Vicksburg, MS|31
+Chicago, IL|Indianapolis, IN|96
+Chicago, IL|Des Moines, IA|343
+Chicago, IL|Kalamazoo, MI|62
+Chicago, IL|West Palm Beach/Palm Beach, FL|93
+Chicago, IL|Appleton, WI|120
+Chicago, IL|Green Bay, WI|195
+Chicago, IL|Syracuse, NY|179
+Chicago, IL|St. Louis, MO|257
+Chicago, IL|Atlanta, GA|661
+Chicago, IL|Manhattan/Ft. Riley, KS|62
+Chicago, IL|Manchester, NH|58
+Chicago, IL|Charleston/Dunbar, WV|53
+Chicago, IL|Saginaw/Bay City/Midland, MI|93
+Chicago, IL|Kansas City, MO|415
+Chicago, IL|Marquette, MI|27
+Chicago, IL|Bozeman, MT|2
+Chicago, IL|New York, NY|184
+Chicago, IL|Sacramento, CA|33
+Chicago, IL|Champaign/Urbana, IL|147
+Chicago, IL|Columbus, OH|279
+Chicago, IL|Boise, ID|31
+Chicago, IL|Detroit, MI|518
+Chicago, IL|Fargo, ND|199
+Chicago, IL|Traverse City, MI|126
+Chicago, IL|Los Angeles, CA|578
+Chicago, IL|Milwaukee, WI|303
+Chicago, IL|Muskegon, MI|62
+Chicago, IL|Raleigh/Durham, NC|237
+Chicago, IL|Montrose/Delta, CO|31
+Chicago, IL|Watertown, NY|54
+Chicago, IL|Lexington, KY|169
+Chicago, IL|White Plains, NY|99
+Chicago, IL|Tampa, FL|186
+Chicago, IL|Hancock/Houghton, MI|62
+Chicago, IL|Dallas/Fort Worth, TX|619
+Chicago, IL|Huntsville, AL|84
+Chicago, IL|Santa Ana, CA|201
+Chicago, IL|New York, NY|585
+Chicago, IL|Waterloo, IA|58
+Chicago, IL|Springfield, MO|90
+Chicago, IL|Lansing, MI|89
+Chicago, IL|Fayetteville, AR|249
+Chicago, IL|Paducah, KY|62
+Chicago, IL|Salt Lake City, UT|267
+Chicago, IL|Cleveland, OH|588
+Chicago, IL|Greensboro/High Point, NC|86
+Chicago, IL|Norfolk, VA|32
+Chicago, IL|Greer, SC|44
+Chicago, IL|Tulsa, OK|202
+Chicago, IL|Tucson, AZ|62
+Chicago, IL|Baltimore, MD|206
+Palm Springs, CA|New York, NY|4
+Palm Springs, CA|Seattle, WA|68
+Palm Springs, CA|Phoenix, AZ|180
+Palm Springs, CA|San Francisco, CA|265
+Palm Springs, CA|Houston, TX|31
+Palm Springs, CA|Las Vegas, NV|93
+Palm Springs, CA|Salt Lake City, UT|62
+Palm Springs, CA|Dallas/Fort Worth, TX|93
+Palm Springs, CA|Denver, CO|119
+Palm Springs, CA|Los Angeles, CA|146
+Palm Springs, CA|Portland, OR|31
+Palm Springs, CA|Chicago, IL|35
+Moline, IL|Dallas/Fort Worth, TX|89
+Moline, IL|Atlanta, GA|88
+Moline, IL|Denver, CO|27
+Moline, IL|Detroit, MI|86
+Moline, IL|Chicago, IL|101
+Moline, IL|Minneapolis, MN|55
+Alexandria, LA|Dallas/Fort Worth, TX|93
+Alexandria, LA|Houston, TX|102
+Alexandria, LA|Atlanta, GA|109
+Sun Valley/Hailey/Ketchum, ID|Salt Lake City, UT|130
+Valdosta, GA|Atlanta, GA|86
+Juneau, AK|Sitka, AK|62
+Juneau, AK|Seattle, WA|61
+Juneau, AK|Ketchikan, AK|31
+Juneau, AK|Petersburg, AK|31
+Juneau, AK|Anchorage, AK|88
+Juneau, AK|Yakutat, AK|30
+Hayden, CO|Los Angeles, CA|8
+Hayden, CO|Dallas/Fort Worth, TX|31
+Hayden, CO|Atlanta, GA|27
+Hayden, CO|Denver, CO|71
+Hayden, CO|Houston, TX|31
+Hayden, CO|Chicago, IL|23
+Hayden, CO|Newark, NJ|4
+Columbia, MO|Orlando, FL|9
+Columbia, MO|Atlanta, GA|62
+Pensacola, FL|Charlotte, NC|57
+Pensacola, FL|Miami, FL|93
+Pensacola, FL|Dallas/Fort Worth, TX|151
+Pensacola, FL|Atlanta, GA|299
+Pensacola, FL|Houston, TX|126
+Pensacola, FL|Chicago, IL|6
+Pensacola, FL|Washington, DC|30
+Sioux City, IA|Chicago, IL|58
+Dayton, OH|Orlando, FL|31
+Dayton, OH|Tampa, FL|31
+Dayton, OH|Baltimore, MD|65
+Dayton, OH|Washington, DC|29
+Dayton, OH|Dallas/Fort Worth, TX|89
+Dayton, OH|Cleveland, OH|27
+Dayton, OH|Atlanta, GA|232
+Dayton, OH|Denver, CO|68
+Dayton, OH|Detroit, MI|86
+Dayton, OH|Minneapolis, MN|87
+Dayton, OH|Chicago, IL|161
+Dayton, OH|Newark, NJ|85
+San Angelo, TX|Dallas/Fort Worth, TX|120
+Bangor, ME|Detroit, MI|30
+Hobbs, NM|Houston, TX|49
+Bellingham, WA|Kahului, HI|18
+Bellingham, WA|Honolulu, HI|31
+Bellingham, WA|Las Vegas, NV|31
+Honolulu, HI|Pago Pago, TT|9
+Honolulu, HI|Kahului, HI|997
+Honolulu, HI|San Diego, CA|62
+Honolulu, HI|Oakland, CA|48
+Honolulu, HI|San Jose, CA|45
+Honolulu, HI|Los Angeles, CA|422
+Honolulu, HI|Lihue, HI|633
+Honolulu, HI|Anchorage, AK|31
+Honolulu, HI|Portland, OR|62
+Honolulu, HI|Chicago, IL|40
+Honolulu, HI|Kona, HI|688
+Honolulu, HI|San Francisco, CA|150
+Honolulu, HI|Hilo, HI|509
+Honolulu, HI|Guam, TT|31
+Honolulu, HI|Bellingham, WA|31
+Honolulu, HI|Phoenix, AZ|92
+Honolulu, HI|Las Vegas, NV|71
+Honolulu, HI|Salt Lake City, UT|31
+Honolulu, HI|Atlanta, GA|31
+Honolulu, HI|Seattle, WA|155
+Honolulu, HI|New York, NY|31
+Honolulu, HI|Sacramento, CA|31
+Honolulu, HI|Dallas/Fort Worth, TX|62
+Honolulu, HI|Washington, DC|27
+Honolulu, HI|Denver, CO|37
+Honolulu, HI|Houston, TX|31
+Honolulu, HI|Newark, NJ|31
+Memphis, TN|Cincinnati, OH|80
+Memphis, TN|Oklahoma City, OK|51
+Memphis, TN|Omaha, NE|26
+Memphis, TN|Los Angeles, CA|52
+Memphis, TN|Milwaukee, WI|50
+Memphis, TN|Charlotte, NC|208
+Memphis, TN|Raleigh/Durham, NC|50
+Memphis, TN|Nashville, TN|51
+Memphis, TN|Chicago, IL|214
+Memphis, TN|Knoxville, TN|51
+Memphis, TN|Orlando, FL|57
+Memphis, TN|Tampa, FL|26
+Memphis, TN|Las Vegas, NV|50
+Memphis, TN|Miami, FL|31
+Memphis, TN|Jackson/Vicksburg, MS|51
+Memphis, TN|Indianapolis, IN|75
+Memphis, TN|Des Moines, IA|26
+Memphis, TN|Minneapolis, MN|90
+Memphis, TN|Philadelphia, PA|46
+Memphis, TN|Phoenix, AZ|25
+Memphis, TN|New York, NY|57
+Memphis, TN|Fayetteville, AR|49
+Memphis, TN|Boston, MA|25
+Memphis, TN|Pittsburgh, PA|26
+Memphis, TN|Salt Lake City, UT|82
+Memphis, TN|Little Rock, AR|26
+Memphis, TN|Springfield, MO|1
+Memphis, TN|St. Louis, MO|51
+Memphis, TN|Atlanta, GA|408
+Memphis, TN|Austin, TX|75
+Memphis, TN|Washington, DC|77
+Memphis, TN|Kansas City, MO|52
+Memphis, TN|Jacksonville, FL|2
+Memphis, TN|San Antonio, TX|74
+Memphis, TN|Fort Lauderdale, FL|28
+Memphis, TN|New York, NY|1
+Memphis, TN|Baton Rouge, LA|25
+Memphis, TN|Dallas/Fort Worth, TX|147
+Memphis, TN|Shreveport, LA|25
+Memphis, TN|Tulsa, OK|26
+Memphis, TN|Denver, CO|56
+Memphis, TN|Detroit, MI|96
+Memphis, TN|Birmingham, AL|3
+Memphis, TN|Houston, TX|77
+Memphis, TN|Newark, NJ|75
+Memphis, TN|New Orleans, LA|75
+Brownsville, TX|Dallas/Fort Worth, TX|62
+Brownsville, TX|Houston, TX|141
+Madison, WI|Cincinnati, OH|25
+Madison, WI|Orlando, FL|4
+Madison, WI|Dallas/Fort Worth, TX|93
+Madison, WI|Cleveland, OH|29
+Madison, WI|Atlanta, GA|86
+Madison, WI|Denver, CO|74
+Madison, WI|Detroit, MI|204
+Madison, WI|Minneapolis, MN|143
+Madison, WI|Chicago, IL|209
+Madison, WI|Newark, NJ|26
+Lewiston, ID|Salt Lake City, UT|52
+Minneapolis, MN|Cincinnati, OH|201
+Minneapolis, MN|Anchorage, AK|48
+Minneapolis, MN|St. Louis, MO|197
+Minneapolis, MN|San Diego, CA|84
+Minneapolis, MN|Pasco/Kennewick/Richland, WA|31
+Minneapolis, MN|Fort Wayne, IN|2
+Minneapolis, MN|Charlotte, NC|158
+Minneapolis, MN|Nashville, TN|125
+Minneapolis, MN|Grand Rapids, MI|125
+Minneapolis, MN|Chicago, IL|617
+Minneapolis, MN|Moline, IL|55
+Minneapolis, MN|San Francisco, CA|164
+Minneapolis, MN|Dayton, OH|87
+Minneapolis, MN|Wichita, KS|86
+Minneapolis, MN|Memphis, TN|89
+Minneapolis, MN|Madison, WI|169
+Minneapolis, MN|Missoula, MT|30
+Minneapolis, MN|Philadelphia, PA|189
+Minneapolis, MN|Phoenix, AZ|334
+Minneapolis, MN|Peoria, IL|25
+Minneapolis, MN|Boston, MA|136
+Minneapolis, MN|Hartford, CT|60
+Minneapolis, MN|San Juan, PR|4
+Minneapolis, MN|Williston, ND|61
+Minneapolis, MN|Washington, DC|140
+Minneapolis, MN|Helena, MT|23
+Minneapolis, MN|Bloomington/Normal, IL|27
+Minneapolis, MN|Seattle, WA|214
+Minneapolis, MN|Houston, TX|186
+Minneapolis, MN|Washington, DC|10
+Minneapolis, MN|New Orleans, LA|33
+Minneapolis, MN|Sioux Falls, SD|192
+Minneapolis, MN|Oklahoma City, OK|59
+Minneapolis, MN|Brainerd, MN|54
+Minneapolis, MN|San Jose, CA|27
+Minneapolis, MN|Rapid City, SD|107
+Minneapolis, MN|Mosinee, WI|78
+Minneapolis, MN|Spokane, WA|62
+Minneapolis, MN|Portland, OR|86
+Minneapolis, MN|South Bend, IN|27
+Minneapolis, MN|Las Vegas, NV|166
+Minneapolis, MN|Miami, FL|93
+Minneapolis, MN|Lincoln, NE|81
+Minneapolis, MN|Alpena, MI|31
+Minneapolis, MN|Pittsburgh, PA|55
+Minneapolis, MN|Grand Forks, ND|163
+Minneapolis, MN|Austin, TX|88
+Minneapolis, MN|Minot, ND|74
+Minneapolis, MN|Cedar Rapids/Iowa City, IA|105
+Minneapolis, MN|Rhinelander, WI|56
+Minneapolis, MN|Jacksonville, FL|1
+Minneapolis, MN|San Antonio, TX|72
+Minneapolis, MN|Richmond, VA|29
+Minneapolis, MN|Fort Lauderdale, FL|54
+Minneapolis, MN|Great Falls, MT|1
+Minneapolis, MN|Hibbing, MN|53
+Minneapolis, MN|Dallas/Fort Worth, TX|288
+Minneapolis, MN|Chicago, IL|236
+Minneapolis, MN|Newark, NJ|119
+Minneapolis, MN|Aberdeen, SD|62
+Minneapolis, MN|Albuquerque, NM|4
+Minneapolis, MN|Omaha, NE|91
+Minneapolis, MN|Rochester, MN|135
+Minneapolis, MN|Fort Myers, FL|121
+Minneapolis, MN|Orlando, FL|178
+Minneapolis, MN|Jackson, WY|6
+Minneapolis, MN|Louisville, KY|52
+Minneapolis, MN|Indianapolis, IN|169
+Minneapolis, MN|Billings, MT|2
+Minneapolis, MN|Iron Mountain/Kingsfd, MI|34
+Minneapolis, MN|Des Moines, IA|146
+Minneapolis, MN|Bismarck/Mandan, ND|174
+Minneapolis, MN|Appleton, WI|104
+Minneapolis, MN|Green Bay, WI|140
+Minneapolis, MN|Syracuse, NY|2
+Minneapolis, MN|Duluth, MN|163
+Minneapolis, MN|Atlanta, GA|463
+Minneapolis, MN|Saginaw/Bay City/Midland, MI|26
+Minneapolis, MN|Kansas City, MO|137
+Minneapolis, MN|Bozeman, MT|14
+Minneapolis, MN|New York, NY|92
+Minneapolis, MN|Sacramento, CA|29
+Minneapolis, MN|Columbus, OH|86
+Minneapolis, MN|Boise, ID|60
+Minneapolis, MN|Detroit, MI|268
+Minneapolis, MN|International Falls, MN|31
+Minneapolis, MN|Fargo, ND|172
+Minneapolis, MN|Los Angeles, CA|150
+Minneapolis, MN|Milwaukee, WI|256
+Minneapolis, MN|Raleigh/Durham, NC|9
+Minneapolis, MN|Tampa, FL|92
+Minneapolis, MN|Kalispell, MT|1
+Minneapolis, MN|Flint, MI|33
+Minneapolis, MN|Santa Ana, CA|85
+Minneapolis, MN|New York, NY|316
+Minneapolis, MN|Lansing, MI|50
+Minneapolis, MN|Fayetteville, AR|47
+Minneapolis, MN|Salt Lake City, UT|150
+Minneapolis, MN|Denver, CO|454
+Minneapolis, MN|Cleveland, OH|156
+Minneapolis, MN|Kalamazoo, MI|2
+Minneapolis, MN|La Crosse, WI|87
+Minneapolis, MN|Tulsa, OK|32
+Minneapolis, MN|Tucson, AZ|19
+Minneapolis, MN|Bemidji, MN|62
+Minneapolis, MN|Baltimore, MD|100
+Missoula, MT|Denver, CO|93
+Missoula, MT|Minneapolis, MN|29
+Missoula, MT|Salt Lake City, UT|110
+Philadelphia, PA|Charlotte Amalie, VI|24
+Philadelphia, PA|Cincinnati, OH|88
+Philadelphia, PA|San Diego, CA|63
+Philadelphia, PA|Los Angeles, CA|224
+Philadelphia, PA|Providence, RI|23
+Philadelphia, PA|Charlotte, NC|287
+Philadelphia, PA|Raleigh/Durham, NC|191
+Philadelphia, PA|Nashville, TN|54
+Philadelphia, PA|Chicago, IL|525
+Philadelphia, PA|Fort Myers, FL|129
+Philadelphia, PA|Orlando, FL|404
+Philadelphia, PA|San Francisco, CA|286
+Philadelphia, PA|Tampa, FL|218
+Philadelphia, PA|New York, NY|24
+Philadelphia, PA|Miami, FL|192
+Philadelphia, PA|Indianapolis, IN|27
+Philadelphia, PA|Memphis, TN|46
+Philadelphia, PA|Minneapolis, MN|189
+Philadelphia, PA|Houston, TX|31
+Philadelphia, PA|West Palm Beach/Palm Beach, FL|152
+Philadelphia, PA|Phoenix, AZ|223
+Philadelphia, PA|Las Vegas, NV|168
+Philadelphia, PA|Boston, MA|405
+Philadelphia, PA|Pittsburgh, PA|89
+Philadelphia, PA|Hartford, CT|31
+Philadelphia, PA|Salt Lake City, UT|32
+Philadelphia, PA|Chicago, IL|163
+Philadelphia, PA|Cleveland, OH|1
+Philadelphia, PA|St. Louis, MO|54
+Philadelphia, PA|Atlanta, GA|565
+Philadelphia, PA|Austin, TX|31
+Philadelphia, PA|San Juan, PR|117
+Philadelphia, PA|Washington, DC|31
+Philadelphia, PA|Manchester, NH|23
+Philadelphia, PA|Seattle, WA|73
+Philadelphia, PA|San Antonio, TX|31
+Philadelphia, PA|Fort Lauderdale, FL|259
+Philadelphia, PA|New York, NY|138
+Philadelphia, PA|Dallas/Fort Worth, TX|346
+Philadelphia, PA|Baltimore, MD|61
+Philadelphia, PA|Denver, CO|178
+Philadelphia, PA|Detroit, MI|220
+Philadelphia, PA|Houston, TX|214
+Philadelphia, PA|Newark, NJ|30
+Philadelphia, PA|New Orleans, LA|61
+Santa Fe, NM|Dallas/Fort Worth, TX|62
+Santa Fe, NM|Los Angeles, CA|20
+Phoenix, AZ|Raleigh/Durham, NC|5
+Phoenix, AZ|Albuquerque, NM|380
+Phoenix, AZ|New York, NY|126
+Phoenix, AZ|Anchorage, AK|37
+Phoenix, AZ|San Diego, CA|527
+Phoenix, AZ|Oakland, CA|314
+Phoenix, AZ|San Jose, CA|289
+Phoenix, AZ|Omaha, NE|123
+Phoenix, AZ|Spokane, WA|82
+Phoenix, AZ|Yuma, AZ|161
+Phoenix, AZ|Reno, NV|182
+Phoenix, AZ|San Luis Obispo, CA|90
+Phoenix, AZ|El Paso, TX|297
+Phoenix, AZ|Oklahoma City, OK|59
+Phoenix, AZ|Santa Ana, CA|401
+Phoenix, AZ|Lihue, HI|24
+Phoenix, AZ|Buffalo, NY|31
+Phoenix, AZ|Charlotte, NC|244
+Phoenix, AZ|Kahului, HI|43
+Phoenix, AZ|Ontario, CA|330
+Phoenix, AZ|Tucson, AZ|279
+Phoenix, AZ|Portland, OR|298
+Phoenix, AZ|Chicago, IL|400
+Phoenix, AZ|Palm Springs, CA|180
+Phoenix, AZ|Tulsa, OK|59
+Phoenix, AZ|Orlando, FL|101
+Phoenix, AZ|Kona, HI|34
+Phoenix, AZ|San Francisco, CA|397
+Phoenix, AZ|Tampa, FL|100
+Phoenix, AZ|Louisville, KY|31
+Phoenix, AZ|Grand Junction, CO|91
+Phoenix, AZ|Miami, FL|62
+Phoenix, AZ|Honolulu, HI|92
+Phoenix, AZ|Memphis, TN|25
+Phoenix, AZ|Des Moines, IA|62
+Phoenix, AZ|Kansas City, MO|170
+Phoenix, AZ|Minneapolis, MN|335
+Phoenix, AZ|Indianapolis, IN|117
+Phoenix, AZ|Long Beach, CA|135
+Phoenix, AZ|Philadelphia, PA|222
+Phoenix, AZ|Little Rock, AR|31
+Phoenix, AZ|Las Vegas, NV|634
+Phoenix, AZ|Boise, ID|93
+Phoenix, AZ|Boston, MA|115
+Phoenix, AZ|Pittsburgh, PA|89
+Phoenix, AZ|Salt Lake City, UT|502
+Phoenix, AZ|Chicago, IL|177
+Phoenix, AZ|Monterey, CA|81
+Phoenix, AZ|Durango, CO|64
+Phoenix, AZ|Cleveland, OH|33
+Phoenix, AZ|St. Louis, MO|174
+Phoenix, AZ|Atlanta, GA|327
+Phoenix, AZ|Austin, TX|232
+Phoenix, AZ|Los Angeles, CA|784
+Phoenix, AZ|Washington, DC|89
+Phoenix, AZ|Milwaukee, WI|142
+Phoenix, AZ|Nashville, TN|59
+Phoenix, AZ|Colorado Springs, CO|23
+Phoenix, AZ|Seattle, WA|396
+Phoenix, AZ|San Antonio, TX|211
+Phoenix, AZ|Houston, TX|269
+Phoenix, AZ|Houston, TX|117
+Phoenix, AZ|Flagstaff, AZ|149
+Phoenix, AZ|Sacramento, CA|290
+Phoenix, AZ|Bakersfield, CA|89
+Phoenix, AZ|Baltimore, MD|123
+Phoenix, AZ|Santa Barbara, CA|151
+Phoenix, AZ|Dallas/Fort Worth, TX|452
+Phoenix, AZ|Columbus, OH|89
+Phoenix, AZ|Fresno, CA|151
+Phoenix, AZ|Washington, DC|31
+Phoenix, AZ|Fort Lauderdale, FL|93
+Phoenix, AZ|Denver, CO|671
+Phoenix, AZ|Detroit, MI|210
+Phoenix, AZ|Burbank, CA|338
+Phoenix, AZ|Newark, NJ|244
+Phoenix, AZ|New Orleans, LA|31
+San Luis Obispo, CA|San Francisco, CA|155
+San Luis Obispo, CA|Phoenix, AZ|90
+San Luis Obispo, CA|Los Angeles, CA|155
+Peoria, IL|Dallas/Fort Worth, TX|93
+Peoria, IL|Atlanta, GA|88
+Peoria, IL|Denver, CO|27
+Peoria, IL|Detroit, MI|84
+Peoria, IL|Chicago, IL|105
+Peoria, IL|Minneapolis, MN|24
+Boston, MA|Charlotte Amalie, VI|31
+Boston, MA|Cincinnati, OH|98
+Boston, MA|San Diego, CA|37
+Boston, MA|San Jose, CA|7
+Boston, MA|Los Angeles, CA|244
+Boston, MA|Milwaukee, WI|58
+Boston, MA|Charlotte, NC|322
+Boston, MA|Raleigh/Durham, NC|246
+Boston, MA|Nashville, TN|31
+Boston, MA|Portland, OR|31
+Boston, MA|Chicago, IL|429
+Boston, MA|Buffalo, NY|73
+Boston, MA|Sarasota/Bradenton, FL|31
+Boston, MA|Orlando, FL|283
+Boston, MA|San Francisco, CA|277
+Boston, MA|Tampa, FL|105
+Boston, MA|Norfolk, VA|46
+Boston, MA|New York, NY|329
+Boston, MA|Miami, FL|217
+Boston, MA|Fort Myers, FL|205
+Boston, MA|Memphis, TN|25
+Boston, MA|Akron, OH|31
+Boston, MA|Minneapolis, MN|139
+Boston, MA|Long Beach, CA|20
+Boston, MA|Philadelphia, PA|402
+Boston, MA|West Palm Beach/Palm Beach, FL|149
+Boston, MA|Phoenix, AZ|115
+Boston, MA|Las Vegas, NV|60
+Boston, MA|Pittsburgh, PA|62
+Boston, MA|San Juan, PR|111
+Boston, MA|Chicago, IL|110
+Boston, MA|Cleveland, OH|1
+Boston, MA|St. Louis, MO|56
+Boston, MA|Atlanta, GA|403
+Boston, MA|Austin, TX|28
+Boston, MA|Jacksonville, FL|31
+Boston, MA|Washington, DC|646
+Boston, MA|Seattle, WA|51
+Boston, MA|Richmond, VA|56
+Boston, MA|Fort Lauderdale, FL|170
+Boston, MA|New York, NY|485
+Boston, MA|Dallas/Fort Worth, TX|322
+Boston, MA|Newark, NJ|440
+Boston, MA|Salt Lake City, UT|33
+Boston, MA|Baltimore, MD|454
+Boston, MA|Denver, CO|156
+Boston, MA|Detroit, MI|164
+Boston, MA|Houston, TX|105
+Boston, MA|Washington, DC|209
+Boston, MA|New Orleans, LA|31
+Hartford, CT|Cincinnati, OH|72
+Hartford, CT|Charlotte, NC|142
+Hartford, CT|Raleigh/Durham, NC|14
+Hartford, CT|Chicago, IL|230
+Hartford, CT|Fort Myers, FL|31
+Hartford, CT|Orlando, FL|135
+Hartford, CT|Tampa, FL|62
+Hartford, CT|Miami, FL|31
+Hartford, CT|Minneapolis, MN|60
+Hartford, CT|Philadelphia, PA|31
+Hartford, CT|West Palm Beach/Palm Beach, FL|31
+Hartford, CT|San Juan, PR|31
+Hartford, CT|Denver, CO|31
+Hartford, CT|Atlanta, GA|165
+Hartford, CT|Washington, DC|21
+Hartford, CT|Fort Lauderdale, FL|99
+Hartford, CT|Dallas/Fort Worth, TX|93
+Hartford, CT|Washington, DC|78
+Hartford, CT|Baltimore, MD|185
+Hartford, CT|Chicago, IL|60
+Hartford, CT|Detroit, MI|113
+Hartford, CT|Newark, NJ|38
+San Juan, PR|Charlotte Amalie, VI|62
+San Juan, PR|Charlotte, NC|73
+San Juan, PR|Chicago, IL|45
+San Juan, PR|Orlando, FL|286
+San Juan, PR|Tampa, FL|95
+San Juan, PR|Miami, FL|238
+San Juan, PR|Christiansted, VI|31
+San Juan, PR|Minneapolis, MN|4
+San Juan, PR|Philadelphia, PA|117
+San Juan, PR|West Palm Beach/Palm Beach, FL|31
+San Juan, PR|Boston, MA|133
+San Juan, PR|Hartford, CT|31
+San Juan, PR|Cleveland, OH|8
+San Juan, PR|Atlanta, GA|163
+San Juan, PR|Washington, DC|31
+San Juan, PR|Jacksonville, FL|31
+San Juan, PR|Fort Lauderdale, FL|224
+San Juan, PR|New York, NY|413
+San Juan, PR|Dallas/Fort Worth, TX|66
+San Juan, PR|Washington, DC|31
+San Juan, PR|Baltimore, MD|51
+San Juan, PR|Detroit, MI|4
+San Juan, PR|Houston, TX|33
+San Juan, PR|Newark, NJ|76
+Inyokern, CA|Los Angeles, CA|61
+Roswell, NM|Dallas/Fort Worth, TX|89
+Erie, PA|Detroit, MI|82
+Seattle, WA|Albuquerque, NM|30
+Seattle, WA|Cincinnati, OH|1
+Seattle, WA|Anchorage, AK|399
+Seattle, WA|San Diego, CA|201
+Seattle, WA|Oakland, CA|269
+Seattle, WA|San Jose, CA|182
+Seattle, WA|Charlotte, NC|44
+Seattle, WA|Los Angeles, CA|432
+Seattle, WA|Milwaukee, WI|28
+Seattle, WA|Lihue, HI|45
+Seattle, WA|Spokane, WA|93
+Seattle, WA|Kahului, HI|93
+Seattle, WA|Santa Barbara, CA|31
+Seattle, WA|Ketchikan, AK|93
+Seattle, WA|Chicago, IL|262
+Seattle, WA|Palm Springs, CA|68
+Seattle, WA|Orlando, FL|39
+Seattle, WA|Juneau, AK|61
+Seattle, WA|Ontario, CA|66
+Seattle, WA|Portland, OR|209
+Seattle, WA|Miami, FL|31
+Seattle, WA|Honolulu, HI|155
+Seattle, WA|San Francisco, CA|516
+Seattle, WA|Minneapolis, MN|214
+Seattle, WA|Long Beach, CA|139
+Seattle, WA|Santa Ana, CA|209
+Seattle, WA|Phoenix, AZ|392
+Seattle, WA|Las Vegas, NV|283
+Seattle, WA|Boston, MA|51
+Seattle, WA|Salt Lake City, UT|228
+Seattle, WA|Chicago, IL|58
+Seattle, WA|Cleveland, OH|2
+Seattle, WA|St. Louis, MO|62
+Seattle, WA|Atlanta, GA|206
+Seattle, WA|Austin, TX|30
+Seattle, WA|Washington, DC|62
+Seattle, WA|San Antonio, TX|31
+Seattle, WA|Reno, NV|31
+Seattle, WA|Kansas City, MO|36
+Seattle, WA|Kona, HI|44
+Seattle, WA|Burbank, CA|88
+Seattle, WA|New York, NY|125
+Seattle, WA|Sacramento, CA|216
+Seattle, WA|Tucson, AZ|31
+Seattle, WA|Houston, TX|186
+Seattle, WA|Dallas/Fort Worth, TX|279
+Seattle, WA|Fresno, CA|31
+Seattle, WA|Washington, DC|64
+Seattle, WA|Philadelphia, PA|74
+Seattle, WA|Fort Lauderdale, FL|31
+Seattle, WA|Denver, CO|405
+Seattle, WA|Detroit, MI|80
+Seattle, WA|Fairbanks, AK|81
+Seattle, WA|Newark, NJ|128
+San Jose, CA|Kahului, HI|62
+San Jose, CA|San Diego, CA|265
+San Jose, CA|Los Angeles, CA|509
+San Jose, CA|Lihue, HI|31
+San Jose, CA|Portland, OR|160
+San Jose, CA|Chicago, IL|39
+San Jose, CA|Kona, HI|31
+San Jose, CA|Ontario, CA|136
+San Jose, CA|Honolulu, HI|44
+San Jose, CA|Minneapolis, MN|28
+San Jose, CA|Santa Ana, CA|230
+San Jose, CA|Phoenix, AZ|289
+San Jose, CA|Las Vegas, NV|262
+San Jose, CA|Boston, MA|7
+San Jose, CA|Salt Lake City, UT|117
+San Jose, CA|Denver, CO|196
+San Jose, CA|Atlanta, GA|23
+San Jose, CA|Austin, TX|58
+San Jose, CA|Seattle, WA|182
+San Jose, CA|Burbank, CA|224
+San Jose, CA|New York, NY|20
+San Jose, CA|Dallas/Fort Worth, TX|151
+San Jose, CA|Chicago, IL|30
+San Jose, CA|Houston, TX|62
+Washington, DC|Cincinnati, OH|96
+Washington, DC|San Diego, CA|31
+Washington, DC|Los Angeles, CA|62
+Washington, DC|Milwaukee, WI|119
+Washington, DC|Providence, RI|23
+Washington, DC|Charlotte, NC|238
+Washington, DC|Raleigh/Durham, NC|185
+Washington, DC|Nashville, TN|139
+Washington, DC|Portland, OR|31
+Washington, DC|Chicago, IL|467
+Washington, DC|Lexington, KY|20
+Washington, DC|Orlando, FL|309
+Washington, DC|San Francisco, CA|62
+Washington, DC|Tampa, FL|177
+Washington, DC|Las Vegas, NV|31
+Washington, DC|Miami, FL|290
+Washington, DC|Fort Myers, FL|62
+Washington, DC|Memphis, TN|77
+Washington, DC|Minneapolis, MN|140
+Washington, DC|Philadelphia, PA|30
+Washington, DC|West Palm Beach/Palm Beach, FL|22
+Washington, DC|Phoenix, AZ|89
+Washington, DC|New York, NY|362
+Washington, DC|Boston, MA|647
+Washington, DC|Hartford, CT|22
+Washington, DC|Salt Lake City, UT|52
+Washington, DC|Cleveland, OH|25
+Washington, DC|St. Louis, MO|151
+Washington, DC|Atlanta, GA|605
+Washington, DC|Austin, TX|31
+Washington, DC|San Juan, PR|31
+Washington, DC|Seattle, WA|62
+Washington, DC|Fort Lauderdale, FL|218
+Washington, DC|New York, NY|277
+Washington, DC|Dallas/Fort Worth, TX|294
+Washington, DC|Denver, CO|123
+Washington, DC|Detroit, MI|187
+Washington, DC|Houston, TX|231
+Washington, DC|Newark, NJ|227
+Lincoln, NE|Denver, CO|80
+Lincoln, NE|Chicago, IL|90
+Lincoln, NE|Minneapolis, MN|81
+Augusta, GA|Atlanta, GA|248
+Bloomington/Normal, IL|Orlando, FL|13
+Bloomington/Normal, IL|Dallas/Fort Worth, TX|31
+Bloomington/Normal, IL|Atlanta, GA|88
+Bloomington/Normal, IL|Denver, CO|14
+Bloomington/Normal, IL|Detroit, MI|54
+Bloomington/Normal, IL|Chicago, IL|27
+Bloomington/Normal, IL|Minneapolis, MN|27
+Reno, NV|Oakland, CA|62
+Reno, NV|San Diego, CA|62
+Reno, NV|Phoenix, AZ|182
+Reno, NV|San Francisco, CA|157
+Reno, NV|Portland, OR|58
+Reno, NV|Las Vegas, NV|289
+Reno, NV|Los Angeles, CA|238
+Reno, NV|Chicago, IL|31
+Reno, NV|Dallas/Fort Worth, TX|62
+Reno, NV|Ontario, CA|26
+Reno, NV|Denver, CO|96
+Reno, NV|Seattle, WA|31
+Reno, NV|Salt Lake City, UT|118
+Reno, NV|Houston, TX|2
+Reno, NV|Chicago, IL|31
+Knoxville, TN|Orlando, FL|2
+Knoxville, TN|New York, NY|25
+Knoxville, TN|Atlanta, GA|258
+Knoxville, TN|Dallas/Fort Worth, TX|120
+Knoxville, TN|Washington, DC|57
+Knoxville, TN|Memphis, TN|51
+Knoxville, TN|Denver, CO|31
+Knoxville, TN|Detroit, MI|87
+Knoxville, TN|Houston, TX|63
+Knoxville, TN|Chicago, IL|180
+Knoxville, TN|Newark, NJ|27
+Colorado Springs, CO|Orlando, FL|6
+Colorado Springs, CO|Phoenix, AZ|23
+Colorado Springs, CO|San Diego, CA|17
+Colorado Springs, CO|San Francisco, CA|31
+Colorado Springs, CO|Los Angeles, CA|95
+Colorado Springs, CO|Dallas/Fort Worth, TX|129
+Colorado Springs, CO|Atlanta, GA|31
+Colorado Springs, CO|Denver, CO|168
+Colorado Springs, CO|Salt Lake City, UT|62
+Colorado Springs, CO|Houston, TX|95
+Colorado Springs, CO|Chicago, IL|115
+Colorado Springs, CO|Washington, DC|31
+Williston, ND|Denver, CO|93
+Williston, ND|Minneapolis, MN|61
+Midland/Odessa, TX|Las Vegas, NV|36
+Midland/Odessa, TX|Dallas, TX|145
+Midland/Odessa, TX|Dallas/Fort Worth, TX|179
+Midland/Odessa, TX|Denver, CO|62
+Midland/Odessa, TX|Houston, TX|79
+Midland/Odessa, TX|Houston, TX|210
+Deadhorse, AK|Anchorage, AK|18
+Deadhorse, AK|Barrow, AK|40
+Fort Smith, AR|Dallas/Fort Worth, TX|120
+Fort Smith, AR|Atlanta, GA|86
+New York, NY|Cincinnati, OH|3
+New York, NY|Milwaukee, WI|138
+New York, NY|Portland, ME|30
+New York, NY|Rochester, NY|1
+New York, NY|Charlotte, NC|437
+New York, NY|Raleigh/Durham, NC|285
+New York, NY|Nashville, TN|226
+New York, NY|Grand Rapids, MI|22
+New York, NY|Chicago, IL|583
+New York, NY|Fort Myers, FL|38
+New York, NY|Orlando, FL|297
+New York, NY|Sarasota/Bradenton, FL|62
+New York, NY|Tampa, FL|179
+New York, NY|Washington, DC|361
+New York, NY|Miami, FL|451
+New York, NY|Buffalo, NY|8
+New York, NY|Memphis, TN|57
+New York, NY|Akron, OH|62
+New York, NY|Minneapolis, MN|316
+New York, NY|Philadelphia, PA|22
+New York, NY|West Palm Beach/Palm Beach, FL|209
+New York, NY|Boston, MA|329
+New York, NY|Key West, FL|1
+New York, NY|Fayetteville, AR|69
+New York, NY|Pittsburgh, PA|75
+New York, NY|Chicago, IL|166
+New York, NY|Cleveland, OH|182
+New York, NY|St. Louis, MO|150
+New York, NY|Atlanta, GA|878
+New York, NY|Greensboro/High Point, NC|3
+New York, NY|Charleston/Dunbar, WV|27
+New York, NY|Knoxville, TN|25
+New York, NY|Kansas City, MO|27
+New York, NY|Richmond, VA|25
+New York, NY|Fort Lauderdale, FL|352
+New York, NY|Columbus, OH|170
+New York, NY|Dallas/Fort Worth, TX|437
+New York, NY|Baltimore, MD|15
+New York, NY|Denver, CO|294
+New York, NY|Detroit, MI|429
+New York, NY|Birmingham, AL|25
+New York, NY|Houston, TX|255
+New York, NY|Washington, DC|143
+New York, NY|New Orleans, LA|86
+Eau Claire, WI|Chicago, IL|62
+Mission/McAllen/Edinburg, TX|Dallas/Fort Worth, TX|120
+Mission/McAllen/Edinburg, TX|Houston, TX|239
+Birmingham, AL|Houston, TX|57
+Birmingham, AL|Orlando, FL|62
+Birmingham, AL|Jacksonville, FL|31
+Birmingham, AL|Las Vegas, NV|31
+Birmingham, AL|New York, NY|24
+Birmingham, AL|Tampa, FL|58
+Birmingham, AL|Fort Lauderdale, FL|4
+Birmingham, AL|Atlanta, GA|261
+Birmingham, AL|Miami, FL|64
+Birmingham, AL|Baltimore, MD|57
+Birmingham, AL|Chicago, IL|55
+Birmingham, AL|Dallas/Fort Worth, TX|93
+Birmingham, AL|St. Louis, MO|31
+Birmingham, AL|Memphis, TN|4
+Birmingham, AL|Denver, CO|26
+Birmingham, AL|Detroit, MI|86
+Birmingham, AL|Dallas, TX|89
+Birmingham, AL|Houston, TX|143
+Birmingham, AL|Chicago, IL|82
+Birmingham, AL|Charlotte, NC|72
+Birmingham, AL|New Orleans, LA|58
+Burbank, CA|Oakland, CA|398
+Burbank, CA|Seattle, WA|88
+Burbank, CA|Phoenix, AZ|332
+Burbank, CA|Las Vegas, NV|307
+Burbank, CA|San Jose, CA|224
+Burbank, CA|New York, NY|38
+Burbank, CA|Sacramento, CA|220
+Burbank, CA|Salt Lake City, UT|62
+Burbank, CA|Denver, CO|134
+Burbank, CA|San Francisco, CA|156
+Burbank, CA|Portland, OR|92
+Washington, DC|Albuquerque, NM|31
+Washington, DC|Cincinnati, OH|74
+Washington, DC|Oklahoma City, OK|31
+Washington, DC|St. Louis, MO|9
+Washington, DC|San Diego, CA|93
+Washington, DC|Oakland, CA|8
+Washington, DC|Dallas/Fort Worth, TX|205
+Washington, DC|Charlotte Amalie, VI|14
+Washington, DC|Honolulu, HI|27
+Washington, DC|Los Angeles, CA|329
+Washington, DC|Roanoke, VA|61
+Washington, DC|Rochester, NY|68
+Washington, DC|Charlotte, NC|291
+Washington, DC|Raleigh/Durham, NC|113
+Washington, DC|Nashville, TN|88
+Washington, DC|Norfolk, VA|95
+Washington, DC|Chicago, IL|182
+Washington, DC|Albany, NY|66
+Washington, DC|Portland, ME|33
+Washington, DC|Orlando, FL|125
+Washington, DC|Syracuse, NY|31
+Washington, DC|Phoenix, AZ|31
+Washington, DC|San Francisco, CA|335
+Washington, DC|Tampa, FL|89
+Washington, DC|Pensacola, FL|31
+Washington, DC|Charleston, SC|82
+Washington, DC|Las Vegas, NV|62
+Washington, DC|Dayton, OH|56
+Washington, DC|Miami, FL|128
+Washington, DC|Colorado Springs, CO|31
+Washington, DC|Portland, OR|31
+Washington, DC|Huntsville, AL|51
+Washington, DC|Buffalo, NY|64
+Washington, DC|Minneapolis, MN|10
+Washington, DC|Indianapolis, IN|34
+Washington, DC|Long Beach, CA|28
+Washington, DC|Allentown/Bethlehem/Easton, PA|2
+Washington, DC|Providence, RI|60
+Washington, DC|New York, NY|143
+Washington, DC|Boston, MA|183
+Washington, DC|Pittsburgh, PA|63
+Washington, DC|Hartford, CT|83
+Washington, DC|Salt Lake City, UT|23
+Washington, DC|Chicago, IL|139
+Washington, DC|Kansas City, MO|80
+Washington, DC|Cleveland, OH|33
+Washington, DC|Burlington, VT|60
+Washington, DC|Atlanta, GA|314
+Washington, DC|Austin, TX|36
+Washington, DC|San Juan, PR|31
+Washington, DC|Greensboro/High Point, NC|79
+Washington, DC|Manchester, NH|31
+Washington, DC|Greer, SC|34
+Washington, DC|Charleston/Dunbar, WV|27
+Washington, DC|Knoxville, TN|57
+Washington, DC|Savannah, GA|63
+Washington, DC|Seattle, WA|64
+Washington, DC|San Antonio, TX|37
+Washington, DC|Richmond, VA|65
+Washington, DC|Tulsa, OK|10
+Washington, DC|New York, NY|226
+Washington, DC|Sacramento, CA|27
+Washington, DC|Columbus, OH|56
+Washington, DC|Columbia, SC|85
+Washington, DC|Jacksonville, FL|62
+Washington, DC|Fort Lauderdale, FL|32
+Washington, DC|Denver, CO|295
+Washington, DC|Detroit, MI|194
+Washington, DC|Houston, TX|147
+Washington, DC|Louisville, KY|31
+Washington, DC|Newark, NJ|74
+Washington, DC|New Orleans, LA|31
+New Orleans, LA|Cincinnati, OH|25
+New Orleans, LA|Los Angeles, CA|90
+New Orleans, LA|Milwaukee, WI|26
+New Orleans, LA|Charlotte, NC|170
+New Orleans, LA|Houston, TX|290
+New Orleans, LA|Nashville, TN|111
+New Orleans, LA|Chicago, IL|103
+New Orleans, LA|Orlando, FL|123
+New Orleans, LA|San Francisco, CA|24
+New Orleans, LA|Tampa, FL|88
+New Orleans, LA|Las Vegas, NV|36
+New Orleans, LA|Miami, FL|93
+New Orleans, LA|Memphis, TN|75
+New Orleans, LA|Minneapolis, MN|32
+New Orleans, LA|Philadelphia, PA|61
+New Orleans, LA|Phoenix, AZ|31
+New Orleans, LA|New York, NY|86
+New Orleans, LA|Boston, MA|31
+New Orleans, LA|Salt Lake City, UT|31
+New Orleans, LA|Chicago, IL|38
+New Orleans, LA|Cleveland, OH|5
+New Orleans, LA|St. Louis, MO|50
+New Orleans, LA|Atlanta, GA|445
+New Orleans, LA|Kansas City, MO|31
+New Orleans, LA|Dallas, TX|227
+New Orleans, LA|Fort Lauderdale, FL|85
+New Orleans, LA|New York, NY|125
+New Orleans, LA|Dallas/Fort Worth, TX|186
+New Orleans, LA|Newark, NJ|32
+New Orleans, LA|Baltimore, MD|62
+New Orleans, LA|Denver, CO|154
+New Orleans, LA|Detroit, MI|32
+New Orleans, LA|Birmingham, AL|58
+New Orleans, LA|Houston, TX|274
+New Orleans, LA|Washington, DC|62
+Raleigh/Durham, NC|Cincinnati, OH|50
+Raleigh/Durham, NC|Los Angeles, CA|1
+Raleigh/Durham, NC|Charlotte, NC|254
+Raleigh/Durham, NC|Houston, TX|31
+Raleigh/Durham, NC|Nashville, TN|111
+Raleigh/Durham, NC|Chicago, IL|222
+Raleigh/Durham, NC|Orlando, FL|121
+Raleigh/Durham, NC|San Francisco, CA|31
+Raleigh/Durham, NC|Tampa, FL|84
+Raleigh/Durham, NC|Las Vegas, NV|31
+Raleigh/Durham, NC|Miami, FL|93
+Raleigh/Durham, NC|Indianapolis, IN|21
+Raleigh/Durham, NC|Memphis, TN|50
+Raleigh/Durham, NC|Minneapolis, MN|32
+Raleigh/Durham, NC|Philadelphia, PA|189
+Raleigh/Durham, NC|Phoenix, AZ|5
+Raleigh/Durham, NC|New York, NY|284
+Raleigh/Durham, NC|Boston, MA|245
+Raleigh/Durham, NC|Hartford, CT|14
+Raleigh/Durham, NC|Chicago, IL|82
+Raleigh/Durham, NC|Cleveland, OH|25
+Raleigh/Durham, NC|St. Louis, MO|31
+Raleigh/Durham, NC|Atlanta, GA|449
+Raleigh/Durham, NC|Washington, DC|185
+Raleigh/Durham, NC|Fort Lauderdale, FL|54
+Raleigh/Durham, NC|New York, NY|283
+Raleigh/Durham, NC|Columbus, OH|21
+Raleigh/Durham, NC|Dallas/Fort Worth, TX|147
+Raleigh/Durham, NC|Newark, NJ|187
+Raleigh/Durham, NC|Baltimore, MD|237
+Raleigh/Durham, NC|Denver, CO|31
+Raleigh/Durham, NC|Detroit, MI|103
+Raleigh/Durham, NC|Houston, TX|110
+Raleigh/Durham, NC|Washington, DC|112
+Sioux Falls, SD|Denver, CO|72
+Sioux Falls, SD|Dallas/Fort Worth, TX|68
+Sioux Falls, SD|Chicago, IL|196
+Sioux Falls, SD|Minneapolis, MN|191
+New York, NY|Charlotte Amalie, VI|35
+New York, NY|Cincinnati, OH|64
+New York, NY|Eagle, CO|31
+New York, NY|San Diego, CA|114
+New York, NY|Oakland, CA|20
+New York, NY|San Jose, CA|20
+New York, NY|Aguadilla, PR|62
+New York, NY|Los Angeles, CA|937
+New York, NY|Portland, ME|81
+New York, NY|Rochester, NY|172
+New York, NY|Charlotte, NC|240
+New York, NY|Raleigh/Durham, NC|282
+New York, NY|Nashville, TN|62
+New York, NY|Norfolk, VA|90
+New York, NY|Chicago, IL|184
+New York, NY|Buffalo, NY|299
+New York, NY|Orlando, FL|456
+New York, NY|Long Beach, CA|52
+New York, NY|San Francisco, CA|671
+New York, NY|Tampa, FL|215
+New York, NY|Portland, OR|52
+New York, NY|Charleston, SC|4
+New York, NY|Miami, FL|282
+New York, NY|Indianapolis, IN|62
+New York, NY|Memphis, TN|1
+New York, NY|Palm Springs, CA|4
+New York, NY|Minneapolis, MN|93
+New York, NY|Honolulu, HI|31
+New York, NY|Houston, TX|62
+New York, NY|Philadelphia, PA|138
+New York, NY|West Palm Beach/Palm Beach, FL|140
+New York, NY|Phoenix, AZ|126
+New York, NY|Las Vegas, NV|284
+New York, NY|Boston, MA|486
+New York, NY|Pittsburgh, PA|150
+New York, NY|Syracuse, NY|109
+New York, NY|San Juan, PR|411
+New York, NY|Ponce, PR|31
+New York, NY|Cleveland, OH|62
+New York, NY|Burlington, VT|123
+New York, NY|Atlanta, GA|156
+New York, NY|Seattle, WA|125
+New York, NY|Salt Lake City, UT|166
+New York, NY|Washington, DC|277
+New York, NY|Jacksonville, FL|99
+New York, NY|San Antonio, TX|27
+New York, NY|Richmond, VA|29
+New York, NY|Fort Lauderdale, FL|439
+New York, NY|Austin, TX|118
+New York, NY|Sarasota/Bradenton, FL|54
+New York, NY|Sacramento, CA|20
+New York, NY|Columbus, OH|63
+New York, NY|Dallas/Fort Worth, TX|62
+New York, NY|Baltimore, MD|121
+New York, NY|Denver, CO|52
+New York, NY|Detroit, MI|93
+New York, NY|Fort Myers, FL|135
+New York, NY|Burbank, CA|37
+New York, NY|Washington, DC|225
+New York, NY|New Orleans, LA|125
+Brainerd, MN|International Falls, MN|23
+Brainerd, MN|Minneapolis, MN|53
+Hilo, HI|Kahului, HI|62
+Hilo, HI|Honolulu, HI|509
+Hilo, HI|Los Angeles, CA|27
+Sacramento, CA|Kahului, HI|31
+Sacramento, CA|San Diego, CA|283
+Sacramento, CA|Los Angeles, CA|516
+Sacramento, CA|Portland, OR|146
+Sacramento, CA|Chicago, IL|34
+Sacramento, CA|San Francisco, CA|217
+Sacramento, CA|Honolulu, HI|31
+Sacramento, CA|Minneapolis, MN|29
+Sacramento, CA|Long Beach, CA|62
+Sacramento, CA|Santa Ana, CA|197
+Sacramento, CA|Arcata/Eureka, CA|53
+Sacramento, CA|Phoenix, AZ|291
+Sacramento, CA|Las Vegas, NV|233
+Sacramento, CA|Salt Lake City, UT|137
+Sacramento, CA|Denver, CO|209
+Sacramento, CA|Atlanta, GA|48
+Sacramento, CA|Seattle, WA|215
+Sacramento, CA|Houston, TX|65
+Sacramento, CA|New York, NY|20
+Sacramento, CA|Dallas/Fort Worth, TX|124
+Sacramento, CA|Ontario, CA|219
+Sacramento, CA|Chicago, IL|28
+Sacramento, CA|Burbank, CA|220
+Sacramento, CA|Washington, DC|27
+Valparaiso, FL|Dallas/Fort Worth, TX|120
+Valparaiso, FL|Houston, TX|66
+Valparaiso, FL|Atlanta, GA|235
+Aguadilla, PR|Orlando, FL|41
+Aguadilla, PR|New York, NY|62
+Aguadilla, PR|Newark, NJ|31
+Sitka, AK|Ketchikan, AK|31
+Sitka, AK|Juneau, AK|61
+Brunswick, GA|Atlanta, GA|77
+Rapid City, SD|Denver, CO|91
+Rapid City, SD|Dallas/Fort Worth, TX|31
+Rapid City, SD|Chicago, IL|2
+Rapid City, SD|Minneapolis, MN|108
+Rapid City, SD|Salt Lake City, UT|32
+Melbourne, FL|Atlanta, GA|121
+Mosinee, WI|Detroit, MI|59
+Mosinee, WI|Chicago, IL|119
+Mosinee, WI|Minneapolis, MN|78
+Portland, ME|New York, NY|29
+Portland, ME|New York, NY|81
+Portland, ME|Baltimore, MD|65
+Portland, ME|Newark, NJ|142
+Portland, ME|Atlanta, GA|24
+Portland, ME|Charlotte, NC|31
+Portland, ME|Detroit, MI|79
+Portland, ME|Chicago, IL|2
+Portland, ME|Washington, DC|33
+Lihue, HI|Seattle, WA|44
+Lihue, HI|Phoenix, AZ|24
+Lihue, HI|Oakland, CA|31
+Lihue, HI|San Jose, CA|31
+Lihue, HI|San Francisco, CA|37
+Lihue, HI|Los Angeles, CA|123
+Lihue, HI|Honolulu, HI|634
+Lihue, HI|Denver, CO|4
+Lihue, HI|Kahului, HI|93
+Lihue, HI|Portland, OR|18
+Spokane, WA|Oakland, CA|54
+Spokane, WA|Seattle, WA|93
+Spokane, WA|Phoenix, AZ|82
+Spokane, WA|San Francisco, CA|33
+Spokane, WA|Las Vegas, NV|61
+Spokane, WA|Salt Lake City, UT|138
+Spokane, WA|Boise, ID|58
+Spokane, WA|Denver, CO|141
+Spokane, WA|Portland, OR|10
+Spokane, WA|Minneapolis, MN|62
+Asheville, NC|Detroit, MI|1
+Asheville, NC|Chicago, IL|57
+Asheville, NC|Newark, NJ|2
+Asheville, NC|Atlanta, GA|229
+State College, PA|Detroit, MI|60
+Modesto, CA|San Francisco, CA|92
+Portland, OR|Albuquerque, NM|5
+Portland, OR|Anchorage, AK|62
+Portland, OR|San Diego, CA|92
+Portland, OR|Oakland, CA|141
+Portland, OR|San Jose, CA|161
+Portland, OR|Los Angeles, CA|265
+Portland, OR|Reno, NV|58
+Portland, OR|Lihue, HI|17
+Portland, OR|Spokane, WA|9
+Portland, OR|Kahului, HI|62
+Portland, OR|Chicago, IL|124
+Portland, OR|Palm Springs, CA|31
+Portland, OR|Kona, HI|18
+Portland, OR|San Francisco, CA|320
+Portland, OR|Washington, DC|31
+Portland, OR|Honolulu, HI|62
+Portland, OR|Eugene, OR|89
+Portland, OR|Klamath Falls, OR|31
+Portland, OR|Minneapolis, MN|87
+Portland, OR|Long Beach, CA|88
+Portland, OR|Santa Ana, CA|85
+Portland, OR|Phoenix, AZ|299
+Portland, OR|Las Vegas, NV|194
+Portland, OR|Boston, MA|31
+Portland, OR|Bend/Redmond, OR|93
+Portland, OR|Salt Lake City, UT|177
+Portland, OR|Chicago, IL|31
+Portland, OR|Atlanta, GA|79
+Portland, OR|Washington, DC|31
+Portland, OR|Kansas City, MO|31
+Portland, OR|Seattle, WA|209
+Portland, OR|Houston, TX|66
+Portland, OR|New York, NY|52
+Portland, OR|Sacramento, CA|146
+Portland, OR|Dallas/Fort Worth, TX|124
+Portland, OR|Ontario, CA|71
+Portland, OR|Boise, ID|53
+Portland, OR|Denver, CO|309
+Portland, OR|Detroit, MI|2
+Portland, OR|Burbank, CA|92
+Portland, OR|Newark, NJ|33
+Scranton/Wilkes-Barre, PA|Detroit, MI|56
+Scranton/Wilkes-Barre, PA|Charlotte, NC|26
+Scranton/Wilkes-Barre, PA|Chicago, IL|53
+Scranton/Wilkes-Barre, PA|Atlanta, GA|31
+Sarasota/Bradenton, FL|New York, NY|62
+Sarasota/Bradenton, FL|New York, NY|54
+Sarasota/Bradenton, FL|Boston, MA|31
+Sarasota/Bradenton, FL|Atlanta, GA|176
+Sarasota/Bradenton, FL|Charlotte, NC|54
+Sarasota/Bradenton, FL|Detroit, MI|2
+Sarasota/Bradenton, FL|Chicago, IL|31
+South Bend, IN|Miami, FL|1
+South Bend, IN|Atlanta, GA|87
+South Bend, IN|Denver, CO|17
+South Bend, IN|Detroit, MI|135
+South Bend, IN|Chicago, IL|122
+South Bend, IN|Minneapolis, MN|27
+Rockford, IL|Denver, CO|9
+Ithaca/Cortland, NY|Detroit, MI|56
+Guam, TT|Honolulu, HI|31
+Miami, FL|Cincinnati, OH|62
+Miami, FL|Charlotte Amalie, VI|93
+Miami, FL|Charlotte, NC|361
+Miami, FL|Raleigh/Durham, NC|93
+Miami, FL|Nashville, TN|83
+Miami, FL|Norfolk, VA|62
+Miami, FL|Chicago, IL|296
+Miami, FL|Gainesville, FL|62
+Miami, FL|Orlando, FL|269
+Miami, FL|San Francisco, CA|93
+Miami, FL|Tampa, FL|186
+Miami, FL|Greensboro/High Point, NC|62
+Miami, FL|Charleston, SC|62
+Miami, FL|Las Vegas, NV|124
+Miami, FL|Eagle, CO|31
+Miami, FL|Christiansted, VI|44
+Miami, FL|Indianapolis, IN|93
+Miami, FL|Key West, FL|187
+Miami, FL|Minneapolis, MN|93
+Miami, FL|Philadelphia, PA|192
+Miami, FL|Phoenix, AZ|62
+Miami, FL|New York, NY|451
+Miami, FL|Tallahassee, FL|112
+Miami, FL|Memphis, TN|31
+Miami, FL|Boston, MA|217
+Miami, FL|Pittsburgh, PA|62
+Miami, FL|Hartford, CT|31
+Miami, FL|San Juan, PR|238
+Miami, FL|Cleveland, OH|85
+Miami, FL|St. Louis, MO|83
+Miami, FL|Atlanta, GA|571
+Miami, FL|Jacksonville, FL|155
+Miami, FL|Los Angeles, CA|274
+Miami, FL|Washington, DC|290
+Miami, FL|Pensacola, FL|93
+Miami, FL|Seattle, WA|31
+Miami, FL|Richmond, VA|31
+Miami, FL|Tulsa, OK|4
+Miami, FL|New York, NY|282
+Miami, FL|Columbus, OH|62
+Miami, FL|Dallas/Fort Worth, TX|314
+Miami, FL|Washington, DC|128
+Miami, FL|Baltimore, MD|93
+Miami, FL|Denver, CO|93
+Miami, FL|Detroit, MI|121
+Miami, FL|Birmingham, AL|64
+Miami, FL|Houston, TX|268
+Miami, FL|Louisville, KY|62
+Miami, FL|Newark, NJ|248
+Miami, FL|New Orleans, LA|93
+Christiansted, VI|Charlotte, NC|4
+Christiansted, VI|Miami, FL|44
+Christiansted, VI|San Juan, PR|31
+Gunnison, CO|Denver, CO|7
+Gunnison, CO|Dallas/Fort Worth, TX|28
+Gunnison, CO|Houston, TX|2
+Kodiak, AK|Anchorage, AK|56
+Fort Lauderdale, FL|Cincinnati, OH|33
+Fort Lauderdale, FL|Albany, NY|31
+Fort Lauderdale, FL|Los Angeles, CA|169
+Fort Lauderdale, FL|Milwaukee, WI|31
+Fort Lauderdale, FL|Providence, RI|66
+Fort Lauderdale, FL|Charlotte, NC|267
+Fort Lauderdale, FL|Raleigh/Durham, NC|54
+Fort Lauderdale, FL|Nashville, TN|62
+Fort Lauderdale, FL|Chicago, IL|216
+Fort Lauderdale, FL|Buffalo, NY|65
+Fort Lauderdale, FL|White Plains, NY|88
+Fort Lauderdale, FL|Tallahassee, FL|24
+Fort Lauderdale, FL|Orlando, FL|15
+Fort Lauderdale, FL|San Francisco, CA|86
+Fort Lauderdale, FL|Tampa, FL|151
+Fort Lauderdale, FL|Las Vegas, NV|31
+Fort Lauderdale, FL|Islip, NY|63
+Fort Lauderdale, FL|Indianapolis, IN|36
+Fort Lauderdale, FL|Memphis, TN|28
+Fort Lauderdale, FL|Minneapolis, MN|54
+Fort Lauderdale, FL|Houston, TX|62
+Fort Lauderdale, FL|Philadelphia, PA|261
+Fort Lauderdale, FL|Phoenix, AZ|93
+Fort Lauderdale, FL|New York, NY|351
+Fort Lauderdale, FL|Boston, MA|170
+Fort Lauderdale, FL|Pittsburgh, PA|36
+Fort Lauderdale, FL|Hartford, CT|99
+Fort Lauderdale, FL|San Juan, PR|223
+Fort Lauderdale, FL|Chicago, IL|104
+Fort Lauderdale, FL|Cleveland, OH|53
+Fort Lauderdale, FL|St. Louis, MO|31
+Fort Lauderdale, FL|Atlanta, GA|633
+Fort Lauderdale, FL|Austin, TX|62
+Fort Lauderdale, FL|Jacksonville, FL|116
+Fort Lauderdale, FL|Washington, DC|219
+Fort Lauderdale, FL|Manchester, NH|31
+Fort Lauderdale, FL|Kansas City, MO|32
+Fort Lauderdale, FL|Seattle, WA|31
+Fort Lauderdale, FL|Newburgh/Poughkeepsie, NY|31
+Fort Lauderdale, FL|Richmond, VA|31
+Fort Lauderdale, FL|New York, NY|440
+Fort Lauderdale, FL|Columbus, OH|31
+Fort Lauderdale, FL|Dallas/Fort Worth, TX|207
+Fort Lauderdale, FL|Washington, DC|33
+Fort Lauderdale, FL|Baltimore, MD|326
+Fort Lauderdale, FL|Denver, CO|139
+Fort Lauderdale, FL|Detroit, MI|181
+Fort Lauderdale, FL|Birmingham, AL|5
+Fort Lauderdale, FL|Houston, TX|147
+Fort Lauderdale, FL|Newark, NJ|370
+Fort Lauderdale, FL|New Orleans, LA|84
+Buffalo, NY|Chicago, IL|90
+Buffalo, NY|Orlando, FL|158
+Buffalo, NY|West Palm Beach/Palm Beach, FL|26
+Buffalo, NY|Las Vegas, NV|31
+Buffalo, NY|New York, NY|6
+Buffalo, NY|Tampa, FL|38
+Buffalo, NY|Fort Lauderdale, FL|65
+Buffalo, NY|New York, NY|300
+Buffalo, NY|Boston, MA|73
+Buffalo, NY|Washington, DC|64
+Buffalo, NY|Baltimore, MD|151
+Buffalo, NY|Newark, NJ|115
+Buffalo, NY|Cleveland, OH|8
+Buffalo, NY|Atlanta, GA|222
+Buffalo, NY|Charlotte, NC|116
+Buffalo, NY|Detroit, MI|152
+Buffalo, NY|Minneapolis, MN|4
+Buffalo, NY|Phoenix, AZ|31
+Buffalo, NY|Chicago, IL|217
+Buffalo, NY|Fort Myers, FL|31
+Eugene, OR|Denver, CO|60
+Eugene, OR|Salt Lake City, UT|62
+Eugene, OR|Portland, OR|89
+Eugene, OR|San Francisco, CA|170
+Klamath Falls, OR|Portland, OR|31
+Klamath Falls, OR|San Francisco, CA|31
+Gillette, WY|Denver, CO|89
+Gillette, WY|Rock Springs, WY|31
+Gillette, WY|Salt Lake City, UT|31
+Helena, MT|Denver, CO|36
+Helena, MT|Minneapolis, MN|23
+Helena, MT|Salt Lake City, UT|79
+Akron, OH|Orlando, FL|62
+Akron, OH|New York, NY|62
+Akron, OH|Tampa, FL|31
+Akron, OH|Boston, MA|31
+Akron, OH|Chicago, IL|59
+Akron, OH|Atlanta, GA|240
+Akron, OH|Denver, CO|44
+Akron, OH|Detroit, MI|87
+Akron, OH|Chicago, IL|74
+Akron, OH|Fort Myers, FL|62
+Mammoth Lakes, CA|Santa Ana, CA|17
+Mammoth Lakes, CA|San Diego, CA|31
+Mammoth Lakes, CA|San Francisco, CA|48
+Alpena, MI|Detroit, MI|23
+Alpena, MI|Minneapolis, MN|31
+Abilene, TX|Dallas/Fort Worth, TX|213
+Fayetteville, AR|Cincinnati, OH|25
+Fayetteville, AR|New York, NY|69
+Fayetteville, AR|Atlanta, GA|145
+Fayetteville, AR|Dallas/Fort Worth, TX|240
+Fayetteville, AR|Minneapolis, MN|47
+Fayetteville, AR|Memphis, TN|48
+Fayetteville, AR|Denver, CO|23
+Fayetteville, AR|Detroit, MI|24
+Fayetteville, AR|Houston, TX|93
+Fayetteville, AR|Chicago, IL|249
+Fayetteville, AR|Newark, NJ|27
+Longview, TX|Dallas/Fort Worth, TX|62
+Lake Charles, LA|Dallas/Fort Worth, TX|62
+Lake Charles, LA|Houston, TX|114
+Lake Charles, LA|Lafayette, LA|1
+Gainesville, FL|Miami, FL|62
+Gainesville, FL|Lexington, KY|1
+Gainesville, FL|Atlanta, GA|206
+Pittsburgh, PA|Cincinnati, OH|53
+Pittsburgh, PA|Los Angeles, CA|15
+Pittsburgh, PA|Charlotte, NC|225
+Pittsburgh, PA|Chicago, IL|322
+Pittsburgh, PA|Fort Myers, FL|59
+Pittsburgh, PA|Orlando, FL|159
+Pittsburgh, PA|San Francisco, CA|18
+Pittsburgh, PA|Tampa, FL|89
+Pittsburgh, PA|Las Vegas, NV|36
+Pittsburgh, PA|Miami, FL|62
+Pittsburgh, PA|Memphis, TN|26
+Pittsburgh, PA|Minneapolis, MN|51
+Pittsburgh, PA|Philadelphia, PA|116
+Pittsburgh, PA|Phoenix, AZ|89
+Pittsburgh, PA|New York, NY|79
+Pittsburgh, PA|Boston, MA|62
+Pittsburgh, PA|Chicago, IL|146
+Pittsburgh, PA|Cleveland, OH|2
+Pittsburgh, PA|Atlanta, GA|327
+Pittsburgh, PA|Fort Lauderdale, FL|36
+Pittsburgh, PA|New York, NY|149
+Pittsburgh, PA|Dallas/Fort Worth, TX|120
+Pittsburgh, PA|Newark, NJ|63
+Pittsburgh, PA|Baltimore, MD|87
+Pittsburgh, PA|Denver, CO|57
+Pittsburgh, PA|Detroit, MI|94
+Pittsburgh, PA|Houston, TX|135
+Pittsburgh, PA|Washington, DC|33
+Baton Rouge, LA|Lafayette, LA|1
+Baton Rouge, LA|Houston, TX|205
+Baton Rouge, LA|Atlanta, GA|206
+Baton Rouge, LA|Dallas/Fort Worth, TX|236
+Baton Rouge, LA|Memphis, TN|25
+Baton Rouge, LA|Washington, DC|1
+Grand Forks, ND|Denver, CO|62
+Grand Forks, ND|Minneapolis, MN|164
+Burlington, VT|New York, NY|123
+Burlington, VT|Washington, DC|61
+Burlington, VT|Cleveland, OH|25
+Burlington, VT|Detroit, MI|72
+Burlington, VT|Chicago, IL|31
+Burlington, VT|Newark, NJ|100
+Austin, TX|San Diego, CA|59
+Austin, TX|Oakland, CA|28
+Austin, TX|San Jose, CA|53
+Austin, TX|Lubbock, TX|34
+Austin, TX|Los Angeles, CA|174
+Austin, TX|El Paso, TX|84
+Austin, TX|Charlotte, NC|83
+Austin, TX|Houston, TX|159
+Austin, TX|Nashville, TN|57
+Austin, TX|Chicago, IL|126
+Austin, TX|Orlando, FL|66
+Austin, TX|San Francisco, CA|123
+Austin, TX|Tampa, FL|28
+Austin, TX|Memphis, TN|75
+Austin, TX|Minneapolis, MN|88
+Austin, TX|Long Beach, CA|31
+Austin, TX|Philadelphia, PA|31
+Austin, TX|Phoenix, AZ|231
+Austin, TX|Las Vegas, NV|89
+Austin, TX|Boston, MA|28
+Austin, TX|Salt Lake City, UT|63
+Austin, TX|Chicago, IL|55
+Austin, TX|Atlanta, GA|223
+Austin, TX|Washington, DC|31
+Austin, TX|Seattle, WA|30
+Austin, TX|Dallas, TX|334
+Austin, TX|Fort Lauderdale, FL|62
+Austin, TX|New York, NY|118
+Austin, TX|Dallas/Fort Worth, TX|439
+Austin, TX|Washington, DC|41
+Austin, TX|Baltimore, MD|62
+Austin, TX|Denver, CO|171
+Austin, TX|Detroit, MI|83
+Austin, TX|Harlingen/San Benito, TX|31
+Austin, TX|Houston, TX|303
+Austin, TX|Newark, NJ|51
+Minot, ND|Denver, CO|140
+Minot, ND|Minneapolis, MN|74
+Bristol/Johnson City/Kingsport, TN|Atlanta, GA|199
+Cedar Rapids/Iowa City, IA|Dallas/Fort Worth, TX|174
+Cedar Rapids/Iowa City, IA|Atlanta, GA|57
+Cedar Rapids/Iowa City, IA|Denver, CO|76
+Cedar Rapids/Iowa City, IA|Detroit, MI|102
+Cedar Rapids/Iowa City, IA|Houston, TX|31
+Cedar Rapids/Iowa City, IA|Chicago, IL|142
+Cedar Rapids/Iowa City, IA|Minneapolis, MN|109
+Chico, CA|San Francisco, CA|93
+Rhinelander, WI|Iron Mountain/Kingsfd, MI|24
+Rhinelander, WI|Minneapolis, MN|56
+Jacksonville, FL|Cincinnati, OH|25
+Jacksonville, FL|Charlotte, NC|196
+Jacksonville, FL|Houston, TX|35
+Jacksonville, FL|Nashville, TN|89
+Jacksonville, FL|Norfolk, VA|29
+Jacksonville, FL|Chicago, IL|86
+Jacksonville, FL|Miami, FL|155
+Jacksonville, FL|Memphis, TN|4
+Jacksonville, FL|Minneapolis, MN|1
+Jacksonville, FL|Las Vegas, NV|5
+Jacksonville, FL|Boston, MA|31
+Jacksonville, FL|San Juan, PR|31
+Jacksonville, FL|Atlanta, GA|418
+Jacksonville, FL|Fort Lauderdale, FL|111
+Jacksonville, FL|New York, NY|100
+Jacksonville, FL|Dallas/Fort Worth, TX|120
+Jacksonville, FL|Newark, NJ|109
+Jacksonville, FL|Baltimore, MD|93
+Jacksonville, FL|Denver, CO|31
+Jacksonville, FL|Detroit, MI|28
+Jacksonville, FL|Birmingham, AL|31
+Jacksonville, FL|Houston, TX|112
+Jacksonville, FL|Washington, DC|81
+San Antonio, TX|San Diego, CA|58
+San Antonio, TX|Los Angeles, CA|112
+San Antonio, TX|El Paso, TX|77
+San Antonio, TX|Charlotte, NC|83
+San Antonio, TX|Houston, TX|173
+San Antonio, TX|Nashville, TN|54
+San Antonio, TX|Chicago, IL|154
+San Antonio, TX|Orlando, FL|31
+San Antonio, TX|San Francisco, CA|38
+San Antonio, TX|Tampa, FL|28
+San Antonio, TX|Memphis, TN|74
+San Antonio, TX|Minneapolis, MN|65
+San Antonio, TX|Philadelphia, PA|31
+San Antonio, TX|Phoenix, AZ|206
+San Antonio, TX|Las Vegas, NV|121
+San Antonio, TX|Salt Lake City, UT|59
+San Antonio, TX|Chicago, IL|59
+San Antonio, TX|St. Louis, MO|54
+San Antonio, TX|Atlanta, GA|317
+San Antonio, TX|Seattle, WA|31
+San Antonio, TX|Dallas, TX|367
+San Antonio, TX|New York, NY|27
+San Antonio, TX|Dallas/Fort Worth, TX|453
+San Antonio, TX|Washington, DC|31
+San Antonio, TX|Baltimore, MD|55
+San Antonio, TX|Denver, CO|119
+San Antonio, TX|Detroit, MI|79
+San Antonio, TX|Harlingen/San Benito, TX|31
+San Antonio, TX|Houston, TX|321
+San Antonio, TX|Newark, NJ|27
+Richmond, VA|Cincinnati, OH|44
+Richmond, VA|Orlando, FL|62
+Richmond, VA|New York, NY|25
+Richmond, VA|Fort Lauderdale, FL|31
+Richmond, VA|New York, NY|34
+Richmond, VA|Boston, MA|56
+Richmond, VA|Washington, DC|91
+Richmond, VA|Baltimore, MD|1
+Richmond, VA|Miami, FL|31
+Richmond, VA|Dallas/Fort Worth, TX|89
+Richmond, VA|Cleveland, OH|67
+Richmond, VA|Atlanta, GA|344
+Richmond, VA|Charlotte, NC|168
+Richmond, VA|Detroit, MI|80
+Richmond, VA|Minneapolis, MN|28
+Richmond, VA|Houston, TX|50
+Richmond, VA|Chicago, IL|184
+Richmond, VA|Newark, NJ|137
+Barrow, AK|Anchorage, AK|40
+Barrow, AK|Fairbanks, AK|31
+Flagstaff, AZ|Phoenix, AZ|149
+Chattanooga, TN|Detroit, MI|53
+Chattanooga, TN|Dallas/Fort Worth, TX|58
+Chattanooga, TN|Chicago, IL|31
+Chattanooga, TN|Atlanta, GA|257
+Santa Barbara, CA|Denver, CO|81
+Santa Barbara, CA|San Francisco, CA|301
+Santa Barbara, CA|Seattle, WA|31
+Santa Barbara, CA|Phoenix, AZ|152
+Santa Barbara, CA|Los Angeles, CA|352
+Hibbing, MN|Minneapolis, MN|53
+New Bern/Morehead/Beaufort, NC|Atlanta, GA|57
+Dallas/Fort Worth, TX|Cincinnati, OH|225
+Dallas/Fort Worth, TX|Kahului, HI|31
+Dallas/Fort Worth, TX|San Diego, CA|266
+Dallas/Fort Worth, TX|Santa Fe, NM|62
+Dallas/Fort Worth, TX|Fort Wayne, IN|62
+Dallas/Fort Worth, TX|Reno, NV|62
+Dallas/Fort Worth, TX|El Paso, TX|240
+Dallas/Fort Worth, TX|Charlotte, NC|408
+Dallas/Fort Worth, TX|Killeen, TX|271
+Dallas/Fort Worth, TX|Nashville, TN|234
+Dallas/Fort Worth, TX|Norfolk, VA|62
+Dallas/Fort Worth, TX|Chicago, IL|622
+Dallas/Fort Worth, TX|Palm Springs, CA|93
+Dallas/Fort Worth, TX|Moline, IL|89
+Dallas/Fort Worth, TX|Alexandria, LA|93
+Dallas/Fort Worth, TX|San Francisco, CA|505
+Dallas/Fort Worth, TX|Pensacola, FL|151
+Dallas/Fort Worth, TX|Dayton, OH|89
+Dallas/Fort Worth, TX|Wichita, KS|120
+Dallas/Fort Worth, TX|Honolulu, HI|62
+Dallas/Fort Worth, TX|Memphis, TN|147
+Dallas/Fort Worth, TX|Brownsville, TX|62
+Dallas/Fort Worth, TX|Madison, WI|93
+Dallas/Fort Worth, TX|Minneapolis, MN|289
+Dallas/Fort Worth, TX|Philadelphia, PA|346
+Dallas/Fort Worth, TX|Phoenix, AZ|452
+Dallas/Fort Worth, TX|Peoria, IL|93
+Dallas/Fort Worth, TX|Boston, MA|322
+Dallas/Fort Worth, TX|Hartford, CT|93
+Dallas/Fort Worth, TX|San Juan, PR|66
+Dallas/Fort Worth, TX|Roswell, NM|89
+Dallas/Fort Worth, TX|Washington, DC|294
+Dallas/Fort Worth, TX|Bloomington/Normal, IL|31
+Dallas/Fort Worth, TX|Colorado Springs, CO|129
+Dallas/Fort Worth, TX|Seattle, WA|279
+Dallas/Fort Worth, TX|Midland/Odessa, TX|178
+Dallas/Fort Worth, TX|Fort Smith, AR|120
+Dallas/Fort Worth, TX|Longview, TX|62
+Dallas/Fort Worth, TX|Mission/McAllen/Edinburg, TX|120
+Dallas/Fort Worth, TX|Birmingham, AL|93
+Dallas/Fort Worth, TX|Houston, TX|457
+Dallas/Fort Worth, TX|Washington, DC|205
+Dallas/Fort Worth, TX|New Orleans, LA|186
+Dallas/Fort Worth, TX|Sioux Falls, SD|68
+Dallas/Fort Worth, TX|Oklahoma City, OK|213
+Dallas/Fort Worth, TX|San Jose, CA|151
+Dallas/Fort Worth, TX|Valparaiso, FL|120
+Dallas/Fort Worth, TX|Rapid City, SD|31
+Dallas/Fort Worth, TX|Portland, OR|124
+Dallas/Fort Worth, TX|Grand Island, NE|58
+Dallas/Fort Worth, TX|Grand Rapids, MI|93
+Dallas/Fort Worth, TX|Las Vegas, NV|358
+Dallas/Fort Worth, TX|Miami, FL|314
+Dallas/Fort Worth, TX|Gunnison, CO|28
+Dallas/Fort Worth, TX|Hayden, CO|31
+Dallas/Fort Worth, TX|Knoxville, TN|120
+Dallas/Fort Worth, TX|Abilene, TX|213
+Dallas/Fort Worth, TX|Pittsburgh, PA|120
+Dallas/Fort Worth, TX|Lake Charles, LA|62
+Dallas/Fort Worth, TX|Little Rock, AR|213
+Dallas/Fort Worth, TX|Austin, TX|439
+Dallas/Fort Worth, TX|Cedar Rapids/Iowa City, IA|174
+Dallas/Fort Worth, TX|Savannah, GA|93
+Dallas/Fort Worth, TX|Jacksonville, FL|120
+Dallas/Fort Worth, TX|San Antonio, TX|453
+Dallas/Fort Worth, TX|Richmond, VA|89
+Dallas/Fort Worth, TX|Fort Lauderdale, FL|207
+Dallas/Fort Worth, TX|Baton Rouge, LA|236
+Dallas/Fort Worth, TX|Columbia, SC|85
+Dallas/Fort Worth, TX|Chattanooga, TN|58
+Dallas/Fort Worth, TX|Evansville, IN|31
+Dallas/Fort Worth, TX|Denver, CO|527
+Dallas/Fort Worth, TX|Grand Junction, CO|62
+Dallas/Fort Worth, TX|Charleston, SC|89
+Dallas/Fort Worth, TX|Newark, NJ|306
+Dallas/Fort Worth, TX|Albuquerque, NM|218
+Dallas/Fort Worth, TX|Springfield, IL|50
+Dallas/Fort Worth, TX|Omaha, NE|151
+Dallas/Fort Worth, TX|Tyler, TX|120
+Dallas/Fort Worth, TX|Fort Myers, FL|93
+Dallas/Fort Worth, TX|Tallahassee, FL|31
+Dallas/Fort Worth, TX|Orlando, FL|300
+Dallas/Fort Worth, TX|Columbus, GA|58
+Dallas/Fort Worth, TX|Jackson, WY|23
+Dallas/Fort Worth, TX|Aspen, CO|31
+Dallas/Fort Worth, TX|Louisville, KY|151
+Dallas/Fort Worth, TX|Eagle, CO|74
+Dallas/Fort Worth, TX|Jackson/Vicksburg, MS|213
+Dallas/Fort Worth, TX|Indianapolis, IN|155
+Dallas/Fort Worth, TX|Des Moines, IA|155
+Dallas/Fort Worth, TX|Wichita Falls, TX|93
+Dallas/Fort Worth, TX|West Palm Beach/Palm Beach, FL|93
+Dallas/Fort Worth, TX|Waco, TX|120
+Dallas/Fort Worth, TX|Gulfport/Biloxi, MS|93
+Dallas/Fort Worth, TX|Springfield, MO|213
+Dallas/Fort Worth, TX|St. Louis, MO|235
+Dallas/Fort Worth, TX|Atlanta, GA|624
+Dallas/Fort Worth, TX|Manhattan/Ft. Riley, KS|83
+Dallas/Fort Worth, TX|Kansas City, MO|230
+Dallas/Fort Worth, TX|Corpus Christi, TX|236
+Dallas/Fort Worth, TX|Texarkana, AR|89
+Dallas/Fort Worth, TX|New York, NY|62
+Dallas/Fort Worth, TX|Sacramento, CA|124
+Dallas/Fort Worth, TX|Champaign/Urbana, IL|31
+Dallas/Fort Worth, TX|Columbus, OH|120
+Dallas/Fort Worth, TX|Shreveport, LA|244
+Dallas/Fort Worth, TX|Fresno, CA|62
+Dallas/Fort Worth, TX|Garden City, KS|62
+Dallas/Fort Worth, TX|Detroit, MI|237
+Dallas/Fort Worth, TX|San Angelo, TX|120
+Dallas/Fort Worth, TX|Joplin, MO|62
+Dallas/Fort Worth, TX|Lubbock, TX|236
+Dallas/Fort Worth, TX|Lawton/Fort Sill, OK|155
+Dallas/Fort Worth, TX|Amarillo, TX|209
+Dallas/Fort Worth, TX|Los Angeles, CA|658
+Dallas/Fort Worth, TX|Milwaukee, WI|120
+Dallas/Fort Worth, TX|Houston, TX|236
+Dallas/Fort Worth, TX|Raleigh/Durham, NC|147
+Dallas/Fort Worth, TX|Montrose/Delta, CO|31
+Dallas/Fort Worth, TX|Lexington, KY|89
+Dallas/Fort Worth, TX|Laredo, TX|120
+Dallas/Fort Worth, TX|Ontario, CA|124
+Dallas/Fort Worth, TX|Tampa, FL|217
+Dallas/Fort Worth, TX|Mobile, AL|89
+Dallas/Fort Worth, TX|Huntsville, AL|89
+Dallas/Fort Worth, TX|Santa Ana, CA|284
+Dallas/Fort Worth, TX|Lafayette, LA|120
+Dallas/Fort Worth, TX|New York, NY|437
+Dallas/Fort Worth, TX|Fayetteville, AR|240
+Dallas/Fort Worth, TX|Salt Lake City, UT|276
+Dallas/Fort Worth, TX|Cleveland, OH|182
+Dallas/Fort Worth, TX|Monroe, LA|89
+Dallas/Fort Worth, TX|Greensboro/High Point, NC|89
+Dallas/Fort Worth, TX|College Station/Bryan, TX|120
+Dallas/Fort Worth, TX|Greer, SC|89
+Dallas/Fort Worth, TX|Durango, CO|37
+Dallas/Fort Worth, TX|Tulsa, OK|244
+Dallas/Fort Worth, TX|Tucson, AZ|213
+Dallas/Fort Worth, TX|Montgomery, AL|89
+Dallas/Fort Worth, TX|Baltimore, MD|151
+Evansville, IN|Detroit, MI|87
+Evansville, IN|Dallas/Fort Worth, TX|31
+Evansville, IN|Chicago, IL|116
+Evansville, IN|Atlanta, GA|117
+Denver, CO|Cincinnati, OH|54
+Denver, CO|Anchorage, AK|31
+Denver, CO|San Diego, CA|349
+Denver, CO|Pasco/Kennewick/Richland, WA|80
+Denver, CO|Reno, NV|96
+Denver, CO|Burbank, CA|131
+Denver, CO|El Paso, TX|109
+Denver, CO|Charlotte, NC|150
+Denver, CO|Kahului, HI|24
+Denver, CO|Nashville, TN|178
+Denver, CO|Grand Rapids, MI|62
+Denver, CO|Chicago, IL|396
+Denver, CO|Palm Springs, CA|119
+Denver, CO|Moline, IL|31
+Denver, CO|San Francisco, CA|486
+Denver, CO|Dayton, OH|69
+Denver, CO|Wichita, KS|64
+Denver, CO|Honolulu, HI|37
+Denver, CO|Memphis, TN|55
+Denver, CO|Madison, WI|77
+Denver, CO|Minneapolis, MN|457
+Denver, CO|Missoula, MT|92
+Denver, CO|Philadelphia, PA|174
+Denver, CO|Phoenix, AZ|663
+Denver, CO|Peoria, IL|27
+Denver, CO|Boston, MA|156
+Denver, CO|Hartford, CT|31
+Denver, CO|Seattle, WA|412
+Denver, CO|Washington, DC|123
+Denver, CO|Helena, MT|36
+Denver, CO|Bloomington/Normal, IL|14
+Denver, CO|Colorado Springs, CO|168
+Denver, CO|Williston, ND|93
+Denver, CO|Midland/Odessa, TX|62
+Denver, CO|Birmingham, AL|26
+Denver, CO|Houston, TX|366
+Denver, CO|Washington, DC|299
+Denver, CO|New Orleans, LA|154
+Denver, CO|Sioux Falls, SD|70
+Denver, CO|Oklahoma City, OK|190
+Denver, CO|San Jose, CA|197
+Denver, CO|Rapid City, SD|92
+Denver, CO|Lihue, HI|4
+Denver, CO|Spokane, WA|140
+Denver, CO|Portland, OR|307
+Denver, CO|South Bend, IN|18
+Denver, CO|Rockford, IL|10
+Denver, CO|Las Vegas, NV|502
+Denver, CO|Miami, FL|93
+Denver, CO|Gunnison, CO|6
+Denver, CO|Hayden, CO|71
+Denver, CO|Fort Myers, FL|31
+Denver, CO|Eugene, OR|62
+Denver, CO|Gillette, WY|89
+Denver, CO|Lincoln, NE|80
+Denver, CO|Akron, OH|43
+Denver, CO|Pittsburgh, PA|59
+Denver, CO|Bend/Redmond, OR|31
+Denver, CO|Little Rock, AR|79
+Denver, CO|Grand Forks, ND|62
+Denver, CO|Austin, TX|141
+Denver, CO|Minot, ND|140
+Denver, CO|Cedar Rapids/Iowa City, IA|75
+Denver, CO|Jacksonville, FL|31
+Denver, CO|San Antonio, TX|95
+Denver, CO|Fort Lauderdale, FL|141
+Denver, CO|Great Falls, MT|64
+Denver, CO|Santa Barbara, CA|81
+Denver, CO|Dallas/Fort Worth, TX|532
+Denver, CO|Chicago, IL|302
+Denver, CO|Grand Junction, CO|151
+Denver, CO|Newark, NJ|212
+Denver, CO|Albuquerque, NM|127
+Denver, CO|Cody, WY|31
+Denver, CO|Omaha, NE|187
+Denver, CO|Providence, RI|31
+Denver, CO|Knoxville, TN|31
+Denver, CO|Orlando, FL|220
+Denver, CO|Jackson, WY|59
+Denver, CO|Louisville, KY|37
+Denver, CO|Eagle, CO|25
+Denver, CO|Indianapolis, IN|168
+Denver, CO|Billings, MT|73
+Denver, CO|Des Moines, IA|128
+Denver, CO|Bismarck/Mandan, ND|148
+Denver, CO|Springfield, MO|58
+Denver, CO|Branson, MO|6
+Denver, CO|Bakersfield, CA|58
+Denver, CO|St. Louis, MO|215
+Denver, CO|Atlanta, GA|357
+Denver, CO|Manchester, NH|31
+Denver, CO|Kansas City, MO|293
+Denver, CO|Bozeman, MT|100
+Denver, CO|Rock Springs, WY|93
+Denver, CO|New York, NY|52
+Denver, CO|Sacramento, CA|209
+Denver, CO|Columbus, OH|54
+Denver, CO|Shreveport, LA|31
+Denver, CO|Fresno, CA|81
+Denver, CO|Boise, ID|193
+Denver, CO|Detroit, MI|198
+Denver, CO|Fargo, ND|131
+Denver, CO|Oakland, CA|106
+Denver, CO|Lubbock, TX|57
+Denver, CO|Amarillo, TX|119
+Denver, CO|Los Angeles, CA|645
+Denver, CO|Milwaukee, WI|212
+Denver, CO|Raleigh/Durham, NC|31
+Denver, CO|Houston, TX|119
+Denver, CO|Montrose/Delta, CO|98
+Denver, CO|Newport News/Williamsburg, VA|28
+Denver, CO|Kona, HI|4
+Denver, CO|Ontario, CA|93
+Denver, CO|Tampa, FL|130
+Denver, CO|Kalispell, MT|34
+Denver, CO|Huntsville, AL|27
+Denver, CO|Santa Ana, CA|290
+Denver, CO|Laramie, WY|62
+Denver, CO|New York, NY|294
+Denver, CO|Fayetteville, AR|23
+Denver, CO|Casper, WY|137
+Denver, CO|Salt Lake City, UT|614
+Denver, CO|Phoenix, AZ|31
+Denver, CO|Monterey, CA|31
+Denver, CO|Idaho Falls, ID|81
+Denver, CO|Cleveland, OH|105
+Denver, CO|Aspen, CO|289
+Denver, CO|Medford, OR|33
+Denver, CO|Durango, CO|47
+Denver, CO|Dallas, TX|2
+Denver, CO|Tulsa, OK|193
+Denver, CO|Tucson, AZ|186
+Denver, CO|Baltimore, MD|152
+Grand Junction, CO|Phoenix, AZ|91
+Grand Junction, CO|Houston, TX|27
+Grand Junction, CO|Salt Lake City, UT|61
+Grand Junction, CO|Dallas/Fort Worth, TX|62
+Grand Junction, CO|Denver, CO|150
+Grand Junction, CO|Aspen, CO|1
+Harrisburg, PA|Cincinnati, OH|25
+Harrisburg, PA|Orlando, FL|23
+Harrisburg, PA|Atlanta, GA|138
+Harrisburg, PA|Charlotte, NC|90
+Harrisburg, PA|Detroit, MI|108
+Harrisburg, PA|Chicago, IL|120
+Louisville, KY|Orlando, FL|34
+Louisville, KY|Phoenix, AZ|31
+Louisville, KY|Las Vegas, NV|31
+Louisville, KY|Tampa, FL|31
+Louisville, KY|Baltimore, MD|81
+Louisville, KY|Washington, DC|31
+Louisville, KY|Miami, FL|62
+Louisville, KY|Chicago, IL|94
+Louisville, KY|Dallas/Fort Worth, TX|151
+Louisville, KY|Minneapolis, MN|56
+Louisville, KY|St. Louis, MO|53
+Louisville, KY|Atlanta, GA|258
+Louisville, KY|Denver, CO|36
+Louisville, KY|Detroit, MI|53
+Louisville, KY|Houston, TX|57
+Louisville, KY|Chicago, IL|74
+Louisville, KY|Newark, NJ|79
+Louisville, KY|Cleveland, OH|41
+Bemidji, MN|Minneapolis, MN|61
+Aberdeen, SD|Minneapolis, MN|62
+Albuquerque, NM|San Diego, CA|55
+Albuquerque, NM|Oakland, CA|57
+Albuquerque, NM|Los Angeles, CA|208
+Albuquerque, NM|El Paso, TX|8
+Albuquerque, NM|Houston, TX|85
+Albuquerque, NM|Portland, OR|5
+Albuquerque, NM|Chicago, IL|50
+Albuquerque, NM|San Francisco, CA|33
+Albuquerque, NM|Minneapolis, MN|5
+Albuquerque, NM|Phoenix, AZ|382
+Albuquerque, NM|Las Vegas, NV|123
+Albuquerque, NM|Salt Lake City, UT|87
+Albuquerque, NM|Denver, CO|132
+Albuquerque, NM|St. Louis, MO|5
+Albuquerque, NM|Atlanta, GA|63
+Albuquerque, NM|Kansas City, MO|28
+Albuquerque, NM|Seattle, WA|30
+Albuquerque, NM|Dallas, TX|206
+Albuquerque, NM|Tucson, AZ|55
+Albuquerque, NM|Dallas/Fort Worth, TX|218
+Albuquerque, NM|Baltimore, MD|31
+Albuquerque, NM|Chicago, IL|57
+Albuquerque, NM|Houston, TX|120
+Albuquerque, NM|Washington, DC|31
+Pago Pago, TT|Honolulu, HI|9
+Cody, WY|Denver, CO|31
+Cody, WY|Salt Lake City, UT|31
+Springfield, IL|Dallas/Fort Worth, TX|50
+Springfield, IL|Chicago, IL|89
+Albany, GA|Atlanta, GA|87
+Omaha, NE|Cincinnati, OH|1
+Omaha, NE|Orlando, FL|13
+Omaha, NE|Phoenix, AZ|123
+Omaha, NE|Las Vegas, NV|62
+Omaha, NE|Charlotte, NC|56
+Omaha, NE|Memphis, TN|27
+Omaha, NE|Salt Lake City, UT|59
+Omaha, NE|Chicago, IL|145
+Omaha, NE|Dallas/Fort Worth, TX|151
+Omaha, NE|Newark, NJ|51
+Omaha, NE|St. Louis, MO|80
+Omaha, NE|Atlanta, GA|115
+Omaha, NE|Denver, CO|202
+Omaha, NE|Detroit, MI|86
+Omaha, NE|Houston, TX|158
+Omaha, NE|Chicago, IL|269
+Omaha, NE|Minneapolis, MN|90
+Nome, AK|Kotzebue, AK|31
+Nome, AK|Anchorage, AK|60
+Oklahoma City, OK|Houston, TX|108
+Oklahoma City, OK|Kansas City, MO|58
+Oklahoma City, OK|Phoenix, AZ|59
+Oklahoma City, OK|Las Vegas, NV|62
+Oklahoma City, OK|San Francisco, CA|27
+Oklahoma City, OK|Atlanta, GA|146
+Oklahoma City, OK|Dallas, TX|139
+Oklahoma City, OK|Washington, DC|27
+Oklahoma City, OK|Baltimore, MD|31
+Oklahoma City, OK|Los Angeles, CA|85
+Oklahoma City, OK|Chicago, IL|53
+Oklahoma City, OK|Dallas/Fort Worth, TX|213
+Oklahoma City, OK|Minneapolis, MN|59
+Oklahoma City, OK|St. Louis, MO|53
+Oklahoma City, OK|Memphis, TN|52
+Oklahoma City, OK|Denver, CO|174
+Oklahoma City, OK|Detroit, MI|52
+Oklahoma City, OK|Salt Lake City, UT|63
+Oklahoma City, OK|Houston, TX|209
+Oklahoma City, OK|Chicago, IL|180
+Oklahoma City, OK|Newark, NJ|27
+Providence, RI|Philadelphia, PA|22
+Providence, RI|Orlando, FL|163
+Providence, RI|Las Vegas, NV|5
+Providence, RI|Tampa, FL|59
+Providence, RI|Fort Lauderdale, FL|66
+Providence, RI|Charlotte, NC|141
+Providence, RI|Baltimore, MD|230
+Providence, RI|Chicago, IL|62
+Providence, RI|Newark, NJ|29
+Providence, RI|Atlanta, GA|84
+Providence, RI|Denver, CO|31
+Providence, RI|Detroit, MI|135
+Providence, RI|Washington, DC|25
+Providence, RI|Chicago, IL|33
+Providence, RI|Washington, DC|59
+Jackson/Vicksburg, MS|Houston, TX|81
+Jackson/Vicksburg, MS|Orlando, FL|31
+Jackson/Vicksburg, MS|Baltimore, MD|31
+Jackson/Vicksburg, MS|Dallas/Fort Worth, TX|213
+Jackson/Vicksburg, MS|Atlanta, GA|207
+Jackson/Vicksburg, MS|Chicago, IL|31
+Jackson/Vicksburg, MS|Memphis, TN|52
+Jackson/Vicksburg, MS|Houston, TX|137
+Jackson/Vicksburg, MS|Chicago, IL|31
+Bethel, AK|Anchorage, AK|83
+Rochester, MN|Chicago, IL|31
+Rochester, MN|Minneapolis, MN|133
+Traverse City, MI|Detroit, MI|95
+Traverse City, MI|Chicago, IL|126
+Tyler, TX|Dallas/Fort Worth, TX|120
+Tyler, TX|Houston, TX|88
+Albany, NY|Orlando, FL|63
+Albany, NY|Las Vegas, NV|5
+Albany, NY|Tampa, FL|31
+Albany, NY|Fort Lauderdale, FL|31
+Albany, NY|Charlotte, NC|57
+Albany, NY|Baltimore, MD|122
+Albany, NY|Newark, NJ|65
+Albany, NY|Cleveland, OH|52
+Albany, NY|Atlanta, GA|87
+Albany, NY|Chicago, IL|61
+Albany, NY|Detroit, MI|116
+Albany, NY|Chicago, IL|66
+Albany, NY|Washington, DC|66
+Texarkana, AR|Dallas/Fort Worth, TX|89
+Tallahassee, FL|Fort Lauderdale, FL|25
+Tallahassee, FL|Dallas/Fort Worth, TX|31
+Tallahassee, FL|Miami, FL|112
+Tallahassee, FL|Atlanta, GA|236
+Orlando, FL|Cincinnati, OH|87
+Orlando, FL|San Diego, CA|21
+Orlando, FL|Philadelphia, PA|405
+Orlando, FL|Omaha, NE|13
+Orlando, FL|Aguadilla, PR|41
+Orlando, FL|Chicago, IL|225
+Orlando, FL|Los Angeles, CA|187
+Orlando, FL|Milwaukee, WI|106
+Orlando, FL|Key West, FL|31
+Orlando, FL|Providence, RI|163
+Orlando, FL|Rochester, NY|31
+Orlando, FL|Charlotte, NC|296
+Orlando, FL|Raleigh/Durham, NC|121
+Orlando, FL|Nashville, TN|124
+Orlando, FL|Grand Rapids, MI|31
+Orlando, FL|Chicago, IL|259
+Orlando, FL|Buffalo, NY|157
+Orlando, FL|White Plains, NY|113
+Orlando, FL|Trenton, NJ|10
+Orlando, FL|San Francisco, CA|95
+Orlando, FL|Columbia, MO|9
+Orlando, FL|Greensboro/High Point, NC|13
+Orlando, FL|Louisville, KY|34
+Orlando, FL|Las Vegas, NV|36
+Orlando, FL|Dayton, OH|31
+Orlando, FL|Miami, FL|269
+Orlando, FL|Jackson/Vicksburg, MS|31
+Orlando, FL|Islip, NY|98
+Orlando, FL|Staunton, VA|13
+Orlando, FL|San Antonio, TX|31
+Orlando, FL|Knoxville, TN|2
+Orlando, FL|Branson, MO|4
+Orlando, FL|Memphis, TN|57
+Orlando, FL|Greer, SC|31
+Orlando, FL|Madison, WI|4
+Orlando, FL|Akron, OH|62
+Orlando, FL|Minneapolis, MN|178
+Orlando, FL|Indianapolis, IN|125
+Orlando, FL|Houston, TX|120
+Orlando, FL|Allentown/Bethlehem/Easton, PA|19
+Orlando, FL|Phoenix, AZ|100
+Orlando, FL|New York, NY|297
+Orlando, FL|Flint, MI|23
+Orlando, FL|Boston, MA|283
+Orlando, FL|Pittsburgh, PA|158
+Orlando, FL|Syracuse, NY|62
+Orlando, FL|San Juan, PR|285
+Orlando, FL|Ponce, PR|44
+Orlando, FL|Panama City, FL|5
+Orlando, FL|Kansas City, MO|67
+Orlando, FL|Hartford, CT|135
+Orlando, FL|St. Louis, MO|121
+Orlando, FL|Atlanta, GA|744
+Orlando, FL|Austin, TX|67
+Orlando, FL|Salt Lake City, UT|54
+Orlando, FL|Washington, DC|311
+Orlando, FL|Manchester, NH|66
+Orlando, FL|Bloomington/Normal, IL|13
+Orlando, FL|Colorado Springs, CO|6
+Orlando, FL|Seattle, WA|39
+Orlando, FL|Albany, NY|63
+Orlando, FL|Newburgh/Poughkeepsie, NY|37
+Orlando, FL|Richmond, VA|62
+Orlando, FL|Norfolk, VA|58
+Orlando, FL|Fort Lauderdale, FL|15
+Orlando, FL|New Orleans, LA|123
+Orlando, FL|New York, NY|458
+Orlando, FL|Columbus, OH|117
+Orlando, FL|Dallas/Fort Worth, TX|300
+Orlando, FL|Washington, DC|125
+Orlando, FL|Baltimore, MD|339
+Orlando, FL|Denver, CO|221
+Orlando, FL|Detroit, MI|247
+Orlando, FL|Harrisburg, PA|23
+Orlando, FL|Birmingham, AL|62
+Orlando, FL|Houston, TX|190
+Orlando, FL|Newark, NJ|423
+Orlando, FL|Cleveland, OH|69
+Columbus, GA|Dallas/Fort Worth, TX|58
+Columbus, GA|Atlanta, GA|108
+Pellston, MI|Detroit, MI|52
+Wichita, KS|Dallas/Fort Worth, TX|120
+Wichita, KS|Atlanta, GA|232
+Wichita, KS|Denver, CO|63
+Wichita, KS|Houston, TX|137
+Wichita, KS|Chicago, IL|208
+Wichita, KS|Minneapolis, MN|86
+Greensboro/High Point, NC|Cincinnati, OH|24
+Greensboro/High Point, NC|Orlando, FL|13
+Greensboro/High Point, NC|New York, NY|3
+Greensboro/High Point, NC|Charlotte, NC|74
+Greensboro/High Point, NC|Miami, FL|62
+Greensboro/High Point, NC|Dallas/Fort Worth, TX|89
+Greensboro/High Point, NC|Newark, NJ|88
+Greensboro/High Point, NC|Atlanta, GA|230
+Greensboro/High Point, NC|Detroit, MI|55
+Greensboro/High Point, NC|Chicago, IL|81
+Greensboro/High Point, NC|Washington, DC|83
+Charleston, SC|Houston, TX|29
+Charleston, SC|New York, NY|27
+Charleston, SC|Miami, FL|62
+Charleston, SC|Baltimore, MD|86
+Charleston, SC|Chicago, IL|36
+Charleston, SC|Dallas/Fort Worth, TX|89
+Charleston, SC|Newark, NJ|86
+Charleston, SC|Atlanta, GA|263
+Charleston, SC|Charlotte, NC|159
+Charleston, SC|Detroit, MI|5
+Charleston, SC|Nashville, TN|31
+Charleston, SC|Houston, TX|33
+Charleston, SC|Chicago, IL|85
+Charleston, SC|Washington, DC|83
+Eagle, CO|New York, NY|31
+Eagle, CO|Miami, FL|31
+Eagle, CO|Los Angeles, CA|31
+Eagle, CO|Dallas/Fort Worth, TX|74
+Eagle, CO|Atlanta, GA|31
+Eagle, CO|Denver, CO|25
+Eagle, CO|Houston, TX|31
+Eagle, CO|Chicago, IL|31
+Eagle, CO|Newark, NJ|31
+Charlottesville, VA|Chicago, IL|62
+Charlottesville, VA|Atlanta, GA|87
+Sault Ste. Marie, MI|Detroit, MI|57
+Escanaba, MI|Detroit, MI|54
+Indianapolis, IN|Los Angeles, CA|1
+Indianapolis, IN|Charlotte, NC|109
+Indianapolis, IN|Raleigh/Durham, NC|46
+Indianapolis, IN|Chicago, IL|91
+Indianapolis, IN|Fort Myers, FL|95
+Indianapolis, IN|Orlando, FL|125
+Indianapolis, IN|Tampa, FL|69
+Indianapolis, IN|Miami, FL|93
+Indianapolis, IN|Memphis, TN|75
+Indianapolis, IN|Minneapolis, MN|143
+Indianapolis, IN|Houston, TX|58
+Indianapolis, IN|Phoenix, AZ|113
+Indianapolis, IN|Las Vegas, NV|59
+Indianapolis, IN|Salt Lake City, UT|31
+Indianapolis, IN|Cleveland, OH|44
+Indianapolis, IN|Atlanta, GA|332
+Indianapolis, IN|Kansas City, MO|59
+Indianapolis, IN|Fort Lauderdale, FL|36
+Indianapolis, IN|New York, NY|62
+Indianapolis, IN|Dallas/Fort Worth, TX|155
+Indianapolis, IN|Newark, NJ|83
+Indianapolis, IN|Baltimore, MD|82
+Indianapolis, IN|Denver, CO|137
+Indianapolis, IN|Detroit, MI|191
+Indianapolis, IN|Houston, TX|147
+Indianapolis, IN|Washington, DC|38
+Key West, FL|Tampa, FL|31
+Key West, FL|Orlando, FL|31
+Key West, FL|New York, NY|1
+Key West, FL|Miami, FL|186
+Key West, FL|Atlanta, GA|126
+Billings, MT|Denver, CO|73
+Billings, MT|Minneapolis, MN|2
+Billings, MT|Salt Lake City, UT|120
+Iron Mountain/Kingsfd, MI|Rhinelander, WI|24
+Iron Mountain/Kingsfd, MI|Minneapolis, MN|34
+Des Moines, IA|Phoenix, AZ|62
+Des Moines, IA|Memphis, TN|26
+Des Moines, IA|Chicago, IL|62
+Des Moines, IA|Dallas/Fort Worth, TX|155
+Des Moines, IA|Minneapolis, MN|146
+Des Moines, IA|Atlanta, GA|87
+Des Moines, IA|Denver, CO|155
+Des Moines, IA|Detroit, MI|83
+Des Moines, IA|Houston, TX|58
+Des Moines, IA|Chicago, IL|316
+Des Moines, IA|Newark, NJ|26
+Greer, SC|Houston, TX|31
+Greer, SC|Cincinnati, OH|25
+Greer, SC|Orlando, FL|31
+Greer, SC|Baltimore, MD|54
+Greer, SC|Washington, DC|35
+Greer, SC|Dallas/Fort Worth, TX|89
+Greer, SC|Cleveland, OH|27
+Greer, SC|Atlanta, GA|238
+Greer, SC|Chicago, IL|54
+Greer, SC|Detroit, MI|60
+Greer, SC|Nashville, TN|31
+Greer, SC|Houston, TX|49
+Greer, SC|Chicago, IL|43
+Greer, SC|Newark, NJ|54
+Cedar City, UT|Salt Lake City, UT|54
+Bismarck/Mandan, ND|Denver, CO|148
+Bismarck/Mandan, ND|Aberdeen, SD|1
+Bismarck/Mandan, ND|Minneapolis, MN|175
+Lubbock, TX|Las Vegas, NV|32
+Lubbock, TX|Dallas, TX|145
+Lubbock, TX|Dallas/Fort Worth, TX|236
+Lubbock, TX|Denver, CO|57
+Lubbock, TX|Austin, TX|34
+Lubbock, TX|Houston, TX|82
+Arcata/Eureka, CA|Crescent City, CA|26
+Arcata/Eureka, CA|Sacramento, CA|53
+Arcata/Eureka, CA|San Francisco, CA|185
+North Bend/Coos Bay, OR|San Francisco, CA|31
+Waco, TX|Dallas/Fort Worth, TX|120
+Appleton, WI|Detroit, MI|108
+Appleton, WI|Chicago, IL|120
+Appleton, WI|Minneapolis, MN|104
+Appleton, WI|Atlanta, GA|57
+St. George, UT|Los Angeles, CA|27
+St. George, UT|Salt Lake City, UT|145
+Green Bay, WI|Detroit, MI|134
+Green Bay, WI|Chicago, IL|195
+Green Bay, WI|Minneapolis, MN|141
+Branson, MO|Denver, CO|6
+Branson, MO|Orlando, FL|4
+Branson, MO|Atlanta, GA|31
+Syracuse, NY|Orlando, FL|62
+Syracuse, NY|New York, NY|111
+Syracuse, NY|Washington, DC|52
+Syracuse, NY|Cleveland, OH|1
+Syracuse, NY|Atlanta, GA|88
+Syracuse, NY|Charlotte, NC|70
+Syracuse, NY|Detroit, MI|80
+Syracuse, NY|Minneapolis, MN|3
+Syracuse, NY|Chicago, IL|160
+Syracuse, NY|Newark, NJ|27
+Syracuse, NY|White Plains, NY|1
+Ponce, PR|Orlando, FL|45
+Ponce, PR|New York, NY|31
+Bakersfield, CA|Denver, CO|58
+Bakersfield, CA|Los Angeles, CA|53
+Bakersfield, CA|Houston, TX|45
+Bakersfield, CA|Phoenix, AZ|89
+Bakersfield, CA|San Francisco, CA|62
+Petersburg, AK|Wrangell, AK|31
+Petersburg, AK|Juneau, AK|31
+Duluth, MN|Detroit, MI|1
+Duluth, MN|Chicago, IL|101
+Duluth, MN|Minneapolis, MN|163
+Atlanta, GA|Cincinnati, OH|182
+Atlanta, GA|San Diego, CA|146
+Atlanta, GA|Fort Wayne, IN|87
+Atlanta, GA|Charlotte Amalie, VI|37
+Atlanta, GA|Dothan, AL|116
+Atlanta, GA|El Paso, TX|56
+Atlanta, GA|Roanoke, VA|119
+Atlanta, GA|Rochester, NY|149
+Atlanta, GA|Charlotte, NC|629
+Atlanta, GA|Killeen, TX|59
+Atlanta, GA|Nashville, TN|272
+Atlanta, GA|Norfolk, VA|294
+Atlanta, GA|Chicago, IL|671
+Atlanta, GA|Moline, IL|88
+Atlanta, GA|Alexandria, LA|109
+Atlanta, GA|Valdosta, GA|86
+Atlanta, GA|Sarasota/Bradenton, FL|175
+Atlanta, GA|Columbia, MO|61
+Atlanta, GA|Dayton, OH|232
+Atlanta, GA|Wichita, KS|232
+Atlanta, GA|Honolulu, HI|31
+Atlanta, GA|Memphis, TN|412
+Atlanta, GA|Madison, WI|86
+Atlanta, GA|Minneapolis, MN|461
+Atlanta, GA|Philadelphia, PA|565
+Atlanta, GA|Phoenix, AZ|328
+Atlanta, GA|Peoria, IL|88
+Atlanta, GA|Boston, MA|404
+Atlanta, GA|Hartford, CT|165
+Atlanta, GA|San Juan, PR|162
+Atlanta, GA|Washington, DC|605
+Atlanta, GA|Augusta, GA|249
+Atlanta, GA|Bloomington/Normal, IL|88
+Atlanta, GA|Knoxville, TN|255
+Atlanta, GA|Colorado Springs, CO|31
+Atlanta, GA|Seattle, WA|205
+Atlanta, GA|Fort Smith, AR|86
+Atlanta, GA|Birmingham, AL|261
+Atlanta, GA|Houston, TX|433
+Atlanta, GA|Washington, DC|308
+Atlanta, GA|New Orleans, LA|446
+Atlanta, GA|Oklahoma City, OK|146
+Atlanta, GA|San Jose, CA|23
+Atlanta, GA|Valparaiso, FL|235
+Atlanta, GA|Brunswick, GA|77
+Atlanta, GA|Melbourne, FL|123
+Atlanta, GA|Portland, ME|24
+Atlanta, GA|Asheville, NC|229
+Atlanta, GA|Portland, OR|79
+Atlanta, GA|Mobile, AL|230
+Atlanta, GA|South Bend, IN|89
+Atlanta, GA|Pensacola, FL|300
+Atlanta, GA|Las Vegas, NV|365
+Atlanta, GA|Miami, FL|570
+Atlanta, GA|Hayden, CO|27
+Atlanta, GA|Buffalo, NY|223
+Atlanta, GA|Akron, OH|240
+Atlanta, GA|Allentown/Bethlehem/Easton, PA|88
+Atlanta, GA|Pittsburgh, PA|329
+Atlanta, GA|Gainesville, FL|208
+Atlanta, GA|Little Rock, AR|183
+Atlanta, GA|Austin, TX|223
+Atlanta, GA|Columbus, GA|108
+Atlanta, GA|Cedar Rapids/Iowa City, IA|57
+Atlanta, GA|Savannah, GA|235
+Atlanta, GA|Jacksonville, FL|418
+Atlanta, GA|San Antonio, TX|316
+Atlanta, GA|Richmond, VA|344
+Atlanta, GA|Fort Lauderdale, FL|630
+Atlanta, GA|San Francisco, CA|234
+Atlanta, GA|Chattanooga, TN|257
+Atlanta, GA|Wilmington, NC|149
+Atlanta, GA|New Bern/Morehead/Beaufort, NC|57
+Atlanta, GA|Dallas/Fort Worth, TX|625
+Atlanta, GA|Evansville, IN|117
+Atlanta, GA|Denver, CO|344
+Atlanta, GA|Harrisburg, PA|138
+Atlanta, GA|Charleston, SC|263
+Atlanta, GA|Newark, NJ|366
+Atlanta, GA|Albuquerque, NM|64
+Atlanta, GA|Albany, NY|87
+Atlanta, GA|Albany, GA|87
+Atlanta, GA|Omaha, NE|114
+Atlanta, GA|Providence, RI|84
+Atlanta, GA|Charlottesville, VA|87
+Atlanta, GA|Fort Myers, FL|372
+Atlanta, GA|Tallahassee, FL|240
+Atlanta, GA|Orlando, FL|739
+Atlanta, GA|Bristol/Johnson City/Kingsport, TN|199
+Atlanta, GA|Jackson, WY|9
+Atlanta, GA|Louisville, KY|260
+Atlanta, GA|Eagle, CO|31
+Atlanta, GA|Jackson/Vicksburg, MS|206
+Atlanta, GA|Indianapolis, IN|331
+Atlanta, GA|Key West, FL|126
+Atlanta, GA|Des Moines, IA|87
+Atlanta, GA|West Palm Beach/Palm Beach, FL|354
+Atlanta, GA|Appleton, WI|57
+Atlanta, GA|Springfield, MO|116
+Atlanta, GA|Branson, MO|31
+Atlanta, GA|Syracuse, NY|88
+Atlanta, GA|St. Louis, MO|318
+Atlanta, GA|Manchester, NH|27
+Atlanta, GA|Charleston/Dunbar, WV|144
+Atlanta, GA|Kansas City, MO|301
+Atlanta, GA|Bozeman, MT|9
+Atlanta, GA|New York, NY|155
+Atlanta, GA|Sacramento, CA|48
+Atlanta, GA|Columbus, OH|294
+Atlanta, GA|Shreveport, LA|146
+Atlanta, GA|Columbus, MS|84
+Atlanta, GA|Baton Rouge, LA|204
+Atlanta, GA|Detroit, MI|412
+Atlanta, GA|Jacksonville/Camp Lejeune, NC|140
+Atlanta, GA|Los Angeles, CA|398
+Atlanta, GA|Milwaukee, WI|301
+Atlanta, GA|Houston, TX|479
+Atlanta, GA|Raleigh/Durham, NC|449
+Atlanta, GA|Montrose/Delta, CO|9
+Atlanta, GA|Lexington, KY|211
+Atlanta, GA|White Plains, NY|169
+Atlanta, GA|Tampa, FL|579
+Atlanta, GA|Columbia, SC|241
+Atlanta, GA|Scranton/Wilkes-Barre, PA|31
+Atlanta, GA|Gulfport/Biloxi, MS|151
+Atlanta, GA|Huntsville, AL|234
+Atlanta, GA|Panama City, FL|179
+Atlanta, GA|Flint, MI|154
+Atlanta, GA|Fayetteville, NC|225
+Atlanta, GA|Newport News/Williamsburg, VA|166
+Atlanta, GA|Santa Ana, CA|92
+Atlanta, GA|Lafayette, LA|118
+Atlanta, GA|New York, NY|875
+Atlanta, GA|Fayetteville, AR|149
+Atlanta, GA|Salt Lake City, UT|219
+Atlanta, GA|Chicago, IL|479
+Atlanta, GA|Cleveland, OH|231
+Atlanta, GA|Monroe, LA|112
+Atlanta, GA|Greensboro/High Point, NC|230
+Atlanta, GA|Greer, SC|237
+Atlanta, GA|Dallas, TX|121
+Atlanta, GA|Tulsa, OK|144
+Atlanta, GA|Myrtle Beach, SC|145
+Atlanta, GA|Daytona Beach, FL|125
+Atlanta, GA|Tucson, AZ|57
+Atlanta, GA|Montgomery, AL|223
+Atlanta, GA|Baltimore, MD|548
+Atlanta, GA|Grand Rapids, MI|92
+Manhattan/Ft. Riley, KS|Dallas/Fort Worth, TX|83
+Manhattan/Ft. Riley, KS|Chicago, IL|62
+Houston, TX|Cincinnati, OH|126
+Houston, TX|San Diego, CA|151
+Houston, TX|Reno, NV|2
+Houston, TX|El Paso, TX|171
+Houston, TX|Charlotte, NC|397
+Houston, TX|Killeen, TX|101
+Houston, TX|Nashville, TN|172
+Houston, TX|Grand Rapids, MI|31
+Houston, TX|Chicago, IL|504
+Houston, TX|Palm Springs, CA|31
+Houston, TX|Alexandria, LA|103
+Houston, TX|San Francisco, CA|251
+Houston, TX|Hobbs, NM|49
+Houston, TX|Honolulu, HI|31
+Houston, TX|Memphis, TN|102
+Houston, TX|Brownsville, TX|141
+Houston, TX|Minneapolis, MN|194
+Houston, TX|Philadelphia, PA|214
+Houston, TX|Phoenix, AZ|273
+Houston, TX|Boston, MA|109
+Houston, TX|San Juan, PR|33
+Houston, TX|Washington, DC|230
+Houston, TX|Colorado Springs, CO|95
+Houston, TX|Seattle, WA|184
+Houston, TX|Midland/Odessa, TX|209
+Houston, TX|Mission/McAllen/Edinburg, TX|238
+Houston, TX|Birmingham, AL|143
+Houston, TX|Washington, DC|149
+Houston, TX|New Orleans, LA|274
+Houston, TX|Oklahoma City, OK|211
+Houston, TX|San Jose, CA|62
+Houston, TX|Valparaiso, FL|66
+Houston, TX|Portland, OR|66
+Houston, TX|Mobile, AL|132
+Houston, TX|Pensacola, FL|126
+Houston, TX|New York, NY|255
+Houston, TX|Miami, FL|267
+Houston, TX|Gunnison, CO|2
+Houston, TX|Hayden, CO|31
+Houston, TX|Fort Myers, FL|66
+Houston, TX|Pittsburgh, PA|135
+Houston, TX|Lake Charles, LA|115
+Houston, TX|Baton Rouge, LA|206
+Houston, TX|Austin, TX|302
+Houston, TX|Cedar Rapids/Iowa City, IA|32
+Houston, TX|Savannah, GA|33
+Houston, TX|Jacksonville, FL|112
+Houston, TX|San Antonio, TX|321
+Houston, TX|Richmond, VA|50
+Houston, TX|Fort Lauderdale, FL|147
+Houston, TX|Little Rock, AR|144
+Houston, TX|Columbia, SC|27
+Houston, TX|Denver, CO|340
+Houston, TX|Grand Junction, CO|27
+Houston, TX|Louisville, KY|56
+Houston, TX|Newark, NJ|309
+Houston, TX|Albuquerque, NM|125
+Houston, TX|Omaha, NE|158
+Houston, TX|Tyler, TX|89
+Houston, TX|Knoxville, TN|63
+Houston, TX|Orlando, FL|190
+Houston, TX|Wichita, KS|139
+Houston, TX|Charleston, SC|32
+Houston, TX|Eagle, CO|31
+Houston, TX|Jackson/Vicksburg, MS|138
+Houston, TX|Indianapolis, IN|147
+Houston, TX|Des Moines, IA|58
+Houston, TX|West Palm Beach/Palm Beach, FL|62
+Houston, TX|Gulfport/Biloxi, MS|139
+Houston, TX|Bakersfield, CA|46
+Houston, TX|St. Louis, MO|53
+Houston, TX|Atlanta, GA|431
+Houston, TX|Charleston/Dunbar, WV|31
+Houston, TX|Kansas City, MO|200
+Houston, TX|Corpus Christi, TX|219
+Houston, TX|Norfolk, VA|31
+Houston, TX|Sacramento, CA|65
+Houston, TX|Columbus, OH|123
+Houston, TX|Shreveport, LA|140
+Houston, TX|Detroit, MI|240
+Houston, TX|Lubbock, TX|83
+Houston, TX|Amarillo, TX|82
+Houston, TX|Los Angeles, CA|396
+Houston, TX|Milwaukee, WI|91
+Houston, TX|Raleigh/Durham, NC|110
+Houston, TX|Montrose/Delta, CO|27
+Houston, TX|Lexington, KY|31
+Houston, TX|Laredo, TX|85
+Houston, TX|Ontario, CA|54
+Houston, TX|Tampa, FL|118
+Houston, TX|Dallas/Fort Worth, TX|457
+Houston, TX|Huntsville, AL|81
+Houston, TX|Santa Ana, CA|135
+Houston, TX|Lafayette, LA|243
+Houston, TX|Las Vegas, NV|252
+Houston, TX|Fayetteville, AR|93
+Houston, TX|Salt Lake City, UT|171
+Houston, TX|Cleveland, OH|157
+Houston, TX|Monroe, LA|81
+Houston, TX|Aspen, CO|37
+Houston, TX|College Station/Bryan, TX|91
+Houston, TX|Greer, SC|45
+Houston, TX|Del Rio, TX|54
+Houston, TX|Dallas, TX|189
+Houston, TX|Tulsa, OK|234
+Houston, TX|Tucson, AZ|110
+Houston, TX|Baltimore, MD|84
+Houston, TX|Harlingen/San Benito, TX|115
+Los Angeles, CA|Albuquerque, NM|208
+Los Angeles, CA|Cincinnati, OH|56
+Los Angeles, CA|Oklahoma City, OK|85
+Los Angeles, CA|Kahului, HI|194
+Los Angeles, CA|Carlsbad, CA|229
+Los Angeles, CA|San Diego, CA|835
+Los Angeles, CA|Tucson, AZ|278
+Los Angeles, CA|San Jose, CA|509
+Los Angeles, CA|Santa Fe, NM|20
+Los Angeles, CA|St. George, UT|27
+Los Angeles, CA|Chicago, IL|151
+Los Angeles, CA|Eagle, CO|31
+Los Angeles, CA|Reno, NV|240
+Los Angeles, CA|San Luis Obispo, CA|154
+Los Angeles, CA|El Paso, TX|113
+Los Angeles, CA|Lihue, HI|123
+Los Angeles, CA|Charlotte, NC|151
+Los Angeles, CA|Raleigh/Durham, NC|1
+Los Angeles, CA|Nashville, TN|121
+Los Angeles, CA|Santa Barbara, CA|353
+Los Angeles, CA|Portland, OR|265
+Los Angeles, CA|Chicago, IL|601
+Los Angeles, CA|Palm Springs, CA|147
+Los Angeles, CA|Bozeman, MT|2
+Los Angeles, CA|Tulsa, OK|18
+Los Angeles, CA|Orlando, FL|185
+Los Angeles, CA|Kona, HI|98
+Los Angeles, CA|San Francisco, CA|1332
+Los Angeles, CA|Tampa, FL|27
+Los Angeles, CA|Aspen, CO|135
+Los Angeles, CA|Oakland, CA|476
+Los Angeles, CA|Miami, FL|274
+Los Angeles, CA|Hayden, CO|8
+Los Angeles, CA|Grand Junction, CO|1
+Los Angeles, CA|Honolulu, HI|422
+Los Angeles, CA|Memphis, TN|51
+Los Angeles, CA|Minneapolis, MN|151
+Los Angeles, CA|Indianapolis, IN|1
+Los Angeles, CA|Houston, TX|113
+Los Angeles, CA|Philadelphia, PA|227
+Los Angeles, CA|Phoenix, AZ|793
+Los Angeles, CA|Las Vegas, NV|932
+Los Angeles, CA|Santa Maria, CA|107
+Los Angeles, CA|Baltimore, MD|60
+Los Angeles, CA|Boston, MA|244
+Los Angeles, CA|Pittsburgh, PA|19
+Los Angeles, CA|Salt Lake City, UT|469
+Los Angeles, CA|Milwaukee, WI|31
+Los Angeles, CA|Inyokern, CA|61
+Los Angeles, CA|Monterey, CA|213
+Los Angeles, CA|Colorado Springs, CO|94
+Los Angeles, CA|Cleveland, OH|65
+Los Angeles, CA|St. Louis, MO|113
+Los Angeles, CA|Atlanta, GA|399
+Los Angeles, CA|Austin, TX|174
+Los Angeles, CA|Yuma, AZ|88
+Los Angeles, CA|Washington, DC|62
+Los Angeles, CA|Montrose/Delta, CO|8
+Los Angeles, CA|Jackson, WY|31
+Los Angeles, CA|Kansas City, MO|81
+Los Angeles, CA|Seattle, WA|431
+Los Angeles, CA|San Antonio, TX|113
+Los Angeles, CA|Fort Lauderdale, FL|169
+Los Angeles, CA|New York, NY|936
+Los Angeles, CA|Sacramento, CA|515
+Los Angeles, CA|Bakersfield, CA|53
+Los Angeles, CA|Columbus, OH|1
+Los Angeles, CA|Hilo, HI|27
+Los Angeles, CA|Dallas/Fort Worth, TX|659
+Los Angeles, CA|Fresno, CA|301
+Los Angeles, CA|Washington, DC|303
+Los Angeles, CA|Boise, ID|34
+Los Angeles, CA|Denver, CO|643
+Los Angeles, CA|Detroit, MI|149
+Los Angeles, CA|Houston, TX|397
+Los Angeles, CA|El Centro, CA|62
+Los Angeles, CA|Newark, NJ|219
+Los Angeles, CA|New Orleans, LA|94
+Manchester, NH|Philadelphia, PA|25
+Manchester, NH|Orlando, FL|66
+Manchester, NH|Tampa, FL|31
+Manchester, NH|Fort Lauderdale, FL|31
+Manchester, NH|Baltimore, MD|203
+Manchester, NH|Chicago, IL|62
+Manchester, NH|Newark, NJ|109
+Manchester, NH|Cleveland, OH|32
+Manchester, NH|Atlanta, GA|28
+Manchester, NH|Denver, CO|31
+Manchester, NH|Detroit, MI|86
+Manchester, NH|Chicago, IL|58
+Manchester, NH|Washington, DC|31
+Charleston/Dunbar, WV|New York, NY|27
+Charleston/Dunbar, WV|Atlanta, GA|144
+Charleston/Dunbar, WV|Detroit, MI|1
+Charleston/Dunbar, WV|Houston, TX|31
+Charleston/Dunbar, WV|Chicago, IL|53
+Charleston/Dunbar, WV|Washington, DC|28
+Saginaw/Bay City/Midland, MI|Detroit, MI|140
+Saginaw/Bay City/Midland, MI|Chicago, IL|93
+Saginaw/Bay City/Midland, MI|Minneapolis, MN|26
+Kansas City, MO|Albuquerque, NM|28
+Kansas City, MO|Cincinnati, OH|48
+Kansas City, MO|Oklahoma City, OK|55
+Kansas City, MO|San Diego, CA|31
+Kansas City, MO|Oakland, CA|4
+Kansas City, MO|Los Angeles, CA|84
+Kansas City, MO|Milwaukee, WI|54
+Kansas City, MO|Charlotte, NC|106
+Kansas City, MO|Houston, TX|58
+Kansas City, MO|Nashville, TN|84
+Kansas City, MO|Portland, OR|31
+Kansas City, MO|Chicago, IL|418
+Kansas City, MO|Orlando, FL|67
+Kansas City, MO|San Francisco, CA|59
+Kansas City, MO|Tampa, FL|31
+Kansas City, MO|Las Vegas, NV|120
+Kansas City, MO|Indianapolis, IN|55
+Kansas City, MO|Memphis, TN|51
+Kansas City, MO|Minneapolis, MN|136
+Kansas City, MO|Phoenix, AZ|174
+Kansas City, MO|New York, NY|26
+Kansas City, MO|Salt Lake City, UT|86
+Kansas City, MO|Chicago, IL|264
+Kansas City, MO|Cleveland, OH|90
+Kansas City, MO|St. Louis, MO|134
+Kansas City, MO|Atlanta, GA|301
+Kansas City, MO|Seattle, WA|36
+Kansas City, MO|Dallas, TX|278
+Kansas City, MO|Tulsa, OK|1
+Kansas City, MO|Fort Lauderdale, FL|32
+Kansas City, MO|Dallas/Fort Worth, TX|230
+Kansas City, MO|Newark, NJ|113
+Kansas City, MO|Baltimore, MD|58
+Kansas City, MO|Denver, CO|292
+Kansas City, MO|Detroit, MI|90
+Kansas City, MO|Houston, TX|201
+Kansas City, MO|Washington, DC|79
+Kansas City, MO|New Orleans, LA|31
+Newburgh/Poughkeepsie, NY|Detroit, MI|70
+Newburgh/Poughkeepsie, NY|Orlando, FL|37
+Newburgh/Poughkeepsie, NY|Fort Lauderdale, FL|31
+Corpus Christi, TX|Houston, TX|139
+Corpus Christi, TX|Dallas/Fort Worth, TX|236
+Corpus Christi, TX|Houston, TX|220
+Marquette, MI|Detroit, MI|55
+Marquette, MI|Chicago, IL|27
+Norfolk, VA|Orlando, FL|62
+Norfolk, VA|Jacksonville, FL|29
+Norfolk, VA|New York, NY|1
+Norfolk, VA|Tampa, FL|31
+Norfolk, VA|New York, NY|61
+Norfolk, VA|Boston, MA|47
+Norfolk, VA|Miami, FL|62
+Norfolk, VA|Baltimore, MD|115
+Norfolk, VA|Chicago, IL|35
+Norfolk, VA|Dallas/Fort Worth, TX|62
+Norfolk, VA|Washington, DC|94
+Norfolk, VA|Atlanta, GA|293
+Norfolk, VA|Charlotte, NC|153
+Norfolk, VA|Detroit, MI|131
+Norfolk, VA|Nashville, TN|31
+Norfolk, VA|Houston, TX|31
+Norfolk, VA|Chicago, IL|33
+Norfolk, VA|Newark, NJ|54
+Bozeman, MT|San Francisco, CA|12
+Bozeman, MT|Salt Lake City, UT|122
+Bozeman, MT|Newark, NJ|4
+Bozeman, MT|Atlanta, GA|9
+Bozeman, MT|Denver, CO|100
+Bozeman, MT|Los Angeles, CA|2
+Bozeman, MT|Chicago, IL|3
+Bozeman, MT|Minneapolis, MN|14
+Rock Springs, WY|Denver, CO|93
+Rock Springs, WY|Gillette, WY|31
+Rock Springs, WY|Salt Lake City, UT|62
+Columbus, MS|Atlanta, GA|85
+Elmira/Corning, NY|Detroit, MI|147
+Champaign/Urbana, IL|Dallas/Fort Worth, TX|31
+Champaign/Urbana, IL|Chicago, IL|147
+Columbus, OH|Los Angeles, CA|1
+Columbus, OH|Charlotte, NC|27
+Columbus, OH|Raleigh/Durham, NC|21
+Columbus, OH|Nashville, TN|57
+Columbus, OH|Chicago, IL|305
+Columbus, OH|Fort Myers, FL|62
+Columbus, OH|Orlando, FL|117
+Columbus, OH|Tampa, FL|62
+Columbus, OH|Las Vegas, NV|36
+Columbus, OH|Miami, FL|62
+Columbus, OH|Minneapolis, MN|88
+Columbus, OH|Phoenix, AZ|89
+Columbus, OH|New York, NY|170
+Columbus, OH|Chicago, IL|168
+Columbus, OH|St. Louis, MO|50
+Columbus, OH|Atlanta, GA|294
+Columbus, OH|Fort Lauderdale, FL|31
+Columbus, OH|New York, NY|62
+Columbus, OH|Dallas/Fort Worth, TX|120
+Columbus, OH|Newark, NJ|31
+Columbus, OH|Baltimore, MD|114
+Columbus, OH|Denver, CO|54
+Columbus, OH|Detroit, MI|32
+Columbus, OH|Houston, TX|123
+Columbus, OH|Washington, DC|32
+Shreveport, LA|Denver, CO|31
+Shreveport, LA|Dallas/Fort Worth, TX|244
+Shreveport, LA|Memphis, TN|25
+Shreveport, LA|Houston, TX|140
+Shreveport, LA|Atlanta, GA|146
+Fresno, CA|Seattle, WA|31
+Fresno, CA|Phoenix, AZ|151
+Fresno, CA|San Francisco, CA|151
+Fresno, CA|Las Vegas, NV|119
+Fresno, CA|Los Angeles, CA|270
+Fresno, CA|Dallas/Fort Worth, TX|62
+Fresno, CA|Denver, CO|81
+Fresno, CA|Salt Lake City, UT|63
+Cordova, AK|Yakutat, AK|30
+Cordova, AK|Anchorage, AK|30
+Garden City, KS|Dallas/Fort Worth, TX|62
+Boise, ID|Oakland, CA|58
+Boise, ID|Phoenix, AZ|93
+Boise, ID|San Francisco, CA|147
+Boise, ID|Las Vegas, NV|62
+Boise, ID|Los Angeles, CA|34
+Boise, ID|Spokane, WA|59
+Boise, ID|Denver, CO|192
+Boise, ID|Salt Lake City, UT|137
+Boise, ID|Portland, OR|53
+Boise, ID|Chicago, IL|30
+Boise, ID|Minneapolis, MN|59
+Little Rock, AR|Houston, TX|31
+Little Rock, AR|Phoenix, AZ|31
+Little Rock, AR|Las Vegas, NV|31
+Little Rock, AR|Dallas, TX|146
+Little Rock, AR|Atlanta, GA|183
+Little Rock, AR|Baltimore, MD|31
+Little Rock, AR|Chicago, IL|31
+Little Rock, AR|Dallas/Fort Worth, TX|213
+Little Rock, AR|St. Louis, MO|34
+Little Rock, AR|Memphis, TN|27
+Little Rock, AR|Denver, CO|79
+Little Rock, AR|Detroit, MI|21
+Little Rock, AR|Houston, TX|144
+Little Rock, AR|Chicago, IL|222
+Detroit, MI|Cincinnati, OH|124
+Detroit, MI|Duluth, MN|2
+Detroit, MI|San Diego, CA|50
+Detroit, MI|Fort Wayne, IN|112
+Detroit, MI|Roanoke, VA|2
+Detroit, MI|Rochester, NY|100
+Detroit, MI|Charlotte, NC|254
+Detroit, MI|Nashville, TN|215
+Detroit, MI|Grand Rapids, MI|117
+Detroit, MI|Chicago, IL|550
+Detroit, MI|Moline, IL|86
+Detroit, MI|San Francisco, CA|86
+Detroit, MI|Dayton, OH|86
+Detroit, MI|Bangor, ME|31
+Detroit, MI|Memphis, TN|94
+Detroit, MI|Madison, WI|179
+Detroit, MI|Minneapolis, MN|269
+Detroit, MI|Philadelphia, PA|220
+Detroit, MI|Phoenix, AZ|210
+Detroit, MI|Peoria, IL|84
+Detroit, MI|Boston, MA|163
+Detroit, MI|Hartford, CT|113
+Detroit, MI|San Juan, PR|4
+Detroit, MI|Erie, PA|82
+Detroit, MI|Washington, DC|187
+Detroit, MI|Bloomington/Normal, IL|55
+Detroit, MI|Knoxville, TN|86
+Detroit, MI|Seattle, WA|79
+Detroit, MI|Birmingham, AL|86
+Detroit, MI|Houston, TX|248
+Detroit, MI|Washington, DC|195
+Detroit, MI|New Orleans, LA|31
+Detroit, MI|Oklahoma City, OK|52
+Detroit, MI|Alpena, MI|23
+Detroit, MI|Mosinee, WI|59
+Detroit, MI|Portland, ME|79
+Detroit, MI|Asheville, NC|1
+Detroit, MI|Portland, OR|2
+Detroit, MI|Scranton/Wilkes-Barre, PA|56
+Detroit, MI|South Bend, IN|135
+Detroit, MI|Norfolk, VA|103
+Detroit, MI|New York, NY|427
+Detroit, MI|Miami, FL|121
+Detroit, MI|Buffalo, NY|153
+Detroit, MI|Akron, OH|87
+Detroit, MI|Allentown/Bethlehem/Easton, PA|75
+Detroit, MI|Pittsburgh, PA|93
+Detroit, MI|Little Rock, AR|21
+Detroit, MI|Burlington, VT|72
+Detroit, MI|Austin, TX|83
+Detroit, MI|Cedar Rapids/Iowa City, IA|107
+Detroit, MI|Savannah, GA|2
+Detroit, MI|Jacksonville, FL|28
+Detroit, MI|San Antonio, TX|72
+Detroit, MI|Richmond, VA|86
+Detroit, MI|Fort Lauderdale, FL|181
+Detroit, MI|Sarasota/Bradenton, FL|2
+Detroit, MI|Chattanooga, TN|53
+Detroit, MI|Dallas/Fort Worth, TX|237
+Detroit, MI|Evansville, IN|87
+Detroit, MI|Chicago, IL|315
+Detroit, MI|Harrisburg, PA|108
+Detroit, MI|Charleston, SC|27
+Detroit, MI|Newark, NJ|260
+Detroit, MI|Omaha, NE|86
+Detroit, MI|Providence, RI|135
+Detroit, MI|Albany, NY|117
+Detroit, MI|Orlando, FL|248
+Detroit, MI|Louisville, KY|58
+Detroit, MI|Sault Ste. Marie, MI|57
+Detroit, MI|Escanaba, MI|54
+Detroit, MI|Indianapolis, IN|191
+Detroit, MI|Des Moines, IA|83
+Detroit, MI|Greer, SC|60
+Detroit, MI|West Palm Beach/Palm Beach, FL|61
+Detroit, MI|Appleton, WI|108
+Detroit, MI|Green Bay, WI|134
+Detroit, MI|Syracuse, NY|82
+Detroit, MI|St. Louis, MO|168
+Detroit, MI|Atlanta, GA|412
+Detroit, MI|Manchester, NH|86
+Detroit, MI|Charleston/Dunbar, WV|2
+Detroit, MI|Milwaukee, WI|165
+Detroit, MI|Kansas City, MO|88
+Detroit, MI|Marquette, MI|55
+Detroit, MI|New York, NY|94
+Detroit, MI|Elmira/Corning, NY|147
+Detroit, MI|Columbus, OH|32
+Detroit, MI|Fort Myers, FL|154
+Detroit, MI|Traverse City, MI|93
+Detroit, MI|Los Angeles, CA|148
+Detroit, MI|Saginaw/Bay City/Midland, MI|141
+Detroit, MI|State College, PA|60
+Detroit, MI|Raleigh/Durham, NC|103
+Detroit, MI|Binghamton, NY|56
+Detroit, MI|Lexington, KY|79
+Detroit, MI|White Plains, NY|71
+Detroit, MI|Tampa, FL|183
+Detroit, MI|Huntsville, AL|55
+Detroit, MI|Pellston, MI|52
+Detroit, MI|Flint, MI|85
+Detroit, MI|Las Vegas, NV|178
+Detroit, MI|Ithaca/Cortland, NY|56
+Detroit, MI|Lansing, MI|159
+Detroit, MI|Fayetteville, AR|25
+Detroit, MI|Salt Lake City, UT|124
+Detroit, MI|Denver, CO|192
+Detroit, MI|Cleveland, OH|87
+Detroit, MI|Greensboro/High Point, NC|80
+Detroit, MI|Kalamazoo, MI|162
+Detroit, MI|Newburgh/Poughkeepsie, NY|70
+Detroit, MI|Tulsa, OK|48
+Detroit, MI|Baltimore, MD|225
+International Falls, MN|Minneapolis, MN|31
+International Falls, MN|Brainerd, MN|22
+Fargo, ND|Denver, CO|131
+Fargo, ND|Chicago, IL|199
+Fargo, ND|Minneapolis, MN|172
+Fargo, ND|Salt Lake City, UT|31
+Fairbanks, AK|Barrow, AK|31
+Fairbanks, AK|Seattle, WA|81
+Fairbanks, AK|Anchorage, AK|179
+Fairbanks, AK|Deadhorse, AK|31
+Charlotte Amalie, VI|Philadelphia, PA|24
+Charlotte Amalie, VI|New York, NY|35
+Charlotte Amalie, VI|Boston, MA|10
+Charlotte Amalie, VI|Miami, FL|93
+Charlotte Amalie, VI|San Juan, PR|83
+Charlotte Amalie, VI|Newark, NJ|35
+Charlotte Amalie, VI|Atlanta, GA|37
+Charlotte Amalie, VI|Charlotte, NC|38
+Charlotte Amalie, VI|Chicago, IL|8
+Charlotte Amalie, VI|Washington, DC|14
+Fort Myers, FL|Cincinnati, OH|34
+Fort Myers, FL|Milwaukee, WI|66
+Fort Myers, FL|Charlotte, NC|170
+Fort Myers, FL|Nashville, TN|26
+Fort Myers, FL|Grand Rapids, MI|17
+Fort Myers, FL|Chicago, IL|192
+Fort Myers, FL|Buffalo, NY|31
+Fort Myers, FL|White Plains, NY|32
+Fort Myers, FL|Indianapolis, IN|95
+Fort Myers, FL|Flint, MI|18
+Fort Myers, FL|Akron, OH|62
+Fort Myers, FL|Minneapolis, MN|121
+Fort Myers, FL|Philadelphia, PA|129
+Fort Myers, FL|New York, NY|38
+Fort Myers, FL|Boston, MA|205
+Fort Myers, FL|Pittsburgh, PA|59
+Fort Myers, FL|Hartford, CT|31
+Fort Myers, FL|Denver, CO|31
+Fort Myers, FL|Cleveland, OH|57
+Fort Myers, FL|St. Louis, MO|58
+Fort Myers, FL|Atlanta, GA|375
+Fort Myers, FL|Washington, DC|62
+Fort Myers, FL|Trenton, NJ|1
+Fort Myers, FL|New York, NY|136
+Fort Myers, FL|Columbus, OH|62
+Fort Myers, FL|Dallas/Fort Worth, TX|93
+Fort Myers, FL|Baltimore, MD|127
+Fort Myers, FL|Chicago, IL|100
+Fort Myers, FL|Detroit, MI|154
+Fort Myers, FL|Houston, TX|66
+Fort Myers, FL|Newark, NJ|132
+Joplin, MO|Dallas/Fort Worth, TX|62
+Jacksonville/Camp Lejeune, NC|Atlanta, GA|141
+Oakland, CA|Albuquerque, NM|57
+Oakland, CA|Kahului, HI|62
+Oakland, CA|San Diego, CA|320
+Oakland, CA|Los Angeles, CA|476
+Oakland, CA|Reno, NV|58
+Oakland, CA|Lihue, HI|31
+Oakland, CA|Spokane, WA|54
+Oakland, CA|Houston, TX|55
+Oakland, CA|Portland, OR|141
+Oakland, CA|Kona, HI|31
+Oakland, CA|Ontario, CA|202
+Oakland, CA|Honolulu, HI|49
+Oakland, CA|Long Beach, CA|108
+Oakland, CA|Santa Ana, CA|229
+Oakland, CA|Phoenix, AZ|314
+Oakland, CA|Las Vegas, NV|234
+Oakland, CA|Salt Lake City, UT|206
+Oakland, CA|Denver, CO|106
+Oakland, CA|Austin, TX|28
+Oakland, CA|Kansas City, MO|4
+Oakland, CA|Seattle, WA|269
+Oakland, CA|New York, NY|20
+Oakland, CA|Boise, ID|58
+Oakland, CA|Chicago, IL|53
+Oakland, CA|Burbank, CA|390
+Oakland, CA|Washington, DC|7
+Adak Island, AK|Anchorage, AK|9
+Casper, WY|Denver, CO|137
+Casper, WY|Salt Lake City, UT|62
+Lawton/Fort Sill, OK|Dallas/Fort Worth, TX|155
+Twin Falls, ID|Boise, ID|1
+Twin Falls, ID|Salt Lake City, UT|94
+Amarillo, TX|Denver, CO|118
+Amarillo, TX|Dallas/Fort Worth, TX|209
+Amarillo, TX|Las Vegas, NV|31
+Amarillo, TX|Houston, TX|82
+Amarillo, TX|Dallas, TX|169
+Great Falls, MT|Denver, CO|64
+Great Falls, MT|Minneapolis, MN|1
+Great Falls, MT|Salt Lake City, UT|77
+Gulfport/Biloxi, MS|Dallas/Fort Worth, TX|93
+Gulfport/Biloxi, MS|Houston, TX|139
+Gulfport/Biloxi, MS|Atlanta, GA|151
+Elko, NV|Salt Lake City, UT|84
+Wichita Falls, TX|Dallas/Fort Worth, TX|93
+Trenton, NJ|Tampa, FL|1
+Trenton, NJ|Orlando, FL|9
+Trenton, NJ|Fort Myers, FL|1
+Muskegon, MI|Chicago, IL|62
+Laredo, TX|Dallas/Fort Worth, TX|120
+Laredo, TX|Houston, TX|84
+Houston, TX|Albuquerque, NM|85
+Houston, TX|Oklahoma City, OK|111
+Houston, TX|San Diego, CA|53
+Houston, TX|Oakland, CA|55
+Houston, TX|Los Angeles, CA|117
+Houston, TX|El Paso, TX|89
+Houston, TX|Santa Ana, CA|31
+Houston, TX|Raleigh/Durham, NC|31
+Houston, TX|Nashville, TN|115
+Houston, TX|Panama City, FL|59
+Houston, TX|Orlando, FL|121
+Houston, TX|Tampa, FL|116
+Houston, TX|Charleston, SC|29
+Houston, TX|Jackson/Vicksburg, MS|81
+Houston, TX|Indianapolis, IN|58
+Houston, TX|Philadelphia, PA|31
+Houston, TX|Phoenix, AZ|113
+Houston, TX|Las Vegas, NV|120
+Houston, TX|Chicago, IL|177
+Houston, TX|Little Rock, AR|31
+Houston, TX|Tulsa, OK|86
+Houston, TX|St. Louis, MO|111
+Houston, TX|Atlanta, GA|480
+Houston, TX|Austin, TX|159
+Houston, TX|Greer, SC|31
+Houston, TX|Kansas City, MO|58
+Houston, TX|Jacksonville, FL|34
+Houston, TX|San Antonio, TX|170
+Houston, TX|Corpus Christi, TX|139
+Houston, TX|Dallas, TX|701
+Houston, TX|Fort Lauderdale, FL|62
+Houston, TX|New York, NY|62
+Houston, TX|Midland/Odessa, TX|79
+Houston, TX|Dallas/Fort Worth, TX|236
+Houston, TX|Baltimore, MD|84
+Houston, TX|Denver, CO|124
+Houston, TX|Harlingen/San Benito, TX|120
+Houston, TX|Birmingham, AL|54
+Houston, TX|Newark, NJ|84
+Houston, TX|New Orleans, LA|283
+Allentown/Bethlehem/Easton, PA|Orlando, FL|19
+Allentown/Bethlehem/Easton, PA|Atlanta, GA|88
+Allentown/Bethlehem/Easton, PA|Charlotte, NC|31
+Allentown/Bethlehem/Easton, PA|Detroit, MI|76
+Allentown/Bethlehem/Easton, PA|Chicago, IL|84
+Allentown/Bethlehem/Easton, PA|Washington, DC|2
+Binghamton, NY|Detroit, MI|56
+Watertown, NY|Chicago, IL|54
+Montrose/Delta, CO|Los Angeles, CA|8
+Montrose/Delta, CO|Dallas/Fort Worth, TX|31
+Montrose/Delta, CO|Atlanta, GA|9
+Montrose/Delta, CO|Denver, CO|98
+Montrose/Delta, CO|Houston, TX|27
+Montrose/Delta, CO|Chicago, IL|31
+Montrose/Delta, CO|Newark, NJ|4
+Panama City, FL|Houston, TX|59
+Panama City, FL|Nashville, TN|58
+Panama City, FL|Baltimore, MD|30
+Panama City, FL|Orlando, FL|5
+Panama City, FL|Atlanta, GA|179
+White Plains, NY|Orlando, FL|113
+White Plains, NY|West Palm Beach/Palm Beach, FL|105
+White Plains, NY|Tampa, FL|31
+White Plains, NY|Fort Lauderdale, FL|89
+White Plains, NY|Atlanta, GA|169
+White Plains, NY|Detroit, MI|71
+White Plains, NY|Chicago, IL|100
+White Plains, NY|Fort Myers, FL|32
+Wilmington, NC|Charlotte, NC|122
+Wilmington, NC|Atlanta, GA|148
+Milwaukee, WI|Cincinnati, OH|26
+Milwaukee, WI|Los Angeles, CA|31
+Milwaukee, WI|Chicago, IL|304
+Milwaukee, WI|Fort Myers, FL|66
+Milwaukee, WI|Orlando, FL|106
+Milwaukee, WI|San Francisco, CA|28
+Milwaukee, WI|Tampa, FL|62
+Milwaukee, WI|Las Vegas, NV|91
+Milwaukee, WI|Memphis, TN|50
+Milwaukee, WI|Minneapolis, MN|255
+Milwaukee, WI|Phoenix, AZ|142
+Milwaukee, WI|New York, NY|137
+Milwaukee, WI|Boston, MA|58
+Milwaukee, WI|Cleveland, OH|121
+Milwaukee, WI|St. Louis, MO|49
+Milwaukee, WI|Atlanta, GA|297
+Milwaukee, WI|Washington, DC|120
+Milwaukee, WI|Kansas City, MO|53
+Milwaukee, WI|Seattle, WA|28
+Milwaukee, WI|Fort Lauderdale, FL|31
+Milwaukee, WI|Dallas/Fort Worth, TX|120
+Milwaukee, WI|Baltimore, MD|87
+Milwaukee, WI|Denver, CO|217
+Milwaukee, WI|Detroit, MI|164
+Milwaukee, WI|Houston, TX|87
+Milwaukee, WI|Newark, NJ|103
+Milwaukee, WI|New Orleans, LA|26
+Kona, HI|Anchorage, AK|4
+Kona, HI|Phoenix, AZ|34
+Kona, HI|Oakland, CA|31
+Kona, HI|San Jose, CA|31
+Kona, HI|San Francisco, CA|56
+Kona, HI|Kahului, HI|93
+Kona, HI|Los Angeles, CA|98
+Kona, HI|Honolulu, HI|689
+Kona, HI|Denver, CO|4
+Kona, HI|Seattle, WA|45
+Kona, HI|Portland, OR|17
+Kona, HI|Chicago, IL|1
+Ontario, CA|Oakland, CA|198
+Ontario, CA|Seattle, WA|67
+Ontario, CA|Phoenix, AZ|329
+Ontario, CA|San Francisco, CA|124
+Ontario, CA|San Jose, CA|141
+Ontario, CA|Houston, TX|53
+Ontario, CA|Las Vegas, NV|183
+Ontario, CA|Sacramento, CA|219
+Ontario, CA|Salt Lake City, UT|113
+Ontario, CA|Reno, NV|26
+Ontario, CA|Chicago, IL|31
+Ontario, CA|Dallas/Fort Worth, TX|124
+Ontario, CA|Denver, CO|94
+Ontario, CA|Portland, OR|71
+Tampa, FL|Raleigh/Durham, NC|88
+Tampa, FL|Cincinnati, OH|32
+Tampa, FL|Albany, NY|31
+Tampa, FL|Chicago, IL|120
+Tampa, FL|Los Angeles, CA|27
+Tampa, FL|Milwaukee, WI|62
+Tampa, FL|Key West, FL|31
+Tampa, FL|Providence, RI|59
+Tampa, FL|Rochester, NY|31
+Tampa, FL|Charlotte, NC|264
+Tampa, FL|Houston, TX|116
+Tampa, FL|Nashville, TN|116
+Tampa, FL|Grand Rapids, MI|12
+Tampa, FL|Chicago, IL|186
+Tampa, FL|Buffalo, NY|38
+Tampa, FL|White Plains, NY|31
+Tampa, FL|Norfolk, VA|31
+Tampa, FL|Louisville, KY|31
+Tampa, FL|Las Vegas, NV|31
+Tampa, FL|Dayton, OH|31
+Tampa, FL|Miami, FL|186
+Tampa, FL|Islip, NY|39
+Tampa, FL|Indianapolis, IN|69
+Tampa, FL|Flint, MI|16
+Tampa, FL|Akron, OH|31
+Tampa, FL|Minneapolis, MN|90
+Tampa, FL|Philadelphia, PA|218
+Tampa, FL|West Palm Beach/Palm Beach, FL|15
+Tampa, FL|Phoenix, AZ|100
+Tampa, FL|New York, NY|179
+Tampa, FL|Memphis, TN|26
+Tampa, FL|Boston, MA|105
+Tampa, FL|Pittsburgh, PA|89
+Tampa, FL|Hartford, CT|62
+Tampa, FL|San Juan, PR|95
+Tampa, FL|Trenton, NJ|1
+Tampa, FL|Cleveland, OH|62
+Tampa, FL|St. Louis, MO|62
+Tampa, FL|Atlanta, GA|579
+Tampa, FL|Austin, TX|28
+Tampa, FL|Washington, DC|178
+Tampa, FL|Manchester, NH|31
+Tampa, FL|Kansas City, MO|31
+Tampa, FL|San Antonio, TX|28
+Tampa, FL|Fort Lauderdale, FL|146
+Tampa, FL|New York, NY|215
+Tampa, FL|Columbus, OH|62
+Tampa, FL|Dallas/Fort Worth, TX|217
+Tampa, FL|Washington, DC|89
+Tampa, FL|Baltimore, MD|213
+Tampa, FL|Denver, CO|130
+Tampa, FL|Detroit, MI|183
+Tampa, FL|Birmingham, AL|54
+Tampa, FL|Houston, TX|118
+Tampa, FL|Newark, NJ|206
+Tampa, FL|New Orleans, LA|89
+Ketchikan, AK|Wrangell, AK|31
+Ketchikan, AK|Seattle, WA|93
+Ketchikan, AK|Sitka, AK|31
+Ketchikan, AK|Juneau, AK|31
+Hancock/Houghton, MI|Chicago, IL|62
+Columbia, SC|Dallas/Fort Worth, TX|85
+Columbia, SC|Newark, NJ|9
+Columbia, SC|Atlanta, GA|234
+Columbia, SC|Houston, TX|27
+Columbia, SC|Chicago, IL|88
+Columbia, SC|Washington, DC|85
+Mobile, AL|Dallas/Fort Worth, TX|89
+Mobile, AL|Houston, TX|132
+Mobile, AL|Atlanta, GA|230
+San Francisco, CA|Albuquerque, NM|32
+San Francisco, CA|Cincinnati, OH|25
+San Francisco, CA|Oklahoma City, OK|28
+San Francisco, CA|Kahului, HI|72
+San Francisco, CA|San Diego, CA|633
+San Francisco, CA|Philadelphia, PA|288
+San Francisco, CA|Pasco/Kennewick/Richland, WA|31
+San Francisco, CA|Chicago, IL|58
+San Francisco, CA|Los Angeles, CA|1330
+San Francisco, CA|Reno, NV|156
+San Francisco, CA|San Luis Obispo, CA|155
+San Francisco, CA|Lihue, HI|37
+San Francisco, CA|Spokane, WA|33
+San Francisco, CA|Raleigh/Durham, NC|31
+San Francisco, CA|Modesto, CA|93
+San Francisco, CA|Portland, OR|321
+San Francisco, CA|Chicago, IL|620
+San Francisco, CA|Palm Springs, CA|266
+San Francisco, CA|Bozeman, MT|12
+San Francisco, CA|Milwaukee, WI|28
+San Francisco, CA|Orlando, FL|95
+San Francisco, CA|North Bend/Coos Bay, OR|31
+San Francisco, CA|Kona, HI|56
+San Francisco, CA|Ontario, CA|124
+San Francisco, CA|Washington, DC|62
+San Francisco, CA|Miami, FL|93
+San Francisco, CA|Pittsburgh, PA|19
+San Francisco, CA|Medford, OR|170
+San Francisco, CA|Honolulu, HI|150
+San Francisco, CA|Eugene, OR|170
+San Francisco, CA|Klamath Falls, OR|31
+San Francisco, CA|Crescent City, CA|58
+San Francisco, CA|Minneapolis, MN|164
+San Francisco, CA|Long Beach, CA|99
+San Francisco, CA|Santa Ana, CA|408
+San Francisco, CA|Redding, CA|93
+San Francisco, CA|Arcata/Eureka, CA|185
+San Francisco, CA|Phoenix, AZ|397
+San Francisco, CA|Las Vegas, NV|720
+San Francisco, CA|Jackson, WY|27
+San Francisco, CA|Baltimore, MD|31
+San Francisco, CA|Boston, MA|277
+San Francisco, CA|Bend/Redmond, OR|64
+San Francisco, CA|Salt Lake City, UT|288
+San Francisco, CA|Newark, NJ|218
+San Francisco, CA|Bakersfield, CA|62
+San Francisco, CA|Colorado Springs, CO|31
+San Francisco, CA|Cleveland, OH|33
+San Francisco, CA|St. Louis, MO|19
+San Francisco, CA|Atlanta, GA|236
+San Francisco, CA|Charlotte, NC|126
+San Francisco, CA|Austin, TX|123
+San Francisco, CA|Aspen, CO|37
+San Francisco, CA|Santa Barbara, CA|301
+San Francisco, CA|Chico, CA|93
+San Francisco, CA|Kansas City, MO|59
+San Francisco, CA|Seattle, WA|513
+San Francisco, CA|San Antonio, TX|38
+San Francisco, CA|Fort Lauderdale, FL|86
+San Francisco, CA|New York, NY|670
+San Francisco, CA|Sacramento, CA|217
+San Francisco, CA|Monterey, CA|156
+San Francisco, CA|Tucson, AZ|35
+San Francisco, CA|Houston, TX|251
+San Francisco, CA|Dallas/Fort Worth, TX|505
+San Francisco, CA|Fresno, CA|120
+San Francisco, CA|Mammoth Lakes, CA|48
+San Francisco, CA|Boise, ID|147
+San Francisco, CA|Denver, CO|455
+San Francisco, CA|Detroit, MI|88
+San Francisco, CA|Burbank, CA|156
+San Francisco, CA|Washington, DC|309
+San Francisco, CA|New Orleans, LA|25
+Kalispell, MT|Denver, CO|34
+Kalispell, MT|Minneapolis, MN|1
+Kalispell, MT|Salt Lake City, UT|82
+Staunton, VA|Orlando, FL|13
+Huntsville, AL|Dallas/Fort Worth, TX|89
+Huntsville, AL|Atlanta, GA|234
+Huntsville, AL|Denver, CO|27
+Huntsville, AL|Detroit, MI|55
+Huntsville, AL|Houston, TX|80
+Huntsville, AL|Chicago, IL|84
+Huntsville, AL|Washington, DC|51
+Lexington, KY|Houston, TX|32
+Lexington, KY|Dallas/Fort Worth, TX|89
+Lexington, KY|Atlanta, GA|211
+Lexington, KY|Detroit, MI|79
+Lexington, KY|Washington, DC|20
+Lexington, KY|Chicago, IL|169
+West Palm Beach/Palm Beach, FL|Baltimore, MD|93
+West Palm Beach/Palm Beach, FL|Philadelphia, PA|152
+West Palm Beach/Palm Beach, FL|New York, NY|209
+West Palm Beach/Palm Beach, FL|Tampa, FL|14
+West Palm Beach/Palm Beach, FL|Washington, DC|22
+West Palm Beach/Palm Beach, FL|New York, NY|142
+West Palm Beach/Palm Beach, FL|Boston, MA|149
+West Palm Beach/Palm Beach, FL|Hartford, CT|31
+West Palm Beach/Palm Beach, FL|San Juan, PR|31
+West Palm Beach/Palm Beach, FL|Dallas/Fort Worth, TX|93
+West Palm Beach/Palm Beach, FL|Cleveland, OH|31
+West Palm Beach/Palm Beach, FL|Buffalo, NY|26
+West Palm Beach/Palm Beach, FL|Atlanta, GA|353
+West Palm Beach/Palm Beach, FL|Charlotte, NC|179
+West Palm Beach/Palm Beach, FL|Detroit, MI|62
+West Palm Beach/Palm Beach, FL|Islip, NY|62
+West Palm Beach/Palm Beach, FL|Houston, TX|62
+West Palm Beach/Palm Beach, FL|Chicago, IL|93
+West Palm Beach/Palm Beach, FL|Newark, NJ|249
+West Palm Beach/Palm Beach, FL|White Plains, NY|105
+Flint, MI|Orlando, FL|22
+Flint, MI|Tampa, FL|16
+Flint, MI|Minneapolis, MN|33
+Flint, MI|Atlanta, GA|155
+Flint, MI|Detroit, MI|84
+Flint, MI|Fort Myers, FL|18
+Fayetteville, NC|Atlanta, GA|225
+Newport News/Williamsburg, VA|Denver, CO|28
+Newport News/Williamsburg, VA|Atlanta, GA|166
+Crescent City, CA|Sacramento, CA|1
+Crescent City, CA|Arcata/Eureka, CA|27
+Crescent City, CA|San Francisco, CA|57
+Yuma, AZ|Phoenix, AZ|161
+Yuma, AZ|Los Angeles, CA|88
+Long Beach, CA|San Francisco, CA|99
+Long Beach, CA|Seattle, WA|139
+Long Beach, CA|Phoenix, AZ|135
+Long Beach, CA|Las Vegas, NV|139
+Long Beach, CA|Oakland, CA|108
+Long Beach, CA|Sacramento, CA|62
+Long Beach, CA|New York, NY|53
+Long Beach, CA|Boston, MA|20
+Long Beach, CA|Salt Lake City, UT|181
+Long Beach, CA|Austin, TX|31
+Long Beach, CA|Portland, OR|88
+Long Beach, CA|Washington, DC|28
+Santa Ana, CA|Oakland, CA|224
+Santa Ana, CA|Seattle, WA|209
+Santa Ana, CA|Phoenix, AZ|401
+Santa Ana, CA|San Francisco, CA|412
+Santa Ana, CA|San Jose, CA|228
+Santa Ana, CA|Houston, TX|143
+Santa Ana, CA|Las Vegas, NV|237
+Santa Ana, CA|Sacramento, CA|202
+Santa Ana, CA|Chicago, IL|31
+Santa Ana, CA|Salt Lake City, UT|136
+Santa Ana, CA|Newark, NJ|60
+Santa Ana, CA|Dallas/Fort Worth, TX|284
+Santa Ana, CA|Mammoth Lakes, CA|17
+Santa Ana, CA|Atlanta, GA|92
+Santa Ana, CA|Denver, CO|282
+Santa Ana, CA|Houston, TX|31
+Santa Ana, CA|Portland, OR|85
+Santa Ana, CA|Chicago, IL|197
+Santa Ana, CA|Minneapolis, MN|84
+Redding, CA|San Francisco, CA|96
+Lafayette, LA|Dallas/Fort Worth, TX|120
+Lafayette, LA|Houston, TX|243
+Lafayette, LA|Atlanta, GA|119
+Laramie, WY|Denver, CO|62
+Las Vegas, NV|Raleigh/Durham, NC|31
+Las Vegas, NV|Albuquerque, NM|125
+Las Vegas, NV|Cincinnati, OH|18
+Las Vegas, NV|Oklahoma City, OK|62
+Las Vegas, NV|Albany, NY|5
+Las Vegas, NV|Philadelphia, PA|169
+Las Vegas, NV|San Jose, CA|261
+Las Vegas, NV|Omaha, NE|62
+Las Vegas, NV|Spokane, WA|62
+Las Vegas, NV|Amarillo, TX|31
+Las Vegas, NV|Los Angeles, CA|928
+Las Vegas, NV|Milwaukee, WI|90
+Las Vegas, NV|Ontario, CA|183
+Las Vegas, NV|Buffalo, NY|31
+Las Vegas, NV|Providence, RI|5
+Las Vegas, NV|Charlotte, NC|146
+Las Vegas, NV|Houston, TX|119
+Las Vegas, NV|Nashville, TN|67
+Las Vegas, NV|Midland/Odessa, TX|36
+Las Vegas, NV|Portland, OR|195
+Las Vegas, NV|Chicago, IL|227
+Las Vegas, NV|Palm Springs, CA|93
+Las Vegas, NV|Orlando, FL|36
+Las Vegas, NV|San Diego, CA|326
+Las Vegas, NV|San Francisco, CA|688
+Las Vegas, NV|Tampa, FL|31
+Las Vegas, NV|Louisville, KY|31
+Las Vegas, NV|Oakland, CA|238
+Las Vegas, NV|Miami, FL|124
+Las Vegas, NV|Bellingham, WA|31
+Las Vegas, NV|Fort Lauderdale, FL|31
+Las Vegas, NV|Honolulu, HI|71
+Las Vegas, NV|Memphis, TN|50
+Las Vegas, NV|Minneapolis, MN|165
+Las Vegas, NV|Indianapolis, IN|59
+Las Vegas, NV|Long Beach, CA|139
+Las Vegas, NV|Santa Ana, CA|242
+Las Vegas, NV|Lubbock, TX|32
+Las Vegas, NV|Phoenix, AZ|638
+Las Vegas, NV|Baltimore, MD|66
+Las Vegas, NV|Boston, MA|60
+Las Vegas, NV|Pittsburgh, PA|36
+Las Vegas, NV|Salt Lake City, UT|327
+Las Vegas, NV|Chicago, IL|209
+Las Vegas, NV|Little Rock, AR|31
+Las Vegas, NV|Tulsa, OK|31
+Las Vegas, NV|Cleveland, OH|59
+Las Vegas, NV|St. Louis, MO|92
+Las Vegas, NV|Atlanta, GA|365
+Las Vegas, NV|Austin, TX|93
+Las Vegas, NV|Jacksonville, FL|5
+Las Vegas, NV|Washington, DC|30
+Las Vegas, NV|Reno, NV|293
+Las Vegas, NV|Kansas City, MO|116
+Las Vegas, NV|Seattle, WA|284
+Las Vegas, NV|San Antonio, TX|121
+Las Vegas, NV|Houston, TX|251
+Las Vegas, NV|New York, NY|284
+Las Vegas, NV|Sacramento, CA|229
+Las Vegas, NV|El Paso, TX|90
+Las Vegas, NV|Columbus, OH|36
+Las Vegas, NV|Dallas/Fort Worth, TX|358
+Las Vegas, NV|Tucson, AZ|122
+Las Vegas, NV|Fresno, CA|119
+Las Vegas, NV|Washington, DC|62
+Las Vegas, NV|Boise, ID|62
+Las Vegas, NV|Denver, CO|536
+Las Vegas, NV|Detroit, MI|178
+Las Vegas, NV|Birmingham, AL|31
+Las Vegas, NV|Burbank, CA|311
+Las Vegas, NV|Newark, NJ|174
+Las Vegas, NV|New Orleans, LA|36
+Waterloo, IA|Chicago, IL|58
+Springfield, MO|Denver, CO|58
+Springfield, MO|Dallas/Fort Worth, TX|213
+Springfield, MO|Memphis, TN|1
+Springfield, MO|Chicago, IL|90
+Springfield, MO|Atlanta, GA|116
+Lansing, MI|Detroit, MI|159
+Lansing, MI|Chicago, IL|89
+Lansing, MI|Minneapolis, MN|50
+Santa Maria, CA|Los Angeles, CA|107
+Bend/Redmond, OR|Denver, CO|31
+Bend/Redmond, OR|Salt Lake City, UT|52
+Bend/Redmond, OR|Portland, OR|94
+Bend/Redmond, OR|San Francisco, CA|64
+Paducah, KY|Chicago, IL|62
+Salt Lake City, UT|Pocatello, ID|84
+Salt Lake City, UT|Cincinnati, OH|57
+Salt Lake City, UT|Oklahoma City, OK|63
+Salt Lake City, UT|Anchorage, AK|3
+Salt Lake City, UT|San Diego, CA|139
+Salt Lake City, UT|Oakland, CA|205
+Salt Lake City, UT|San Jose, CA|117
+Salt Lake City, UT|Omaha, NE|59
+Salt Lake City, UT|Charlotte, NC|60
+Salt Lake City, UT|St. George, UT|146
+Salt Lake City, UT|Twin Falls, ID|94
+Salt Lake City, UT|Los Angeles, CA|473
+Salt Lake City, UT|Reno, NV|118
+Salt Lake City, UT|Elko, NV|85
+Salt Lake City, UT|Cody, WY|31
+Salt Lake City, UT|Spokane, WA|138
+Salt Lake City, UT|Nashville, TN|31
+Salt Lake City, UT|Fargo, ND|31
+Salt Lake City, UT|Portland, OR|178
+Salt Lake City, UT|Chicago, IL|269
+Salt Lake City, UT|Palm Springs, CA|62
+Salt Lake City, UT|Bozeman, MT|121
+Salt Lake City, UT|Sun Valley/Hailey/Ketchum, ID|131
+Salt Lake City, UT|Orlando, FL|54
+Salt Lake City, UT|Tulsa, OK|26
+Salt Lake City, UT|Jackson, WY|93
+Salt Lake City, UT|Gillette, WY|32
+Salt Lake City, UT|Rapid City, SD|32
+Salt Lake City, UT|Grand Junction, CO|61
+Salt Lake City, UT|Albuquerque, NM|87
+Salt Lake City, UT|Washington, DC|23
+Salt Lake City, UT|Butte, MT|61
+Salt Lake City, UT|Kalispell, MT|81
+Salt Lake City, UT|Pasco/Kennewick/Richland, WA|109
+Salt Lake City, UT|Honolulu, HI|31
+Salt Lake City, UT|Eugene, OR|62
+Salt Lake City, UT|Memphis, TN|82
+Salt Lake City, UT|Billings, MT|119
+Salt Lake City, UT|San Francisco, CA|257
+Salt Lake City, UT|Helena, MT|79
+Salt Lake City, UT|Lewiston, ID|52
+Salt Lake City, UT|Minneapolis, MN|151
+Salt Lake City, UT|Indianapolis, IN|31
+Salt Lake City, UT|Long Beach, CA|181
+Salt Lake City, UT|Santa Ana, CA|136
+Salt Lake City, UT|Phoenix, AZ|503
+Salt Lake City, UT|Las Vegas, NV|327
+Salt Lake City, UT|Baltimore, MD|79
+Salt Lake City, UT|Boston, MA|33
+Salt Lake City, UT|Bend/Redmond, OR|52
+Salt Lake City, UT|Chicago, IL|62
+Salt Lake City, UT|Casper, WY|62
+Salt Lake City, UT|Colorado Springs, CO|62
+Salt Lake City, UT|Idaho Falls, ID|132
+Salt Lake City, UT|St. Louis, MO|79
+Salt Lake City, UT|Atlanta, GA|221
+Salt Lake City, UT|Austin, TX|63
+Salt Lake City, UT|Washington, DC|52
+Salt Lake City, UT|Medford, OR|57
+Salt Lake City, UT|Kansas City, MO|86
+Salt Lake City, UT|Seattle, WA|224
+Salt Lake City, UT|San Antonio, TX|59
+Salt Lake City, UT|Burbank, CA|62
+Salt Lake City, UT|Rock Springs, WY|62
+Salt Lake City, UT|New York, NY|167
+Salt Lake City, UT|Sacramento, CA|137
+Salt Lake City, UT|Great Falls, MT|77
+Salt Lake City, UT|Tucson, AZ|89
+Salt Lake City, UT|Dallas/Fort Worth, TX|275
+Salt Lake City, UT|Cedar City, UT|54
+Salt Lake City, UT|Fresno, CA|63
+Salt Lake City, UT|Ontario, CA|113
+Salt Lake City, UT|Philadelphia, PA|32
+Salt Lake City, UT|Boise, ID|136
+Salt Lake City, UT|Denver, CO|645
+Salt Lake City, UT|Detroit, MI|124
+Salt Lake City, UT|Missoula, MT|111
+Salt Lake City, UT|Houston, TX|172
+Salt Lake City, UT|Newark, NJ|32
+Salt Lake City, UT|New Orleans, LA|31
+Phoenix, AZ|Denver, CO|30
+Chicago, IL|Albuquerque, NM|57
+Chicago, IL|Fort Myers, FL|100
+Chicago, IL|Oklahoma City, OK|53
+Chicago, IL|San Diego, CA|89
+Chicago, IL|Oakland, CA|53
+Chicago, IL|San Jose, CA|30
+Chicago, IL|Omaha, NE|144
+Chicago, IL|Los Angeles, CA|151
+Chicago, IL|Reno, NV|31
+Chicago, IL|Providence, RI|62
+Chicago, IL|Raleigh/Durham, NC|81
+Chicago, IL|Houston, TX|181
+Chicago, IL|Nashville, TN|199
+Chicago, IL|Tucson, AZ|31
+Chicago, IL|Norfolk, VA|35
+Chicago, IL|Albany, NY|62
+Chicago, IL|Santa Ana, CA|31
+Chicago, IL|Orlando, FL|222
+Chicago, IL|Ontario, CA|31
+Chicago, IL|Tampa, FL|117
+Chicago, IL|Portland, OR|31
+Chicago, IL|Charleston, SC|36
+Chicago, IL|New York, NY|167
+Chicago, IL|Jackson/Vicksburg, MS|31
+Chicago, IL|Buffalo, NY|89
+Chicago, IL|Des Moines, IA|62
+Chicago, IL|Akron, OH|59
+Chicago, IL|Minneapolis, MN|236
+Chicago, IL|Philadelphia, PA|163
+Chicago, IL|Phoenix, AZ|177
+Chicago, IL|Las Vegas, NV|217
+Chicago, IL|Boston, MA|111
+Chicago, IL|Pittsburgh, PA|141
+Chicago, IL|Hartford, CT|63
+Chicago, IL|Salt Lake City, UT|62
+Chicago, IL|Little Rock, AR|31
+Chicago, IL|Cleveland, OH|169
+Chicago, IL|St. Louis, MO|254
+Chicago, IL|Atlanta, GA|478
+Chicago, IL|Austin, TX|55
+Chicago, IL|Manchester, NH|61
+Chicago, IL|Greer, SC|54
+Chicago, IL|Kansas City, MO|260
+Chicago, IL|Seattle, WA|58
+Chicago, IL|San Antonio, TX|55
+Chicago, IL|Fort Lauderdale, FL|106
+Chicago, IL|San Francisco, CA|59
+Chicago, IL|Sacramento, CA|28
+Chicago, IL|Columbus, OH|167
+Chicago, IL|Washington, DC|139
+Chicago, IL|Baltimore, MD|166
+Chicago, IL|Denver, CO|303
+Chicago, IL|Detroit, MI|316
+Chicago, IL|Birmingham, AL|59
+Chicago, IL|Louisville, KY|93
+Chicago, IL|Newark, NJ|173
+Chicago, IL|New Orleans, LA|39
+Grand Island, NE|Dallas/Fort Worth, TX|58
+Idaho Falls, ID|Denver, CO|81
+Idaho Falls, ID|Salt Lake City, UT|131
+Cleveland, OH|Albany, NY|52
+Cleveland, OH|St. Louis, MO|36
+Cleveland, OH|San Diego, CA|2
+Cleveland, OH|Los Angeles, CA|69
+Cleveland, OH|Milwaukee, WI|120
+Cleveland, OH|Rochester, NY|29
+Cleveland, OH|Charlotte, NC|144
+Cleveland, OH|Raleigh/Durham, NC|29
+Cleveland, OH|Nashville, TN|135
+Cleveland, OH|Grand Rapids, MI|47
+Cleveland, OH|Chicago, IL|587
+Cleveland, OH|Buffalo, NY|8
+Cleveland, OH|Orlando, FL|68
+Cleveland, OH|San Francisco, CA|34
+Cleveland, OH|Tampa, FL|62
+Cleveland, OH|Louisville, KY|41
+Cleveland, OH|Las Vegas, NV|59
+Cleveland, OH|Dayton, OH|3
+Cleveland, OH|Miami, FL|85
+Cleveland, OH|Indianapolis, IN|40
+Cleveland, OH|Madison, WI|29
+Cleveland, OH|Minneapolis, MN|151
+Cleveland, OH|Philadelphia, PA|1
+Cleveland, OH|West Palm Beach/Palm Beach, FL|31
+Cleveland, OH|Phoenix, AZ|32
+Cleveland, OH|New York, NY|176
+Cleveland, OH|Boston, MA|1
+Cleveland, OH|Pittsburgh, PA|2
+Cleveland, OH|Syracuse, NY|4
+Cleveland, OH|San Juan, PR|8
+Cleveland, OH|Chicago, IL|168
+Cleveland, OH|Burlington, VT|24
+Cleveland, OH|Atlanta, GA|231
+Cleveland, OH|Washington, DC|25
+Cleveland, OH|Manchester, NH|33
+Cleveland, OH|Greer, SC|27
+Cleveland, OH|Kansas City, MO|90
+Cleveland, OH|Seattle, WA|2
+Cleveland, OH|Richmond, VA|67
+Cleveland, OH|Fort Lauderdale, FL|53
+Cleveland, OH|New York, NY|63
+Cleveland, OH|Dallas/Fort Worth, TX|181
+Cleveland, OH|Newark, NJ|172
+Cleveland, OH|Baltimore, MD|147
+Cleveland, OH|Denver, CO|106
+Cleveland, OH|Detroit, MI|90
+Cleveland, OH|Fort Myers, FL|57
+Cleveland, OH|Houston, TX|158
+Cleveland, OH|Washington, DC|19
+Cleveland, OH|New Orleans, LA|4
+Carlsbad, CA|Los Angeles, CA|229
+Monroe, LA|Dallas/Fort Worth, TX|89
+Monroe, LA|Houston, TX|81
+Monroe, LA|Atlanta, GA|112
+Yakutat, AK|Cordova, AK|30
+Yakutat, AK|Juneau, AK|30
+Aspen, CO|San Francisco, CA|37
+Aspen, CO|Los Angeles, CA|134
+Aspen, CO|Dallas/Fort Worth, TX|31
+Aspen, CO|Denver, CO|286
+Aspen, CO|Houston, TX|38
+Aspen, CO|Chicago, IL|107
+College Station/Bryan, TX|Dallas/Fort Worth, TX|120
+College Station/Bryan, TX|Houston, TX|91
+Kalamazoo, MI|Detroit, MI|162
+Kalamazoo, MI|Chicago, IL|62
+Kalamazoo, MI|Minneapolis, MN|3
+Wrangell, AK|Petersburg, AK|31
+Wrangell, AK|Ketchikan, AK|31
+Medford, OR|Denver, CO|33
+Medford, OR|Salt Lake City, UT|57
+Medford, OR|San Francisco, CA|170
+Durango, CO|Denver, CO|48
+Durango, CO|Dallas/Fort Worth, TX|37
+Durango, CO|Phoenix, AZ|64
+El Centro, CA|Los Angeles, CA|62
+Del Rio, TX|Houston, TX|53
+La Crosse, WI|Minneapolis, MN|87
+Dallas, TX|Houston, TX|700
+Dallas, TX|Albuquerque, NM|201
+Dallas, TX|Kansas City, MO|288
+Dallas, TX|San Antonio, TX|367
+Dallas, TX|Tulsa, OK|142
+Dallas, TX|Lubbock, TX|145
+Dallas, TX|Little Rock, AR|145
+Dallas, TX|Amarillo, TX|169
+Dallas, TX|Midland/Odessa, TX|145
+Dallas, TX|El Paso, TX|196
+Dallas, TX|Oklahoma City, OK|138
+Dallas, TX|St. Louis, MO|233
+Dallas, TX|Atlanta, GA|121
+Dallas, TX|Denver, CO|1
+Dallas, TX|Austin, TX|333
+Dallas, TX|Harlingen/San Benito, TX|56
+Dallas, TX|Birmingham, AL|88
+Dallas, TX|Houston, TX|192
+Dallas, TX|New Orleans, LA|226
+Tulsa, OK|Houston, TX|86
+Tulsa, OK|Washington, DC|30
+Tulsa, OK|Las Vegas, NV|31
+Tulsa, OK|Dallas, TX|142
+Tulsa, OK|Memphis, TN|26
+Tulsa, OK|Phoenix, AZ|59
+Tulsa, OK|Miami, FL|4
+Tulsa, OK|Salt Lake City, UT|26
+Tulsa, OK|Dallas/Fort Worth, TX|244
+Tulsa, OK|Newark, NJ|26
+Tulsa, OK|St. Louis, MO|54
+Tulsa, OK|Atlanta, GA|144
+Tulsa, OK|Denver, CO|193
+Tulsa, OK|Detroit, MI|48
+Tulsa, OK|Los Angeles, CA|16
+Tulsa, OK|Houston, TX|236
+Tulsa, OK|Chicago, IL|182
+Tulsa, OK|Minneapolis, MN|33
+Myrtle Beach, SC|Charlotte, NC|122
+Myrtle Beach, SC|Newark, NJ|31
+Myrtle Beach, SC|Atlanta, GA|145
+Daytona Beach, FL|Atlanta, GA|122
+Savannah, GA|New York, NY|1
+Savannah, GA|Charlotte, NC|113
+Savannah, GA|Dallas/Fort Worth, TX|93
+Savannah, GA|Newark, NJ|32
+Savannah, GA|Atlanta, GA|234
+Savannah, GA|Detroit, MI|2
+Savannah, GA|Houston, TX|33
+Savannah, GA|Chicago, IL|64
+Savannah, GA|Washington, DC|64
+Tucson, AZ|Albuquerque, NM|58
+Tucson, AZ|Seattle, WA|31
+Tucson, AZ|San Diego, CA|85
+Tucson, AZ|Phoenix, AZ|279
+Tucson, AZ|San Francisco, CA|35
+Tucson, AZ|Las Vegas, NV|127
+Tucson, AZ|Los Angeles, CA|305
+Tucson, AZ|Chicago, IL|31
+Tucson, AZ|Dallas/Fort Worth, TX|213
+Tucson, AZ|Atlanta, GA|57
+Tucson, AZ|Denver, CO|151
+Tucson, AZ|Salt Lake City, UT|89
+Tucson, AZ|Houston, TX|110
+Tucson, AZ|Chicago, IL|62
+Tucson, AZ|Minneapolis, MN|19
+Monterey, CA|Denver, CO|31
+Monterey, CA|San Francisco, CA|156
+Monterey, CA|Phoenix, AZ|81
+Monterey, CA|Los Angeles, CA|213
+Montgomery, AL|Dallas/Fort Worth, TX|89
+Montgomery, AL|Atlanta, GA|223
+Newark, NJ|Charlotte Amalie, VI|35
+Newark, NJ|Cincinnati, OH|222
+Newark, NJ|Oklahoma City, OK|27
+Newark, NJ|St. Louis, MO|212
+Newark, NJ|Albany, NY|64
+Newark, NJ|Santa Ana, CA|56
+Newark, NJ|Omaha, NE|51
+Newark, NJ|Cleveland, OH|177
+Newark, NJ|Aguadilla, PR|31
+Newark, NJ|Honolulu, HI|31
+Newark, NJ|Grand Rapids, MI|76
+Newark, NJ|Los Angeles, CA|222
+Newark, NJ|Milwaukee, WI|104
+Newark, NJ|Buffalo, NY|119
+Newark, NJ|Portland, ME|142
+Newark, NJ|Eagle, CO|31
+Newark, NJ|Rochester, NY|15
+Newark, NJ|Charlotte, NC|381
+Newark, NJ|Asheville, NC|2
+Newark, NJ|Raleigh/Durham, NC|166
+Newark, NJ|Nashville, TN|111
+Newark, NJ|Norfolk, VA|53
+Newark, NJ|Chicago, IL|502
+Newark, NJ|Knoxville, TN|27
+Newark, NJ|Bozeman, MT|4
+Newark, NJ|Tulsa, OK|27
+Newark, NJ|Orlando, FL|422
+Newark, NJ|Phoenix, AZ|243
+Newark, NJ|San Francisco, CA|218
+Newark, NJ|Tampa, FL|206
+Newark, NJ|Washington, DC|227
+Newark, NJ|Louisville, KY|79
+Newark, NJ|Columbia, SC|9
+Newark, NJ|Dayton, OH|80
+Newark, NJ|Miami, FL|248
+Newark, NJ|Hayden, CO|4
+Newark, NJ|Portland, OR|32
+Newark, NJ|Fort Myers, FL|131
+Newark, NJ|Memphis, TN|75
+Newark, NJ|Montrose/Delta, CO|4
+Newark, NJ|Des Moines, IA|27
+Newark, NJ|Madison, WI|27
+Newark, NJ|Minneapolis, MN|137
+Newark, NJ|Indianapolis, IN|56
+Newark, NJ|Houston, TX|84
+Newark, NJ|Philadelphia, PA|31
+Newark, NJ|West Palm Beach/Palm Beach, FL|248
+Newark, NJ|Providence, RI|30
+Newark, NJ|Las Vegas, NV|175
+Newark, NJ|Fayetteville, AR|26
+Newark, NJ|Austin, TX|51
+Newark, NJ|Boston, MA|430
+Newark, NJ|Pittsburgh, PA|58
+Newark, NJ|Hartford, CT|37
+Newark, NJ|Salt Lake City, UT|31
+Newark, NJ|Chicago, IL|174
+Newark, NJ|Kansas City, MO|112
+Newark, NJ|Syracuse, NY|24
+Newark, NJ|Burlington, VT|100
+Newark, NJ|Atlanta, GA|362
+Newark, NJ|Jacksonville, FL|110
+Newark, NJ|San Juan, PR|75
+Newark, NJ|Greensboro/High Point, NC|88
+Newark, NJ|Manchester, NH|109
+Newark, NJ|Greer, SC|57
+Newark, NJ|Savannah, GA|33
+Newark, NJ|Seattle, WA|128
+Newark, NJ|San Antonio, TX|27
+Newark, NJ|Richmond, VA|138
+Newark, NJ|Fort Lauderdale, FL|370
+Newark, NJ|Myrtle Beach, SC|31
+Newark, NJ|Jackson, WY|2
+Newark, NJ|Columbus, OH|32
+Newark, NJ|Dallas/Fort Worth, TX|307
+Newark, NJ|Baltimore, MD|176
+Newark, NJ|Denver, CO|217
+Newark, NJ|Detroit, MI|265
+Newark, NJ|San Diego, CA|90
+Newark, NJ|Houston, TX|309
+Newark, NJ|Charleston, SC|87
+Newark, NJ|Washington, DC|122
+Newark, NJ|New Orleans, LA|34
+Baltimore, MD|Albuquerque, NM|31
+Baltimore, MD|Cincinnati, OH|75
+Baltimore, MD|Oklahoma City, OK|31
+Baltimore, MD|San Diego, CA|62
+Baltimore, MD|Los Angeles, CA|61
+Baltimore, MD|Milwaukee, WI|88
+Baltimore, MD|Portland, ME|65
+Baltimore, MD|Rochester, NY|65
+Baltimore, MD|Charlotte, NC|327
+Baltimore, MD|Raleigh/Durham, NC|234
+Baltimore, MD|Nashville, TN|162
+Baltimore, MD|Grand Rapids, MI|62
+Baltimore, MD|Chicago, IL|206
+Baltimore, MD|Fort Myers, FL|127
+Baltimore, MD|Orlando, FL|337
+Baltimore, MD|San Francisco, CA|31
+Baltimore, MD|Tampa, FL|213
+Baltimore, MD|Norfolk, VA|119
+Baltimore, MD|Charleston, SC|86
+Baltimore, MD|New York, NY|15
+Baltimore, MD|Dayton, OH|66
+Baltimore, MD|Miami, FL|93
+Baltimore, MD|Jackson/Vicksburg, MS|31
+Baltimore, MD|Islip, NY|146
+Baltimore, MD|Buffalo, NY|152
+Baltimore, MD|Albany, NY|121
+Baltimore, MD|Minneapolis, MN|101
+Baltimore, MD|Indianapolis, IN|81
+Baltimore, MD|Houston, TX|84
+Baltimore, MD|Philadelphia, PA|61
+Baltimore, MD|West Palm Beach/Palm Beach, FL|92
+Baltimore, MD|Phoenix, AZ|124
+Baltimore, MD|Las Vegas, NV|66
+Baltimore, MD|Boston, MA|453
+Baltimore, MD|Pittsburgh, PA|92
+Baltimore, MD|Hartford, CT|181
+Baltimore, MD|Salt Lake City, UT|79
+Baltimore, MD|Chicago, IL|170
+Baltimore, MD|Little Rock, AR|31
+Baltimore, MD|Cleveland, OH|146
+Baltimore, MD|St. Louis, MO|118
+Baltimore, MD|Atlanta, GA|548
+Baltimore, MD|Austin, TX|59
+Baltimore, MD|San Juan, PR|52
+Baltimore, MD|Manchester, NH|204
+Baltimore, MD|Greer, SC|54
+Baltimore, MD|Providence, RI|228
+Baltimore, MD|Kansas City, MO|57
+Baltimore, MD|Jacksonville, FL|93
+Baltimore, MD|San Antonio, TX|55
+Baltimore, MD|Panama City, FL|30
+Baltimore, MD|Fort Lauderdale, FL|330
+Baltimore, MD|New York, NY|121
+Baltimore, MD|Columbus, OH|114
+Baltimore, MD|Dallas/Fort Worth, TX|151
+Baltimore, MD|Denver, CO|148
+Baltimore, MD|Detroit, MI|222
+Baltimore, MD|Birmingham, AL|61
+Baltimore, MD|Houston, TX|85
+Baltimore, MD|Louisville, KY|81
+Baltimore, MD|Newark, NJ|177
+Baltimore, MD|New Orleans, LA|64
+Harlingen/San Benito, TX|Houston, TX|120
+Harlingen/San Benito, TX|Austin, TX|31
+Harlingen/San Benito, TX|Houston, TX|113
+Harlingen/San Benito, TX|San Antonio, TX|31
+Harlingen/San Benito, TX|Dallas, TX|56
+Butte, MT|Salt Lake City, UT|61
